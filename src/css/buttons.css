@@ -1,0 +1,204 @@
+.btn{
+    display:inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing:0;
+    line-height:2;
+    padding: 10px;
+    border-radius:3px;
+    cursor:pointer;
+    border: 2px solid transparent;
+    text-align:center;
+}
+.btn-light-green{
+    background-color: #8bc34a;
+    color:#fff;
+}
+.btn-light-red{
+    background-color:#da6e63;
+    color:#fff;
+}
+.btn-author{
+    font-size: 18px;
+    border-radius:0;
+    padding: 28px 42px;
+    background-color:#fff;
+    color: #263238;
+}
+.btn-search{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #8bc34a;
+    color:#fff;
+    border-radius:0;
+    padding:10px 10px;
+    position:relative;
+    width:205px;
+    height:47px;
+    text-align:center;
+}
+.btn-search .fa{
+    font-size: 15px;
+    position:absolute;
+    top:15px;
+    left:50px;
+    transform: translateY(0%);
+}
+.btn.btn-search.btn-cart{
+    font-size: 16px;
+    font-weight: 700;
+    width:210px;
+    height:47px;
+}
+.btn.btn-search.btn-cart .fa{
+    top:17px;
+    left:37px;
+}
+.btn.btn-search.btn-favourites{
+    font-size: 16px;
+    font-weight: 500;
+    background-color:#42a5f5;
+    color:#fff;
+    width:210px;
+    height:47px;
+}
+.btn.btn-search.btn-favourites .fa{
+    top:17px;
+    left:22px;
+}
+.btn.btn-search.buy-now{
+    font-size: 16px;
+    font-weight: 700;
+    background-color:#546e7a;
+    color:#fff;
+    width:210px;
+    height:47px;
+}
+.btn.btn-search.preview{
+    font-size:16px;
+    font-weight: 500;
+    background-color:#e74c3c;
+    color:#fff;
+    width:210px;
+    height:50px;
+}
+.btn.btn-search.preview.screenshots{
+    background-color:#455a64;
+    color:#fff;
+    width:210px;
+    height:50px;
+}
+.btn.btn-search.preview.documentation{
+    background-color:#8bc34a;
+    color:#fff;
+    width:210px;
+    height:50px;
+}
+.btn.btn-social{
+    font-size: 18px;
+    padding: 6px;
+    border-radius:0;
+    width:54px;
+    height:50px;
+}
+.btn.btn-social.btn-facebook{
+    background-color:#6370b6;
+    color:#fff;
+}
+.btn.btn-social.btn-twitter{
+    background-color:#5694c4;
+    color:#fff;
+}
+.btn.btn-social.btn-linkedin{
+    background-color:#4f71ce;
+    color:#fff;
+}
+.btn.btn-social.btn-pinterest{
+    background-color:#a43639;
+    color:#fff;
+}
+.btn.btn-social-small{
+    font-size: 18px;
+    border-radius:2px;
+    padding:0;
+    width:28px;
+    height:28px;
+}
+.btn.btn-social-small .fa{
+    transform: translateY(-25%);
+}
+.btn.btn-social-small.btn-facebook{
+    background-color:#3a5482;
+    color:#fff;
+}
+.btn.btn-social-small.btn-twitter{
+    background-color:#4c8ebe;
+    color:#fff;
+}
+.btn.btn-social-small.btn-youtube{
+    background-color:#e52d27;
+    color:#fff;
+}
+.btn.btn-social-small.btn-pinterest{
+    background-color:#c3c7ca;
+    color:#951b2b;
+}
+.btn.btn-social-small.btn-linkedin{
+    background-color:#1565c0;
+    color:#fff;
+}
+.btn.btn-email{
+    font-size: 16px;
+    border-radius: 0;
+    height: 38px;
+    width:43px;
+    text-align:center;
+    background-color:#729e4c;
+    color:#fff;
+    padding:0;
+}
+.btn.btn-send-message{
+    font-size: 16px;
+    font-weight: 500;
+    width:270px;
+    height:53px;
+    background-color:#4b626d;
+    color:#fff;
+    position:relative;
+    text-align:center;
+}
+.btn.btn-send-message .fa{
+    position:absolute;
+    left:54px;
+    top:18px;
+}
+.btn.btn-send-message.btn-following{
+    background-color:#729e4c;
+    color:#fff;
+}
+.btn.btn-update{
+    font-size: 15px;
+    font-weight: 500;
+    text-align:center;
+    background-color:#729e4c;
+    color:#fff;
+    width:110px;
+    height:46px;
+}
+.btn.btn-update.btn-submit{
+    width:125px;
+    height:47px;
+}
+.btn.btn-update.btn-find{
+    font-size: 12px;
+    font-weight: 400;
+    line-height:2;
+    padding:10px;
+}
+.btn.btn-update.btn-send-message{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    width:191px;
+    height:54px;
+}
