@@ -300,6 +300,12 @@
     color:#f4f6f5;
     background-color:#95c85a;
 }
+.btn.btn-go-to-cart:hover{
+    background-color:#6fc609;
+}
 .btn.btn-go-to-cart.btn-go-to-checkout{
     background-color:#e85647;
+}
+.btn.btn-go-to-cart.btn-go-to-checkout:hover{
+    background-color:#eb200b;
 }
