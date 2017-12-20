@@ -1,0 +1,91 @@
+/* === footer === */
+.footer .container {
+  padding: 115px 0 95px 0;
+}
+
+/* убрать */
+.footer .title {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.1em;
+  font-family: 'Raleway', sans-serif;
+}
+/* / убрать */
+
+.footer .line-green {
+  display: inline-block;
+  margin: 25px 0 30px 0;
+  width: 51px;
+  height: 3px;
+  background-color: #8bc34a;
+}
+.about-company > p {
+  line-height: 1.6em;
+  color: #b7c3c8;
+}
+.about-company .footer-info {
+  margin-top: 35px;
+}
+.about-company .footer-info > *:not(.fa) {
+  font-size: 14px;
+  line-height: 1.714em;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+.footer-info .fa, .footer-nav .fa {
+  color: #8bc34a;
+  font-size: 18px;
+  line-height: 1.333em;
+  margin-right: 20px;
+}
+.footer-nav .fa {
+  line-height: 1;
+  margin-right: 15px;
+}
+.footer-info .footer-adress {
+  margin-bottom: 20px;
+}
+.footer-nav > a {
+  text-transform: capitalize;
+  display: block;
+  color: #b7c3c8;
+}
+.footer-nav > a + a {
+  margin-top: 20px;
+}
+.footer-nav > a:hover {
+  color: #8bc34a;
+}
+.follow-ua-on .social-nav {
+  margin-bottom: 40px;
+}
+.follow-ua-on .social-nav > a + a {
+  margin-left: 5px;
+}
+.follow-ua-on .title.sign-up {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.follow-ua-on .form-control {
+  margin-top: 18px;
+}
+.footer .copyright {
+  height: 70px;
+  border-top: 1px solid #424d53;
+}
+/* заменить */
+.social-nav > a {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  background-color: #3b5998;
+  display: inline-block;
+  border-radius: 2px;
+  line-height: 28px;
+  color: #fff;
+}
+/* / заменить */
+/* убрать */
+.bg-dimgray {
+  background-color: #263238;
+}
