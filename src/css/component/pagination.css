@@ -17,7 +17,7 @@
     padding: 10px 17px;
     line-height: normal;
     color: #263238;
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
     text-decoration: none;
     background-color: #fff;
 }
@@ -36,5 +36,6 @@
     z-index: 3;
     color: #fff;
     cursor: default;
+    box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
     background-color: #e74c3c;
 }
