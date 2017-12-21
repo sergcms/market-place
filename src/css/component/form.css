@@ -86,4 +86,7 @@ textarea.form-contact{
 .form-login:focus{
     outline: none;
 }
+.form-login::placeholder{
+    color: #fff;
+}
 /* ========= INPUT END ============= */

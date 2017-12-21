@@ -106,4 +106,16 @@ textarea.form-contact{
 .form-login:focus{
     outline: none;
 }
+.form-login::-webkit-input-placeholder{
+    color: #fff;
+}
+.form-login:-ms-input-placeholder{
+    color: #fff;
+}
+.form-login::-ms-input-placeholder{
+    color: #fff;
+}
+.form-login::placeholder{
+    color: #fff;
+}
 /* ========= INPUT END ============= */
