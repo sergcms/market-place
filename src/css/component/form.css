@@ -13,28 +13,27 @@
     font-size: 14px;
     color: #90a4ae;
     font-weight: 500;
-    height: 56px;
     min-width: 670px;
-    padding: 20px 25px;
+    padding: 13px 25px;
     border: none;
+    line-height: 2.143em;
     border-radius: 5px;
-    box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+    letter-spacing: .05em;
+    box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
 }
 .form-search::placeholder{
     color: #90a4ae;
 }
 .form-search:focus{
-    /* border-color: #7cb240; */
-    box-shadow: 0 1px 10px rgba(124, 178, 64, 1);
+    box-shadow: 0 1px 10px rgba(124, 178, 64, .75);
     outline: none;
-    /* border: 1px solid #7cb240; */
 }
 .form-email{
     font-size: 14px;
     color: #b7c3c8;
-    height: 40px;
+    line-height: 2.572em;
     min-width: 260px;
-    padding: 14px 0 14px 14px;
+    padding: 2px 14px;
     background-color: #2f3c43;
     border: none;
 }
@@ -42,16 +41,17 @@
     color: #697378;    
 }
 .form-email:focus{
+    color: #fff;
     outline: none;
-    /* border-color: black; */
 }
 .form-default{
-    height: 40px;
     border: 1px solid #dedede;
     min-width: 100%;
     color: #707070;
-    padding: 12px 18px;
+    line-height: 2em;
+    padding: 4px 18px;
     font-size: 15px;
+    background-color: #f9f9f9;
 }
 .form-default:focus{
     outline: none;
@@ -60,28 +60,32 @@ textarea.form-default{
     min-height: 150px;
 }
 .form-contact{
-    height: 40px;
-    min-width: 100%;
+    min-width: 350px;
     font-size: 15px;
     color: #7a7a7a;
     background-color: #f1f4f5;
     border: none;
-    padding: 14px 16px;
+    line-height: 1.6em;
+    padding: 10px 16px;
 }
 .form-contact:focus{
     outline: none;
 }
 textarea.form-contact{
     min-height:196px;
+    width: 100%;
 }
 .form-login{
-    height: 43px;
     min-width: 400px;
     color: #fff;
     font-size: 14px;
-    padding: 14px 18px;
+    padding: 4px 18px;
     background-color: #76ae36;
     border: none;
+    line-height: 2.571em;
+}
+.form-login::placeholder{
+    color: #fff;
 }
 .form-login:focus{
     outline: none;
