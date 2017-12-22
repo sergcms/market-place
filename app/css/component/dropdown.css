@@ -1,3 +1,5 @@
+body { padding: 50px; }
+.dropdown-container { float: left; margin-right: 100px; } 
 /* === dropdown  === */
 .dropdown-container {
   position: relative;
@@ -14,4 +16,29 @@
 }
 .dropdown-container:hover .dropdown-menu {
   display: block;
+}
+.dropdown-menu .user-dropdown-nav {
+  padding: 15px 20px;
+}
+.user-dropdown-nav > li > a {
+  font-size: 12px;
+  line-height: 3em;
+  color: #546e7a;
+  text-transform: capitalize;  
+}
+.user-dropdown-nav > li > .fa {
+  color: #8bc34a;
+  font-size: 14px;
+  line-height: 2.57em;
+  margin-right: 10px;
+}
+.user-dropdown-nav > li > a:hover {
+  color: #8bc34a;   
+}
+
+.cart-dropdown-nav .product-item {
+  padding: 20px;
+}
+.cart-dropdown-nav ..product-item + .product-item {
+  border-top: 1px solid #d3d3d3;
 }
