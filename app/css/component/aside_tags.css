@@ -3,6 +3,7 @@
     width: 270px;
     border: 1px solid #dedede;
     padding: 25px 28px 30px 28px;
+    background-color: #fff;
 }
 .aside-title{
     padding-bottom: 20px;
@@ -10,6 +11,7 @@
     font-size: 20px;
     font-weight: 700;
     color: #263238;
+    margin-bottom: 25px;  
 }
 /* =========== ASIDE END ============= */
 /* ========= TAGS ============ */
@@ -24,13 +26,20 @@
     font-weight: 500;
     color: #263238;
 }
-.tags li{
+.tags > li > a{
     padding: 12px 26px;
+    background-color: #fff;
+    display: block;
 }
-.tags li:hover{
+.tags li + li{
+    margin-left: 6px;
+}
+.tags > li > a:hover{
     color: #fff;
     background-color: #e74c3c;
     -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
     box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
+    /* padding: 12px 26px; */
 }
+
 /* ========== TAGS END ========== */
