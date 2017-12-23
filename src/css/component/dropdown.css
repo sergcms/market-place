@@ -1,0 +1,187 @@
+body { padding: 50px; }
+.dropdown-container { float: left; margin-right: 100px; } 
+/* === dropdown  === */
+.dropdown-container {
+  position: relative;
+}
+.dropdown-container .dropdown-menu {
+  position: absolute;
+  display: none;
+  z-index: 99;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+  box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
+  min-width: 150px;
+}
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu .user-dropdown-nav {
+  padding: 15px 20px;
+}
+.user-dropdown-nav > li > a {
+  font-size: 12px;
+  line-height: 3em;
+  color: #546e7a;
+  text-transform: capitalize;  
+}
+.user-dropdown-nav > li > .fa {
+  color: #8bc34a;
+  font-size: 14px;
+  line-height: 2.57em;
+  margin-right: 10px;
+}
+.user-dropdown-nav > li > a:hover {
+  color: #8bc34a;   
+}
+/*===   PRODUCT DROPDOWN  ===*/
+.cart-dropdown-nav .product-item {
+  padding: 20px;/*20px 74px 20px */
+  pdding-right:74px;
+}
+.cart-dropdown-nav .product-info{
+  margin-left: 16px;
+}
+.cart-dropdown-nav .product-info a{
+    white-space:nowrap;
+    font-weight: 500;
+    font-size: 15px;
+    color:#263238;
+}
+.product-info .name{
+  font-weight: 400;
+  font-size: 12px;
+  color:#84b743;
+}
+.product-info .price{
+  font-weight: 500;
+  font-size: 16px;
+  color:#000;
+}
+.cart-dropdown-nav .total{
+  padding:20px;
+}
+.cart-dropdown-nav .total span{
+  font-weight: 700;
+  font-size: 16px;
+  color:#263238;
+}
+.cart-dropdown-nav .total span + .btn-holder{
+  margin-top:20px;
+}
+.cart-dropdown-nav .total span + span {
+    margin-left:130px;
+}
+.cart-dropdown-nav .total span + button{
+  margin-bottom:20px;
+}
+.cart-dropdown-nav .total button + button{
+  margin-left:7px;
+}
+.cart-dropdown-nav .product-item + .product-item {
+  border-top: 1px solid #d3d3d3;
+}
+.cart-dropdown-nav .product-item + .total{
+  border-top: 1px solid #d3d3d3;
+}
+/*===   PRODUCT DROPDOWN END ===*/
+/*===EMAIL DROPDOWN===*/
+.dropdown-container .email-dropdown-nav {
+    flex-direction:column;
+}
+.dropdown-container .email-dropdown-nav .email-info{
+    margin-left: 16px;
+}
+.email-dropdown-nav .email-info a{
+    font-weight: 700;
+    font-size: 12px;
+    color:#263238;
+}
+.email-dropdown-nav .email-info .message{
+    font-weight: 400;
+    font-size: 11px;
+    color:#84b743;
+}
+.email-dropdown-nav .email-info .date{
+    font-weight: 400;
+    font-size: 10px;
+    color:#707070;
+}
+.email-dropdown-nav{
+    min-width:268px;
+}
+.email-dropdown-nav li{
+    min-height:93px;
+    border-top: 1px solid #d3d3d3;
+    justify-content: space-around;
+}
+.email-dropdown-nav .email-item  img{
+    margin-left:22px;
+}
+.email-dropdown-nav .email-item .email-info{
+    margin-left:22px;
+}
+.email-dropdown-nav .email-item .fa{
+    margin-right:30px;
+    color:#ef6c00;
+    font-size: 16px;
+}
+.email-dropdown-nav li + li{
+    /*margin-top: 44px;*/
+}
+.email-dropdown-nav .fa{
+    margin-left:auto;
+}
+/*===EMAIL END===*/
+/*===NOTIFICATION===*/
+.dropdown-container .notification-dropdown-nav {
+    flex-direction:column;
+}
+.dropdown-container .notification-dropdown-nav .product-info{
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.notification-dropdown-nav .notification-info{
+    margin-left:22px;
+}
+.notification-dropdown-nav .notification-info .message{
+    font-weight: 400;
+    font-size: 12px;
+    color:#84b743;
+}
+.notification-dropdown-nav .notification-info .date{
+    font-weight: 400;
+    font-size: 10px;
+    color:#707070;
+}
+.notification-dropdown-nav .notification-info .message +.date {
+    margin-bottom: 12px;
+}
+.notification-dropdown-nav{
+    min-width:268px;
+}
+.notification-dropdown-nav li{
+    min-height:85px;
+    border-top: 1px solid #d3d3d3;
+    justify-content: space-around;
+}
+.notification-dropdown-nav .notification-item  img{
+    margin-left:22px;
+}
+.notification-dropdown-nav .notification-item .email-info{
+    margin-left:22px;
+}
+.notification-dropdown-nav .notification-item .fa{
+    margin-right:30px;
+    color:#ef6c00;
+    font-size: 16px;
+}
+.notification-dropdown-nav li + li{
+    /*margin-top: 44px;*/
+}
+.notification-dropdown-nav .fa{
+    margin-left:auto;
+}
+/*===NOTIFICATION END===*/
