@@ -2,15 +2,15 @@
     display:inline-block;
     font-size: 12px;
     font-weight: 400;
-    letter-spacing:0;
     line-height:1;
-    padding: 10px 20px;
     border-radius:3px;
-    cursor:pointer;
-    border: 2px solid transparent;
-    text-align:center;
+    cursor: pointer;
+    /* border: 2px solid transparent; */
+    border: none;
+}
+.btn.btn-default{
+    padding: 10px 20px;
     min-width:72px;
-    white-space: nowrap;
 }
 .btn-light-green{
     background-color: #8bc34a;
@@ -52,8 +52,9 @@
 .btn-icon .fa{
     font-size: 15px;
     position:absolute;
-    top:15px;
+    top: 0;
     left:50px;
+    line-height: 45px;
 }
 .btn-icon:hover{
     background-color:#76c31d;
@@ -64,7 +65,6 @@
 }
 .btn.btn-icon.btn-cart .fa{
     position:absolute;
-    top:17px;
     left:37px;
 }
 .btn.btn-icon.btn-favourites{
@@ -75,7 +75,6 @@
 }
 .btn.btn-icon.btn-favourites .fa{
     position:absolute;
-    top:17px;
     left:20px;
 }
 .btn.btn-icon.btn-favourites:hover{
@@ -117,79 +116,37 @@
 .btn.btn-md-red.documentation:hover{
     background-color:#7abf2b;
 }
-.btn.btn-lg-social{
+.btn.btn-social{
     font-size: 18px;
-    padding: 16px 22px;
+    /* padding: 16px 22px; */
     border-radius:0;
-    min-width:54px;
+    width:54px;
+    height: 50px;
     color:#fff;
 }
-.btn.btn-lg-social.btn-facebook{
+.btn.btn-social.btn-facebook{
     background-color:#6370b6;
 }
-.btn.btn-lg-social.btn-facebook:hover{
+.btn.btn-social.btn-facebook:hover{
     background-color:#2a3fb2;
 }
-.btn.btn-lg-social.btn-twitter{
+.btn.btn-social.btn-twitter{
     background-color:#5694c4;
 }
-.btn.btn-lg-social.btn-twitter:hover{
+.btn.btn-social.btn-twitter:hover{
     background-color:#1c94f5;
 }
-.btn.btn-lg-social.btn-linkedin{
+.btn.btn-social.btn-linkedin{
     background-color:#4f71ce;
 }
-.btn.btn-lg-social.btn-linkedin:hover{
+.btn.btn-social.btn-linkedin:hover{
     background-color:#1f4dca;
 }
-.btn.btn-lg-social.btn-pinterest{
+.btn.btn-social.btn-pinterest{
     background-color:#d32f2f;
 }
-.btn.btn-lg-social.btn-pinterest:hover {
+.btn.btn-social.btn-pinterest:hover {
     background-color:#c00606;
-}
-.btn.btn-xs-social{
-    font-size: 18px;
-    border-radius:2px;
-    padding:5px;
-    min-width:28px;
-    border:none;
-    line-height:1;
-    color:#fff;
-}
-.btn.btn-xs-social .fa{
-    /*transform: translateY(-25%);*/
-}
-.btn.btn-xs-social.btn-facebook{
-    background-color:#3b5998;
-}
-.btn.btn-xs-social.btn-facebook:hover{
-    background-color:#0d3892;
-}
-.btn.btn-xs-social.btn-twitter{
-    background-color:#55acee;
-}
-.btn.btn-xs-social.btn-twitter:hover{
-    background-color:#0c88e7;
-}
-.btn.btn-xs-social.btn-youtube{
-    background-color:#e52d27;
-}
-.btn.btn-xs-social.btn-youtube:hover{
-    background-color:#691513;
-}
-.btn.btn-xs-social.btn-pinterest{
-    background-color:#fff;
-    color:#951b2b;
-}
-.btn.btn-xs-social.btn-pinterest:hover{
-    background-color:#d5cfcf;
-}
-.btn.btn-xs-social.btn-linkedin{
-    background-color:#1565c0;
-}
-.btn.btn-xs-social.btn-linkedin:hover{
-    background-color:#044ea2;
 }
 .btn.btn-form-md{
     font-size: 20px;
@@ -216,16 +173,15 @@
 .btn.btn-lg-icon .fa{
     position:absolute;
     left:54px;
-    top:18px;
 }
 .btn.btn-lg-icon:hover{
     background-color:#155a7a;
+    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
 }
 .btn.btn-lg-icon.btn-following{
     background-color:#8bc34a;
     color:#fff;
-    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
-    box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
 }
 .btn.btn-lg-icon.btn-following:hover{
     background-color: #74c416;
@@ -292,7 +248,6 @@
 .btn.btn-form-create-account .fa{
     position:absolute;
     left:25px;
-    top:17px;
 }
 .btn.btn-form-create-account:hover{
     background-color:#5fac07;
@@ -304,6 +259,7 @@
     min-width:105px;
     color:#f4f6f5;
     background-color:#95c85a;
+    border-radius: 0;
 }
 .btn.btn-go-to-cart:hover{
     background-color:#6fc609;
