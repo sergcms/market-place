@@ -2,22 +2,30 @@
     display:inline-block;
     font-size: 12px;
     font-weight: 400;
+    letter-spacing:0;
     line-height:1;
-    border-radius:3px;
-    cursor: pointer;
-    /* border: 2px solid transparent; */
-    border: none;
-}
-.btn.btn-default{
     padding: 10px 20px;
+    border-radius:3px;
+    cursor:pointer;
+    border: 2px solid transparent;
+    text-align:center;
     min-width:72px;
+    white-space: nowrap;
 }
+/*===COLORS====*/
 .btn-light-green{
     background-color: #8bc34a;
     color:#fff;
 }
 .btn-light-green:hover{
     background-color:#79cd17;
+}
+.btn-dark-green{
+    background-color:#76ae36;
+    color:#fff;
+}
+.btn-dark-green:hover{
+    background-color:#5fac07;
 }
 .btn-light-red{
     background-color:#e74c3c;
@@ -26,127 +34,129 @@
 .btn-light-red:hover{
     background-color:#e5220e;
 }
-.btn.btn-lg{
-    font-size: 18px;
-    font-weight: 400;
-    border-radius:0;
-    padding: 24px 42px;
+.btn-white{
     background-color:#fff;
     color: #263238;
 }
-.btn.btn-lg:hover{
+.btn-white:hover{
     background-color:#e5220e;
     color:#fff;
 }
-.btn-icon{
-    font-size: 15px;
-    font-weight: 500;
-    background-color: #8bc34a;
+.white-with-shadow{
+    background-color:#fff;
+    color:#000;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+    box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+}
+.white-with-shadow:hover{
     color:#fff;
-    border-radius:0;
-    padding:15px 24px;
-    position:relative;
-    min-width:205px;
-    text-align:center;
+    background-color:#5fac07;
 }
-.btn-icon .fa{
-    font-size: 15px;
-    position:absolute;
-    top: 0;
-    left:50px;
-    line-height: 45px;
-}
-.btn-icon:hover{
-    background-color:#76c31d;
-}
-.btn.btn-icon.btn-cart{
-    font-size: 16px;
-    font-weight: 700;
-}
-.btn.btn-icon.btn-cart .fa{
-    position:absolute;
-    left:37px;
-}
-.btn.btn-icon.btn-favourites{
-    font-size: 16px;
-    font-weight: 500;
+.btn-light-blue{
     background-color:#42a5f5;
     color:#fff;
 }
-.btn.btn-icon.btn-favourites .fa{
-    position:absolute;
-    left:20px;
-}
-.btn.btn-icon.btn-favourites:hover{
+.btn-light-blue:hover{
     background-color:#078bf5;
 }
-.btn.btn-icon.buy-now{
-    font-size: 16px;
-    font-weight: 700;
+.btn-dark-blue{
     background-color:#546e7a;
     color:#fff;
-    padding:17px 60px;
 }
-.btn.btn-icon.buy-now:hover{
+.btn-dark-blue:hover{
     background-color:#1a5875;
 }
-.btn.btn-md-red{
-    font-size:16px;
-    font-weight: 500;
-    background-color:#e74c3c;
-    color:#fff;
-    min-width:140px;
-    padding:19px 34px;
-}
-.btn.btn-md-red:hover{
-    background-color:#e6230e;
-}
-.btn.btn-md-red.screenshots{
+.btn-darker-blue{
     background-color:#455a64;
     color:#fff;
 }
-.btn.btn-md-red.screenshots:hover{
+.btn-darker-blue:hover{
     background-color:#0f3f56;
 }
-.btn.btn-md-red.documentation{
-    padding:19px 25px;
-    background-color:#8bc34a;
-    color:#fff;
-}
-.btn.btn-md-red.documentation:hover{
-    background-color:#7abf2b;
-}
-.btn.btn-social{
-    font-size: 18px;
-    /* padding: 16px 22px; */
-    border-radius:0;
-    width:54px;
-    height: 50px;
-    color:#fff;
-}
-.btn.btn-social.btn-facebook{
+.btn-color-facebook{
     background-color:#6370b6;
 }
-.btn.btn-social.btn-facebook:hover{
+.btn-color-facebook:hover{
     background-color:#2a3fb2;
 }
-.btn.btn-social.btn-twitter{
+.btn-color-twitter{
     background-color:#5694c4;
 }
-.btn.btn-social.btn-twitter:hover{
+.btn-color-twitter:hover{
     background-color:#1c94f5;
 }
-.btn.btn-social.btn-linkedin{
+.btn-color-linkedin{
     background-color:#4f71ce;
 }
-.btn.btn-social.btn-linkedin:hover{
+.btn-color-linkedin:hover{
     background-color:#1f4dca;
 }
-.btn.btn-social.btn-pinterest{
+.btn-color-pinterest{
     background-color:#d32f2f;
 }
-.btn.btn-social.btn-pinterest:hover {
+.btn-color-pinterest:hover{
     background-color:#c00606;
+}
+/*===COLORS END====*/
+.regular{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+/*===SIZES===*/
+.full-width{
+    width:100%;
+}
+.btn.btn-lg{
+    font-size: 18px;
+    border-radius:0;
+    padding: 24px 42px;
+}
+.btn-md{
+    font-size: 15px;
+    border-radius:0;
+    padding:15px 83px;
+    position:relative;
+    text-align:center;
+}
+.btn-md .fa{
+    font-size: 15px;
+    position:absolute;
+    top:15px;
+    left:49px;
+}
+.btn-md-plus{
+    font-size: 16px;
+    position:relative;
+}
+.btn-md-super-plus{
+    font-size: 16px;
+    padding:22px 36px;
+    text-transform: uppercase;
+}
+/*.btn-cart{*/
+    /*padding-left:70px;*/
+    /*padding-right:70px;*/
+/*}*/
+/*.btn-favourites{*/
+    /*padding-left:50px;*/
+    /*padding-right:50px;*/
+
+/*}*/
+/*.buy-now{*/
+    /*padding-left:74px;*/
+    /*padding-right:74px;*/
+/*}*/
+.btn.btn-lg-social{
+    font-size: 18px;
+    padding: 13px 22px;
+    border-radius:0;
+    min-width:54px;
+    color:#fff;
 }
 .btn.btn-form-md{
     font-size: 20px;
@@ -160,115 +170,25 @@
 .btn.btn-form-md:hover{
     background-color:#69c301;
 }
-.btn.btn-lg-icon{
-    font-size: 16px;
-    font-weight: 500;
-    min-width:270px;
-    padding:20px;
-    background-color:#546e7a;
-    color:#fff;
-    position:relative;
-    text-align:center;
-}
-.btn.btn-lg-icon .fa{
-    position:absolute;
-    left:54px;
-}
-.btn.btn-lg-icon:hover{
-    background-color:#155a7a;
-    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
-    box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
-}
-.btn.btn-lg-icon.btn-following{
-    background-color:#8bc34a;
-    color:#fff;
-}
-.btn.btn-lg-icon.btn-following:hover{
-    background-color: #74c416;
-}
-
-.btn.btn-md-green{
-    font-size: 15px;
-    font-weight: 500;
-    text-align:center;
-    background-color:#8bc34a;
-    color:#fff;
-    min-width:108px;
-    padding:15px 30px;
-    border-radius:0;
-}
-.btn.btn-md-green:hover{
-    background-color:#6fc709;
-}
-.btn.btn-md-green.btn-submit{
-    padding:15px 37px;
-}
-.btn.btn-sm.btn-find{
+.btn-sm{
     font-size: 12px;
     font-weight: 400;
-    padding:8px 20px;
-    background-color:#8bc34a;
-    color:#fff;
+    min-width:60px;
+    padding:10px 20px;
 }
-.btn.btn-md-green.btn-send-message{
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    min-width:190px;
-    line-height:1.5;
-    padding:12px 35px;
-    /*height:54px;*/
-}
-.btn.btn-form-submit{
-    font-weight: 700;
+.btn-form-submit{
     font-size: 14px;
-    padding:19px 40px;
-    min-width:141px;
-    background-color:#fff;
-    color:#000;
-    text-transform: uppercase;
     border-radius:0;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
-    box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+    padding:20px 45px;
+    position:relative;
+    text-align:center;
 }
-.btn.btn-form-submit:hover{
-    color:#fff;
-    background-color:#5fac07;
-}
-.btn.btn-form-create-account{
-    font-weight: 400;
+.btn-form-create-account{
     font-size: 18px;
-    min-width:250px;
-    background-color:#76ae36;
+    /*min-width:250px;*/
     padding:17px 37px;
-    color:#fff;
     border-radius:0;
     position:relative;
-}
-.btn.btn-form-create-account .fa{
-    position:absolute;
-    left:25px;
-}
-.btn.btn-form-create-account:hover{
-    background-color:#5fac07;
-}
-.btn.btn-go-to-cart{
-    font-weight: 700;
-    font-size: 14px;
-    border:0;
-    min-width:105px;
-    color:#f4f6f5;
-    background-color:#95c85a;
-    border-radius: 0;
-}
-.btn.btn-go-to-cart:hover{
-    background-color:#6fc609;
-}
-.btn.btn-go-to-cart.btn-go-to-checkout{
-    background-color:#e85647;
-}
-.btn.btn-go-to-cart.btn-go-to-checkout:hover{
-    background-color:#eb200b;
 }
 .btn.go-home{
     font-weight:700;
@@ -285,3 +205,4 @@
 .btn.go-home:hover{
     background-color:#6fc609;
 }
+
