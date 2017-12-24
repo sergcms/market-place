@@ -1,0 +1,66 @@
+/*DEFAULT CLASSES*/
+
+/***HEADER section***/
+.text-red{
+    color: #e95849;
+}
+.text-search-box{
+    color: #90a4ae;
+}
+.text-white{
+    color: #fff;
+} 
+/***HEADER section END***/
+
+
+/***MIDDLE section***/
+.text-default{
+  line-height: 1.6;
+  color: #707070;
+} 
+.text-dark-gray{
+    color: #263238;
+}
+.text-gray{
+    color: #546e7a;
+}  
+.text-green{
+    color: #8bc34a;
+}  
+.text-dirty-blue{
+    color: #b0bec5;
+}
+/***MIDDLE section END***/
+
+
+/***FOOTER section***/
+.text-light-gray{
+    color: #b7c3c8;
+} 
+
+/***FOOTER section END***/
+
+/*DEFAULT CLASSES END*/
+
+
+
+/*DEFAULT BACKGROUND CLASSES*/
+.bg-dark-gray {
+  background-color: #263238;  
+}
+.bg-gray {
+  background-color: #b5b5b5;
+}
+.bg-green {
+  background-color: #8bc34a;/*login page, 404 page*/
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-dirty-white {
+  color: #f4f6f5;
+}
+/*DEFAULT BACKGROUND CLASSES END*/
+
+
+
