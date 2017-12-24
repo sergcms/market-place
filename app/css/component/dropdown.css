@@ -22,7 +22,7 @@ body { padding: 50px; }
 .dropdown-menu .cart-dropdown-nav, 
 .dropdown-menu .email-dropdown-nav, 
 .dropdown-menu .notification-dropdown-nav {
-  min-width: 270px;
+  width: 270px;
 }
 
 /* === user-dropdown === */
