@@ -75,6 +75,16 @@ textarea.form-contact{
     min-height:196px;
     width: 100%;
 }
+.wrap-login{
+    position: relative;
+}
+.wrap-login .fa{
+    position: absolute;
+    left: 18px;
+    color: #fff;
+    font-size: 14px;
+    line-height:43px;
+}
 .form-login{
     min-width: 400px;
     color: #fff;
@@ -83,23 +93,12 @@ textarea.form-contact{
     background-color: #76ae36;
     border: none;
     line-height: 2.571em;
-	background-repeat: no-repeat;
-	background-position: 18px center;
-}
-.form-login.icon-login{
-    background-image: url('../../img/login.jpg');
-}
-.form-login.icon-lock{
-    background-image: url('../../img/lock.jpg');
 }
 .form-login::placeholder{
     color: #fff;
 }
 .form-login:focus{
     outline: none;
-}
-.form-login::placeholder{
-    color: #fff;
 }
 .file-upload{
     background-color: #f9f9f9;
