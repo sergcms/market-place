@@ -32,6 +32,7 @@
   <![endif]-->
 </head>
 <body>
+  <!-- user-dropdown -->
   <div class="container">
     <div class="dropdown-container">
       <span>Mike Hussy</span>
@@ -51,32 +52,153 @@
     </div>
     <!-- / dropdown-container -->
 
+    <!-- cart-dropdown -->
     <div class="dropdown-container">
-        <span>Cart</span>
-        <div class="dropdown-menu">
-          <div class="cart-dropdown-nav">
-            <div class="product-item d-flex">
-              <img src="img/cart-prev-test.jpg" alt=""> 
-              <a href="">Grand Ballet</a> 
-              <span>WordPress</span>
+      <span>Cart</span>
+      <div class="dropdown-menu">
+        <nav class="cart-dropdown-nav">
+          <a href="" class="product-item d-flex">
+            <div class="product-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="product-item-info d-flex flex-column justify-content-between">
+              <span class="product-item-title">Grand Ballet</span> 
+              <span class="product-item-category">WordPress</span>
               <span>$59</span>
             </div>
-            <!-- / product-item -->
-            <div class="product-item d-flex">
-              <img src="img/cart-prev-test.jpg" alt=""> 
-              <a href="">Grand Ballet</a> 
-              <span>WordPress</span>
+            <!-- / product-item-info -->
+          </a>
+          <!-- / product-item -->
+          <a href="" class="product-item d-flex">
+            <div class="product-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="product-item-info d-flex flex-column justify-content-between">
+              <span class="product-item-title">Apple Device</span> 
+              <span class="product-item-category">WordPress</span>
               <span>$59</span>
             </div>
-            <!-- / product-item -->
-
-            
+            <!-- / product-item-info -->
+          </a>
+          <!-- / product-item -->
+          <div class="product-total-btn">
+            <div class="product-item-total d-flex justify-content-between">
+              <span>Total</span>
+              <span>$118</span>
+            </div>
+            <div class="btn-go-to d-flex justify-content-between">
+              <a href="" class="btn " style="background-color: #95c85a; color: #fff; font-size: 14px; padding: 11px 21px; line-height: 1em;">Go to Cart</a>
+              <a href="" class="btn " style="background-color: #e85647; color: #fff; font-size: 14px; padding: 11px 12px; line-height: 1em;">Go to Checkout</a>
+            </div>
+            <!-- / btn-go-to -->
           </div>
-          <!-- / cart-dropdown-nav -->
-        </div>
-        <!-- / dropdown-menu -->
+          <!-- / product-total-btn -->
+        </nav>
+        <!-- / cart-dropdown-nav -->
       </div>
-      <!-- / dropdown-container -->
+      <!-- / dropdown-menu -->
+    </div>
+    <!-- / dropdown-container -->
+
+    <!-- email-dropdown -->
+    <div class="dropdown-container">
+      <span>Mail</span>
+      <div class="dropdown-menu">
+        <nav class="email-dropdown-nav">
+          <a href="" class="email-item d-flex">
+            <div class="email-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+              <span class="email-item-user">Kazi Fahim</span> 
+              <span class="email-item-subject">Need WP Help!</span>
+              <span>01 Dec, 2016</span>
+            </div>
+            <i class="fa fa-envelope-o not-viewed" aria-hidden="true"></i>
+            <!-- / email-item-info -->
+          </a>
+          <!-- / email-item -->
+          <a href="" class="email-item d-flex">
+            <div class="email-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+              <span class="email-item-user">Richi Lenal</span> 
+              <span class="email-item-subject">Need WP Help!</span>
+              <span>26 Nov, 2016</span>
+            </div>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <!-- / email-item-info -->
+          </a>
+          <!-- / email-item -->
+          <a href="" class="email-item d-flex">
+            <div class="email-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+              <span class="email-item-user">PsdBosS</span> 
+              <span class="email-item-subject">Psd Template Help!</span>
+              <span>26 Nov, 2016</span>
+            </div>
+            <i class="fa fa-reply" aria-hidden="true"></i>
+            <!-- / email-item-info -->
+          </a>
+          <!-- / email-item -->
+        </nav>
+        <!-- / email-dropdown-nav -->
+      </div>
+      <!-- / dropdown-menu -->
+    </div>
+    <!-- / dropdown-container -->
+
+    <!-- notification-dropdown -->
+    <div class="dropdown-container">
+      <span>Notification</span>
+      <div class="dropdown-menu">
+        <nav class="notification-dropdown-nav">
+          <a href="" class="notification-item d-flex">
+            <div class="notification-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+              <span class="notification-item-subject">Need WP Help!</span>
+              <span>10 Dec, 2016</span>
+            </div>
+            <i class="fa fa-bell-o not-viewed" aria-hidden="true"></i>
+            <!-- / notification-item-info -->
+          </a>
+          <!-- / notification-item -->
+          <a href="" class="notification-item d-flex">
+            <div class="notification-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+              <span class="notification-item-subject">Need WP Help!</span>
+              <span>05 Dec, 2016</span>
+            </div>
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+            <!-- / notification-item-info -->
+          </a>
+          <!-- / notification-item -->
+          <a href="" class="notification-item d-flex">
+            <div class="notification-item-img">
+              <img src="img/cart-prev-test.jpg" alt="">
+            </div>
+            <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+              <span class="notification-item-subject">Psd Template Help!</span>
+              <span>01 Dec, 2016</span>
+            </div>
+            <i class="fa fa-bell-o" aria-hidden="true"></i>
+            <!-- / notification-item-info -->
+          </a>
+          <!-- / notification-item -->
+        </nav>
+        <!-- / notification-dropdown-nav -->
+      </div>
+      <!-- / dropdown-menu -->
+    </div>
+    <!-- / dropdown-container -->
+
   </div>
   <!-- / container -->
 </body>

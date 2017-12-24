@@ -58,6 +58,8 @@
 }
 .follow-ua-on .social-nav {
   margin-bottom: 40px;
+  font-size: 0;
+  /* line-height: 0; */
 }
 .follow-ua-on .social-nav > a {
   opacity: .85;

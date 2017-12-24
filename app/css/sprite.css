@@ -37,6 +37,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: 0 -74px;
   width: 28px;
   height: 28px;
+  border-radius: 2px;
 }
 .icon-pagelines {
   background-image: url(../img/sprite.png);
