@@ -1,38 +1,94 @@
-.btn{
-    display:inline-block;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing:0;
-    line-height:1;
-    padding: 10px 20px;
-    border-radius:3px;
+.btn {
+    display: inline-block;
+    line-height: 1;
     cursor:pointer;
-    border: 2px solid transparent;
     text-align:center;
-    min-width:72px;
+    min-width:60px;
     white-space: nowrap;
 }
+
 /*===COLORS====*/
+.btn-light-red{
+    background-color:#e74c3c;
+    color: #fff;
+    /* color:#f4f6f5; */
+}
+.btn-light-red:hover{
+    background-color:#e5220e;
+    color: #fff;
+}
+.btn-darker-blue{
+    background-color:#455a64;
+    color: #fff;
+    /* color:#f4f6f5; */
+}
+.btn-darker-blue:hover{
+    background-color:#0f3f56;
+    color: #fff;
+}
 .btn-light-green{
     background-color: #8bc34a;
-    color:#fff;
+    color: #fff;
+    /* color:#f4f6f5; */
 }
 .btn-light-green:hover{
     background-color:#79cd17;
+    color: #fff;
 }
+.btn-light-blue{
+    background-color:#42a5f5;
+    color:#fff;
+}
+.btn-light-blue:hover{
+    background-color:#078bf5;
+    color: #fff;
+}
+.btn-dark-blue{
+    background-color:#546e7a;
+    color:#fff;
+}
+.btn-dark-blue:hover{
+    background-color:#1a5875;
+    color:#fff;
+}
+/* social */
+.btn-color-facebook{
+    background-color:#6370b6;
+}
+.btn-color-facebook:hover{
+    background-color:#2a3fb2;
+    color: #fff;
+}
+.btn-color-twitter{
+    background-color:#5694c4;
+}
+.btn-color-twitter:hover{
+    background-color:#1c94f5;
+    color: #fff;
+}
+.btn-color-linkedin{
+    background-color:#4f71ce;
+}
+.btn-color-linkedin:hover{
+    background-color:#1f4dca;
+    color: #fff;
+}
+.btn-color-pinterest{
+    background-color:#d32f2f;
+}
+.btn-color-pinterest:hover{
+    background-color:#c00606;
+    color: #fff;
+}
+/* social end */
+
 .btn-dark-green{
     background-color:#76ae36;
     color:#fff;
 }
 .btn-dark-green:hover{
     background-color:#5fac07;
-}
-.btn-light-red{
-    background-color:#e74c3c;
     color:#fff;
-}
-.btn-light-red:hover{
-    background-color:#e5220e;
 }
 .btn-white{
     background-color:#fff;
@@ -45,89 +101,70 @@
 .white-with-shadow{
     background-color:#fff;
     color:#000;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
-    box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+    -webkit-box-shadow: 0 2px 2px rgba(118, 174, 54, 0.75);
+    box-shadow: 0 2px 2px rgba(118, 174, 54, 0.75);
 }
 .white-with-shadow:hover{
     color:#fff;
     background-color:#5fac07;
 }
-.btn-light-blue{
-    background-color:#42a5f5;
-    color:#fff;
-}
-.btn-light-blue:hover{
-    background-color:#078bf5;
-}
-.btn-dark-blue{
-    background-color:#546e7a;
-    color:#fff;
-}
-.btn-dark-blue:hover{
-    background-color:#1a5875;
-}
-.btn-darker-blue{
-    background-color:#455a64;
-    color:#fff;
-}
-.btn-darker-blue:hover{
-    background-color:#0f3f56;
-}
-.btn-color-facebook{
-    background-color:#6370b6;
-}
-.btn-color-facebook:hover{
-    background-color:#2a3fb2;
-}
-.btn-color-twitter{
-    background-color:#5694c4;
-}
-.btn-color-twitter:hover{
-    background-color:#1c94f5;
-}
-.btn-color-linkedin{
-    background-color:#4f71ce;
-}
-.btn-color-linkedin:hover{
-    background-color:#1f4dca;
-}
-.btn-color-pinterest{
-    background-color:#d32f2f;
-}
-.btn-color-pinterest:hover{
-    background-color:#c00606;
-}
+
+
+
 /*===COLORS END====*/
-.regular{
-    font-weight: 400;
+.btn.regular{
+    font-weight: 400!important;
 }
-.medium{
-    font-weight: 500;
+.btn.medium{
+    font-weight: 500!important;
 }
-.bold{
-    font-weight: 700;
+.btn.bold{
+    font-weight: 700!important;
 }
+.btn.radius {
+    border-radius: 3px!important;
+}
+.btn > .fa {
+    padding-right: 15px;
+}
+.btn.btn-default.btn-shadow {
+    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, .75);
+    box-shadow: 0 1px 2px rgba(69, 90, 100, .75);
+}
+.btn.full-width {
+    width: 100%;
+}
+
 /*===SIZES===*/
-.full-width{
-    width:100%;
+.btn.btn-default {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 17px 25px;
+    text-align: center;
 }
+.btn-social{
+    display: inline-block;
+    font-size: 18px;
+    width:54px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+}
+.btn-sm {
+    font-size: 12px;
+    border-radius: 3px;
+    min-width: 72px;
+    padding: 10px;
+}
+
+
+
+/* 
 .btn.btn-lg{
     font-size: 18px;
     border-radius:0;
     padding: 24px 42px;
-}
-.btn-md{
-    font-size: 15px;
-    border-radius:0;
-    padding:15px 83px;
-    position:relative;
-    text-align:center;
-}
-.btn-md .fa{
-    font-size: 15px;
-    position:absolute;
-    top:15px;
-    left:49px;
 }
 .btn-md-plus{
     font-size: 16px;
@@ -137,26 +174,6 @@
     font-size: 16px;
     padding:22px 36px;
     text-transform: uppercase;
-}
-/*.btn-cart{*/
-    /*padding-left:70px;*/
-    /*padding-right:70px;*/
-/*}*/
-/*.btn-favourites{*/
-    /*padding-left:50px;*/
-    /*padding-right:50px;*/
-
-/*}*/
-/*.buy-now{*/
-    /*padding-left:74px;*/
-    /*padding-right:74px;*/
-/*}*/
-.btn.btn-lg-social{
-    font-size: 18px;
-    padding: 13px 22px;
-    border-radius:0;
-    min-width:54px;
-    color:#fff;
 }
 .btn.btn-form-md{
     font-size: 20px;
@@ -170,12 +187,6 @@
 .btn.btn-form-md:hover{
     background-color:#69c301;
 }
-.btn-sm{
-    font-size: 12px;
-    font-weight: 400;
-    min-width:60px;
-    padding:10px 20px;
-}
 .btn-form-submit{
     font-size: 14px;
     border-radius:0;
@@ -185,7 +196,6 @@
 }
 .btn-form-create-account{
     font-size: 18px;
-    /*min-width:250px;*/
     padding:17px 37px;
     border-radius:0;
     position:relative;
@@ -204,5 +214,4 @@
 }
 .btn.go-home:hover{
     background-color:#6fc609;
-}
-
+} */
