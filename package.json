@@ -5,20 +5,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "redlx",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergcms/market-place.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sergcms/market-place/issues"
-  },
-  "homepage": "https://github.com/sergcms/market-place#readme",
-  "description": ""
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp.spritesmith": "^6.7.0",
+    "merge-stream": "^1.0.1"
+  }
 }
