@@ -9,12 +9,22 @@
 }
 /* ================ LABEL END ============== */
 /* ========== INPUT ============= */
+.wrap-form-search{
+    position: relative;
+}
+.wrap-form-search .fa{
+    position: absolute;
+    font-size: 18px;
+    color: #90a4ae;
+    top: 20px;
+    left: 634px;
+}
 .form-search{
     font-size: 14px;
     color: #90a4ae;
     font-weight: 500;
     min-width: 670px;
-    padding: 13px 25px;
+    padding: 13px 50px 13px 25px;
     border: none;
     line-height: 2.143em;
     border-radius: 5px;
@@ -39,25 +49,43 @@
     box-shadow: 0 1px 10px rgba(124, 178, 64, .75);
     outline: none;
 }
-.form-email{
+.wrap-form-email{
+    position: relative;
+}
+.wrap-form-email .btn-form-email{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 43px;
+    height: 40px;
+    background-color: #8bc34a;
+    border: none;
+    cursor: pointer;
+}
+.wrap-form-email .btn-form-email .fa{
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+.wrap-form-email .form-email{
     font-size: 14px;
     color: #b7c3c8;
     line-height: 2.572em;
     min-width: 260px;
-    padding: 2px 14px;
+    padding: 2px 45px 2px 14px;
     background-color: #2f3c43;
     border: none;
 }
-.form-email::-webkit-input-placeholder{
+.wrap-form-email .form-email::-webkit-input-placeholder{
     color: #697378;    
 }
-.form-email:-ms-input-placeholder{
+.wrap-form-email .form-email:-ms-input-placeholder{
     color: #697378;    
 }
-.form-email::-ms-input-placeholder{
+.wrap-form-email .form-email::-ms-input-placeholder{
     color: #697378;    
 }
-.form-email::placeholder{
+.wrap-form-email .form-email::placeholder{
     color: #697378;    
 }
 .form-email:focus{
@@ -66,7 +94,7 @@
 }
 .form-default{
     border: 1px solid #dedede;
-    width: 100%;
+    min-width: 100%;
     color: #707070;
     line-height: 2em;
     padding: 4px 18px;
@@ -153,4 +181,189 @@ textarea.form-contact{
     color: #707070;
     margin-left: 12px;
 }
+ /* =========== SELECT =========== */
+ .jq-selectbox,
+ .jq-select-multiple {
+     position: relative;
+     display: inline-block;
+ }
+ .jq-selectbox select,
+ .jq-select-multiple select {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     opacity: 0;
+ }
+ .jq-selectbox li,
+ .jq-select-multiple li {
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     white-space: nowrap;
+ }
+ .jq-selectbox {
+     z-index: 10;
+ }
+ .jq-selectbox__select {
+     position: relative;
+ }
+ .jq-selectbox__select-text {
+     overflow: hidden;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+ }
+ .jq-selectbox__dropdown {
+     position: absolute;
+ }
+ .jq-selectbox__search input {
+     -webkit-appearance: textfield;
+ }
+ .jq-selectbox__search input::-webkit-search-cancel-button,
+ .jq-selectbox__search input::-webkit-search-decoration {
+     -webkit-appearance: none;
+ }
+ .jq-selectbox__dropdown ul {
+     position: relative;
+     overflow: auto;
+     overflow-x: hidden;
+     list-style: none;
+     -webkit-overflow-scrolling: touch;
+ }
+ .jq-selectbox {
+	vertical-align: middle;
+    cursor: pointer;
+    width: 100%;
+}
+.jq-selectbox__select {
+	height: 40px;
+	padding: 0 40px 0 15px;
+	border: 1px solid #dcdcdc;	
+	background-color: #f9f9f9;	
+    font-size: 14px;
+    line-height: 39px;
+	color: #707070;
+	
+}
+.jq-selectbox.focused .jq-selectbox__select {
+	border: 1px solid #212121;
+}
+.jq-selectbox.disabled .jq-selectbox__select {
+	border-color: #CCC;
+	background: #F5F5F5;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #888;
+}
+.jq-selectbox__select-text {
+	display: block;
+	width: 100%;
+}
+.jq-selectbox .placeholder {
+	color: #888;
+}
+.jq-selectbox__trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 100%;
+}
+.jq-selectbox__trigger-arrow {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	width: 0;
+	height: 0;
+	border-top: 5px solid #444;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+/* .jq-selectbox:hover .jq-selectbox__trigger-arrow {
+	border-top-color: #000;
+} */
+.jq-selectbox.disabled .jq-selectbox__trigger-arrow {
+	border-top-color: #AAA;
+}
+.jq-selectbox__dropdown {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 2px 0 0;
+	padding: 0;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	background: #FFF;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	font: 14px/18px Arial, sans-serif;
+}
+.jq-selectbox__search {
+	margin: 5px;
+}
+.jq-selectbox__search input {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 5px 27px 6px 8px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	outline: none;
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNqU078LAXEYx/FzYfNzk5TJaFNKYjFYSQZ/hvwBsvg1UCY2xT9gM8hukQGThWRjkcFw3pdnujhfT736Xn2fPvfc3fd07V0OFDDFAnM0ENYsZRiGLSc9OpqIYIA9fMhhjCrW2h9VlMlcH/aymMGtOqEugX08PwQucUZKdTozMIqdTc9WepQD7wjY9ARx+ydwhfyXfS+S0qMcOEQJGcueB3VccFINdMgal6NzkmPjRwJXxDBB7/2RDdtAp6wb+dpphHDASG5QQ0V6u2aoSqBZD/lDrNWRJynLK2qpBn4rc6K2XB9/Nb8EGABtf1thzY6X2AAAAABJRU5ErkJggg==') no-repeat 100% 50%;
+	-webkit-box-shadow: inset 1px 1px #F1F1F1;
+	box-shadow: inset 1px 1px #F1F1F1;
+	color: #333;
+}
+.jq-selectbox__not-found {
+	margin: 5px;
+	padding: 5px 8px 6px;
+	background: #F0F0F0;
+	font-size: 13px;
+}
+.jq-selectbox ul {
+	margin: 0;
+	padding: 0;
+}
+.jq-selectbox li {
+	min-height: 18px;
+	padding: 5px 10px 6px;
+	color: #231F20;
+}
+.jq-selectbox li.selected {
+	background-color: #A3ABB1;
+	color: #FFF;
+}
+.jq-selectbox li:hover {
+	background-color: #08C;
+	color: #FFF;
+}
+.jq-selectbox li.disabled {
+	color: #AAA;
+}
+.jq-selectbox li.disabled:hover {
+	background: none;
+}
+.jq-selectbox li.optgroup {
+	font-weight: bold;
+}
+.jq-selectbox li.optgroup:hover {
+	background: none;
+	color: #231F20;
+	cursor: default;
+}
+.jq-selectbox li.option {
+	padding-left: 25px;
+}
+/* ======== SELECT END ============ */
 /* ========= INPUT END ============= */

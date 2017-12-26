@@ -40,13 +40,25 @@
 	<br>
 	<br>
   <div class="container">
-		<input type="text" class="form-search" placeholder="Search Your Keywords . . .">
+    <div class="wrap-form-search">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="text" class="form-search" placeholder="Search Your Keywords . . .">
+    </div>
 	</div>
 	<br>
 	<br>
 	<br>
 	<div class="container">
-			<input type="text" class="form-email" placeholder="E-mail Address">
+    <div class="row">
+      <div class="col-md-3">
+          <div class="wrap-form-email">
+              <input type="email" class="form-email" placeholder="E-mail Address">
+              <button type="submit" class="btn-form-email">
+                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+              </button>
+          </div>
+      </div>
+    </div>      
   </div>
   <br>
 	<br>
@@ -99,5 +111,31 @@
   <br>
 	<br>
   <br>
+  <div class="container">
+    <select name="select-country" id="">
+      <option value="">Select Your Country</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+    </select>
+  </div>
+  <br>
+	<br>
+  <br>
+  <br>
+	<br>
+  <br>
+  <br>
+	<br>
+  <br>
+  <br>
+	<br>
+  <br>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+
+  <!-- init all plugins -->
+   <script src="js/init.js"></script>
 </body>
 </html>
