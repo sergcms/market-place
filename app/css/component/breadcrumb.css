@@ -7,18 +7,15 @@
 .breadcrumb>li {
     display: inline-block;
 }
-
 .breadcrumb>li a {
        	color:#b0bec5;
     	text-decoration: none;
 }
-
 .breadcrumb>li a:focus,
 .breadcrumb>li a:hover {
     color: #8bc34a;
     text-decoration: underline;
 }
-
 .breadcrumb>.active {
     color: #263238;
 }
