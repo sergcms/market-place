@@ -34,6 +34,7 @@ ul, ol{
 .row{
 	margin-bottom: 100px;
 }
+
 /* === CARD === */
 .card-normal{
 	width: 100%;
@@ -145,10 +146,10 @@ ul, ol{
 	margin: 0 1px;
 }
 .card-long{
-   height: 180px;
-   margin-top: 25px;
-   border: 1px solid #e7ecf2;
-   color:#263238;
+  height: 180px;
+  margin-top: 25px;
+  border: 1px solid #e7ecf2;
+  color:#263238;
 }
 /* .card-long.normal{
 	width: 53.33%;

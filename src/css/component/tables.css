@@ -1,58 +1,48 @@
 .table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-  }
-  .table th {
-    text-align: left;
-  }
-  .table tbody tr td{
-    padding: 15px 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-    
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.table th {
+  text-align: left;
+}
+.table tbody tr td{
+  padding: 15px 0;
+  font-family: 'Open Sans', sans-serif;
+}
 /*table end*/
 
-
 /*====table-sales=====*/
-
 .table-sales tbody tr + tr td {
-    border-top: 1px solid #eee;
-  }
-  .table-sales tbody tr:nth-child(even) {
-    background-color: #fbfbfb;
-  }
-  .table-sales thead th {
-    background-color: #455a64;
-    color: #fff;
-    padding: 22px 0;
-  }
-  .table-sales thead tr th:first-child {
-    text-align: center;
-  }
-  /*.table-sales tbody tr td {
-    padding: 20px 0;
-  }*/
-  .table-sales tbody tr td:first-child {
-    text-align: center;
-  }
-
-  .table-sales tbody tr td:nth-child(3) {
-    font-weight:700;
-  }
-
+  border-top: 1px solid #eee;
+}
+.table-sales tbody tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+.table-sales thead th {
+  background-color: #455a64;
+  color: #fff;
+  padding: 22px 0;
+}
+.table-sales thead tr th:first-child {
+  text-align: center;
+}
+/*.table-sales tbody tr td {
+  padding: 20px 0;
+}*/
+.table-sales tbody tr td:first-child {
+  text-align: center;
+}
+.table-sales tbody tr td:nth-child(3) {
+  font-weight:700;
+}
 /*====table-sales end====*/
 
-
-
 /*====table-withdrawal====*/
-
 .table-withdrawal tbody tr:nth-child(odd){
   background-color: #fbfbfb;
 }
-
 .table-withdrawal tbody tr + tr td:nth-child(4){
   color: #8bc34a
 }
-
 /*====table-withdrawal end====*/
