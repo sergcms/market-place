@@ -5,13 +5,11 @@
     list-style:none;
     font-size: 0;
 }
-
-.pagination>li {
+.pagination > li {
 	display: inline-block;
 }
-
-.pagination>li>a,
-.pagination>li>span {
+.pagination > li > a,
+.pagination > li > span {
     position: relative;
     font-size: 16px;
     float: left;
@@ -23,12 +21,9 @@
     text-decoration: none;
     background-color: #fff;
 }
-
-
-.pagination>li+li{
+.pagination > li + li {
 	margin-left: 7px;
 }
-
 .pagination > .active > a,
 .pagination > li > a:focus,
 .pagination > li > a:hover,
