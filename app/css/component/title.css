@@ -1,0 +1,50 @@
+/* TITLES START */
+.right-titles{
+	padding: 30px;
+}
+.title{
+	font-size: 36px;
+	color:#263238;
+}
+.title.small{
+	font-size: 20px;
+}
+.title.middle{
+	font-size: 24px;
+}
+.title.singular{
+	font-size: 30px;
+}
+.title.big{
+	font-size: 48px;
+	font-weight:700;
+}
+/* FONT-weight   */
+.bold{
+	font-weight: 700;
+}
+.regular{
+	font-weight: 400;
+}
+.medium{
+	font-weight: 500;
+}
+/* FONT-weight   */
+/* TITLES END */
+/* DEFAULT SECTION COLORS START */
+.bg-header { 
+	background-color: #fff; 
+}
+.bg-dim-gray { 
+	background-color: #263238; 
+}
+.bg-white { 
+	background-color: #f4f6f5; 
+}
+.bg-gray { 
+	background-color: #b5b5b5; 
+}
+.bg-green { 
+	background-color: #8bc34a; 
+}
+/* DEFAULT SECTION COLORS END */

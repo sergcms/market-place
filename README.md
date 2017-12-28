@@ -16,9 +16,9 @@
 1. Font-Awesome - иконочный шрифт 
 2. Сконвертированные шрифты: 
 - Roboto: 400,500,700
-- Open+Sans:600
-- Raleway:700
-- Lato:700
+- Open Sans: 600
+- Raleway: 700
+- Lato: 700
 
 ### Стандартные компоненты и классы
 
@@ -30,6 +30,9 @@
     .title.middle
     .title.singular
     .title.big
+    .regular
+    .medium
+    .bold
 ```
 2. Стилизируем стандартные кнопки:
 ```
@@ -38,9 +41,6 @@
     .btn.btn-sm
     .btn.btn-md
     .btn.btn-social
-    .btn.medium
-    .btn.regular
-    .btn.bold
     .btn.radius
     .btn.btn-default.btn-shadow
     .btn.full-width
@@ -95,7 +95,7 @@
 ```
 4. Стилизируем боковую панель
 ```
-    .aside
+    .aside-section
 ```
 5. Стилизируем дефолтные формы и элементы форм:
 ```
@@ -106,6 +106,13 @@
     .form-contact
     .form-login
     .jq-selectbox
+```
+6. Стилизируем карточки товаров:
+```
+    .card.large-card
+    .card.medium-card
+    .card.row-card
+    .card.small-card
 ```
 ---
 
