@@ -47,6 +47,9 @@
 .footer-info .footer-adress {
   margin-bottom: 20px;
 }
+.footer-phone .fa {
+  margin-right: 15px;
+}
 .footer-nav > a {
   text-transform: capitalize;
   display: block;

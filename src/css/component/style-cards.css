@@ -42,23 +42,11 @@ ul, ol{
 	color: #263238;
 	border: 1px solid #e7ecf2;
 }
-.card-normal:hover {
-	-webkit-box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-	box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-}
-.card-long:hover {
-	-webkit-box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-	box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-}
+.card-normal:hover, 
+.card-long:hover, 
+.card-small-and-stars:hover, 
+.card-small-without-stars:hover, 
 .card-empty:hover {
-	-webkit-box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-	box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-}
-.card-small-and-stars:hover {
-	-webkit-box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-	box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
-}
-.card-small-without-stars:hover {
 	-webkit-box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
 	box-shadow: 0 16px 20px rgba(216,216,216, 0.75);
 }
@@ -86,6 +74,7 @@ ul, ol{
 } */
 .card-name-price .card-title{
 	font-size: 18px;
+	display: block;
 }
 .card-name-price{
 	padding: 30px; 
@@ -95,7 +84,8 @@ ul, ol{
 .card-name-price .card-category{
 	color: #8bc34a;
 	font-size: 14px;
-	margin: 12px 0 0px;
+	margin: 12px 0 0;
+	display: block;
 }
 .card-price{
 	float: right ;
@@ -109,7 +99,7 @@ ul, ol{
 	color: #546e7a;
 	font-size: 14px;
 	line-height: 30px;
-	margin-left: 45px;
+	margin-left: 15px;
 }
 .card-rating{
 	color:#b0bec5;
@@ -139,11 +129,11 @@ ul, ol{
 .card-circle {
 	width: 30px;
 	height: 30px;
-	background: #b5b5b5;
-	border-radius: 50px;
+	/* background: #b5b5b5; */
+	border-radius: 50%;
 }
-.card-stars > .fa{
-	margin: 0 1px;
+.card-stars > ul > li + li {
+	margin-left: 2px;
 }
 .card-long{
   height: 180px;
@@ -178,7 +168,7 @@ ul, ol{
 	background-color: #f4f6f5;
 }
 .card-small-and-stars{
-	height: 255px;
+	/* height: 255px; */
 	/* padding: 0 26px; */
 }
 .card-small-and-stars .card-img{
@@ -191,12 +181,10 @@ ul, ol{
 }
 .card-small-and-stars .card-title{
 	font-size: 16px;
+	display: block;
 }
 .card-small-and-stars .card-category, .cart-small-and-stars .card-author{
 	font-size: 14px;
-}
-.card-small-and-stars .card-author{
-	margin-left: 41px;
 }
 .card-small-and-stars .card-price{
 	font-size: 16px;
@@ -219,10 +207,12 @@ ul, ol{
 }
 .card-small-without-stars .card-title{
 	font-size: 14px;
+	display: block;
 }
 .card-small-without-stars .card-category{
 	font-size: 12px;
 	margin: 6px 0; 
+	display: block;
 }
 .card-small-without-stars .card-price{
 	font-size: 18px;
@@ -257,6 +247,7 @@ ul, ol{
 }
 .card-info .card-category{
 	margin: 7px 0 14px;
+	display: block;
 }
 .card-info .card-name-price{
 	width: 100%;

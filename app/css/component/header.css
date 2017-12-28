@@ -1,6 +1,7 @@
 /* === HEADER === */
-.header .container {
-  height: 91px;
+.header {
+  padding: 27px 0;
+  z-index: 100;
 }
 .header .top-bar {
   height: 100%;
@@ -38,7 +39,7 @@
 
 /* === header-nav === */
 .header-nav {
-  height: 60px;
+  padding: 23px 0;
 }
 .header-nav .container {
   height: 100%;

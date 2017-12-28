@@ -1,0 +1,22 @@
+.text-white {
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+}
+
+.inner {
+  background: url('../img/bg-inner.jpg') no-repeat center/cover;
+  padding: 150px 0 170px; 
+}
+.inner .title {
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 1;
+}
+.inner > p {
+  margin: 20px 0 50px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+} 
