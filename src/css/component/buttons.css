@@ -2,16 +2,18 @@
 .btn {
     display: inline-block;
     line-height: 1;
-    cursor:pointer;
-    text-align:center;
-    min-width:60px;
+    cursor: pointer;
+    text-align: center;
+    min-width: 60px;
     white-space: nowrap;
+    color: #fff;
+}
+.btn:hover {
+    color:  #fff;    
 }
 .btn.btn-default {
     font-size: 16px;
-    font-weight: 500;
     padding: 17px 25px;
-    text-align: center;
 }
 .btn.btn-xs {
     font-size: 12px;
@@ -28,7 +30,7 @@
 .btn-social{
     display: inline-block;
     font-size: 18px;
-    width:54px;
+    width: 54px;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -64,46 +66,33 @@
 /*=== COLORS ===*/
 .btn-light-red{
     background-color:#e74c3c;
-    color: #fff;
-    /* color:#f4f6f5; */
 }
 .btn-light-red:hover{
     background-color:#e5220e;
-    color: #fff;
 }
 .btn-darker-blue{
     background-color:#455a64;
-    color: #fff;
-    /* color:#f4f6f5; */
 }
 .btn-darker-blue:hover{
     background-color:#0f3f56;
-    color: #fff;
 }
 .btn-light-green{
     background-color: #8bc34a;
-    color: #fff;
-    /* color:#f4f6f5; */
 }
 .btn-light-green:hover{
     background-color:#79cd17;
-    color: #fff;
 }
 .btn-light-blue{
     background-color:#42a5f5;
-    color:#fff;
 }
 .btn-light-blue:hover{
     background-color:#078bf5;
-    color: #fff;
 }
 .btn-dark-blue{
     background-color:#546e7a;
-    color:#fff;
 }
 .btn-dark-blue:hover{
     background-color:#1a5875;
-    color:#fff;
 }
 /* === BUTTON SOCIAL === */
 .btn-color-facebook{
@@ -111,28 +100,24 @@
 }
 .btn-color-facebook:hover{
     background-color:#2a3fb2;
-    color: #fff;
 }
 .btn-color-twitter{
     background-color:#5694c4;
 }
 .btn-color-twitter:hover{
     background-color:#1c94f5;
-    color: #fff;
 }
 .btn-color-linkedin{
     background-color:#4f71ce;
 }
 .btn-color-linkedin:hover{
     background-color:#1f4dca;
-    color: #fff;
 }
 .btn-color-pinterest{
     background-color:#d32f2f;
 }
 .btn-color-pinterest:hover{
     background-color:#c00606;
-    color: #fff;
 }
 /* === BUTTON SOCIAL END  === */
 
