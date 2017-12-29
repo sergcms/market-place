@@ -46,13 +46,14 @@ body { padding: 50px; }
 .user-dropdown-nav > li > a:hover {
   color: #8bc34a;   
 }
+/* === user-dropdown end === */
 
 /* === cart-dropdown === */
 .cart-dropdown-nav .product-item, 
 .email-dropdown-nav .email-item, 
 .notification-dropdown-nav .notification-item {
-  padding: 20px;
-  border-bottom: 1px solid #d3d3d3;
+  padding: 20px 30px 20px 20px;
+  border-bottom: 2px solid #d3d3d3;
 }
 .cart-dropdown-nav .product-item:hover, 
 .email-dropdown-nav .email-item:hover,
@@ -93,6 +94,7 @@ body { padding: 50px; }
   color: #fff; 
   font-size: 14px;
 }
+/* === cart-dropdown end === */
 
 /* === email-dropdown === */
 .email-item .email-item-img, .notification-item .notification-item-img {
@@ -119,18 +121,20 @@ body { padding: 50px; }
 .email-item .fa, .notification-item .fa {
   font-size: 16px;
   color: #b0bec5;
-  margin: 10px 10px 0 0;
+  margin-top: 10px;
 }
 .fa.not-viewed {
   color: #ef6c00;
 }
 .email-dropdown-nav .email-item:last-child, .notification-dropdown-nav .notification-item:last-child {
-  padding: 20px 20px 30px;
+  padding: 20px 30px 30px 20px;
   /* border-bottom: none;   */
 }
+/* === email-dropdown end=== */
 
 /* === notification-dropdown === */
 .notification-item-info .notification-item-subject {
   font-size: 12px;
   color: #84b743;
 }
+/* === dropdown end === */

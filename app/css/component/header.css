@@ -1,6 +1,7 @@
 /* === HEADER === */
-.header .container {
-  height: 91px;
+.header {
+  padding: 27px 0;
+  z-index: 100;
 }
 .header .top-bar {
   height: 100%;
@@ -38,7 +39,7 @@
 
 /* === header-nav === */
 .header-nav {
-  height: 60px;
+  padding: 23px 0;
 }
 .header-nav .container {
   height: 100%;
@@ -61,7 +62,7 @@
 .bg-green {
   background-color: #8bc34a;
 }
-.bg-lightgreen {
+.bg-light-green {
   background-color: #95c85a;
 }
 .bg-gray {
@@ -87,8 +88,8 @@
 }
 /* default end */
 
-/* icon-circle */
-.icon {
+/* === icon-circle === */
+.header .icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,13 +100,13 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.icon.circle { 
+.header .icon.circle { 
   width: 34px;
   height: 34px;
   border-radius: 50%;
   position: relative;
 }
-.label-icon {
+.header .label-icon {
   font-size: 11px;
   color: #fff;
   line-height: 18px;
@@ -121,14 +122,4 @@
   top: -7px;
   right: -7px;
 }
-/* icon-circle */
-
-/* удалить */
-.btn {
-  font-size: 12px;
-  padding: 10px 14px;
-  border-radius: 4px;
-  min-width: 75px;
-  display: inline-block;
-  text-align: center;
-}
+/* === icon-circle end === */
