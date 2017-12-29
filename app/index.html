@@ -32,8 +32,10 @@
 
   <!-- Default-components -->
   <link rel="stylesheet" href="css/default-components.css">
-  
-  
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/style.css">
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -42,8 +44,273 @@
   <![endif]-->
 </head>
 <body>
-  
 
+  <header class="header bg-white">
+    <div class="header-top">
+      <div class="container d-flex">
+        <div class="logo mr-auto">
+          <img src="img/logo.png" alt="">
+        </div>
+        <!-- / logo -->
+        <div class="top-bar d-flex align-items-center">
+          <p><span class="text-red">Need help?</span> Talk to an expert: +61 3 8376 6284</p>
+          <!-- notification-dropdown -->
+          <div class="dropdown-container">
+            <div class="icon circle bg-light-gray">
+              <i class="fa fa-bell-o" aria-hidden="true"><span class="label-icon bg-yellow">8</span></i>
+            </div>
+            <!-- / icon circle -->
+            <div class="dropdown-menu">
+              <nav class="notification-dropdown-nav">
+                <a href="" class="notification-item d-flex">
+                  <div class="notification-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+                    <span class="notification-item-subject">Need WP Help!</span>
+                    <span>10 Dec, 2016</span>
+                  </div>
+                  <i class="fa fa-bell-o not-viewed" aria-hidden="true"></i>
+                  <!-- / notification-item-info -->
+                </a>
+                <!-- / notification-item -->
+                <a href="" class="notification-item d-flex">
+                  <div class="notification-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+                    <span class="notification-item-subject">Need WP Help!</span>
+                    <span>05 Dec, 2016</span>
+                  </div>
+                  <i class="fa fa-bell-o" aria-hidden="true"></i>
+                  <!-- / notification-item-info -->
+                </a>
+                <!-- / notification-item -->
+                <a href="" class="notification-item d-flex">
+                  <div class="notification-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="notification-item-info d-flex flex-column justify-content-around mr-auto">
+                    <span class="notification-item-subject">Psd Template Help!</span>
+                    <span>01 Dec, 2016</span>
+                  </div>
+                  <i class="fa fa-bell-o" aria-hidden="true"></i>
+                  <!-- / notification-item-info -->
+                </a>
+                <!-- / notification-item -->
+              </nav>
+              <!-- / notification-dropdown-nav -->
+            </div>
+            <!-- / dropdown-menu -->
+          </div>
+          <!-- / dropdown-container -->
+  
+          <!-- email-dropdown -->
+          <div class="dropdown-container">
+            <div class="icon circle bg-light-gray">
+              <i class="fa fa-envelope-o" aria-hidden="true"><span class="label-icon bg-orange">8</span></i>
+            </div> 
+            <!-- / icon circle -->
+            <div class="dropdown-menu">
+              <nav class="email-dropdown-nav">
+                <a href="" class="email-item d-flex">
+                  <div class="email-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+                    <span class="email-item-user">Kazi Fahim</span> 
+                    <span class="email-item-subject">Need WP Help!</span>
+                    <span>01 Dec, 2016</span>
+                  </div>
+                  <i class="fa fa-envelope-o not-viewed" aria-hidden="true"></i>
+                  <!-- / email-item-info -->
+                </a>
+                <!-- / email-item -->
+                <a href="" class="email-item d-flex">
+                  <div class="email-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+                    <span class="email-item-user">Richi Lenal</span> 
+                    <span class="email-item-subject">Need WP Help!</span>
+                    <span>26 Nov, 2016</span>
+                  </div>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <!-- / email-item-info -->
+                </a>
+                <!-- / email-item -->
+                <a href="" class="email-item d-flex">
+                  <div class="email-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="email-item-info d-flex flex-column justify-content-between mr-auto">
+                    <span class="email-item-user">PsdBosS</span> 
+                    <span class="email-item-subject">Psd Template Help!</span>
+                    <span>26 Nov, 2016</span>
+                  </div>
+                  <i class="fa fa-reply" aria-hidden="true"></i>
+                  <!-- / email-item-info -->
+                </a>
+                <!-- / email-item -->
+              </nav>
+              <!-- / email-dropdown-nav -->
+            </div>
+            <!-- / dropdown-menu -->
+          </div>
+          <!-- / dropdown-container -->
+  
+          <!-- cart-dropdown -->
+          <div class="dropdown-container">
+            <div class="icon circle bg-light-gray">
+              <i class="fa fa-shopping-cart" aria-hidden="true"><span class="label-icon bg-light-green">8</span></i>
+            </div>      
+            <!-- / icon circle -->
+            <div class="dropdown-menu">
+              <nav class="cart-dropdown-nav">
+                <a href="" class="product-item d-flex">
+                  <div class="product-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="product-item-info d-flex flex-column justify-content-between">
+                    <span class="product-item-title">Grand Ballet</span> 
+                    <span class="product-item-category">WordPress</span>
+                    <span>$59</span>
+                  </div>
+                  <!-- / product-item-info -->
+                </a>
+                <!-- / product-item -->
+                <a href="" class="product-item d-flex">
+                  <div class="product-item-img">
+                    <img src="img/cart-prev-test.jpg" alt="">
+                  </div>
+                  <div class="product-item-info d-flex flex-column justify-content-between">
+                    <span class="product-item-title">Apple Device</span> 
+                    <span class="product-item-category">WordPress</span>
+                    <span>$59</span>
+                  </div>
+                  <!-- / product-item-info -->
+                </a>
+                <!-- / product-item -->
+                <div class="product-total-btn">
+                  <div class="product-item-total d-flex justify-content-between">
+                    <span>Total</span>
+                    <span>$118</span>
+                  </div>
+                  <div class="btn-go-to d-flex justify-content-between">
+                    <a href="" class="btn btn-to-cart bg-light-green">Go to Cart</a>
+                    <a href="" class="btn btn-to-checkout bg-light-red">Go to Checkout</a>
+                  </div>
+                  <!-- / btn-go-to -->
+                </div>
+                <!-- / product-total-btn -->
+              </nav>
+              <!-- / cart-dropdown-nav -->
+            </div>
+            <!-- / dropdown-menu -->
+          </div>
+          <!-- / dropdown-container -->
+  
+          <div class="dropdown-container">
+            <div class="info-user d-flex">
+              <div class="avatar icon circle"><img src="img/avatar.jpg" alt=""></div>
+              <div class="name-price d-flex flex-column justify-content-between">
+                <span>Mike Hussy <i class="fa fa-angle-down" aria-hidden="true"></i></span> 
+                <span>$ 170.00</span>
+              </div>      
+              <!-- / name-price -->
+            </div>
+            <!-- / info-user -->
+            <div class="dropdown-menu info-user-nav">
+              <ul class="user-dropdown-nav">
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Profile Page</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Portfolio</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Account Setting</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Downloads</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Wishlist</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Upload Item</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Statement</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="">Withdraws</a></li>
+              </ul>
+            </div>
+            <!-- / dropdown-menu -->
+          </div>
+          <!-- / dropdown-container -->
+          
+          <div class="btn-authorization d-flex text-white">
+            <!-- <a href="" class="btn small bg-green">Login</a> -->
+            <a href="" class="btn btn-sm bg-red radius">Loguot</a>
+          </div>
+          <!-- / btn-authorization -->
+        </div>
+        <!-- / top-bar -->
+      </div>
+      <!-- / container -->
+    </div>
+      
+    <div class="menu bg-dark-gray text-white">
+      <div class="container">
+        <nav class="header-nav d-flex flex-wrap">
+          <a href="" class="active">Home</a>
+          <a href="">About</a>
+          <a href="">WordPress</a>
+          <a href="">Joomla</a>
+          <a href="">PSD</a>
+          <a href="">Plugins</a>
+          <a href="">Components</a>
+          <a href="">Pages</a>
+          <a href="">Contact</a>
+          <a href="">Help</a>
+        </nav>
+        <!-- / header-nav -->
+      </div>
+      <!-- / container -->
+    </div>
+    <!-- / menu -->
+
+  </header>
+  <!-- / header -->
+
+  <main id="main-home">
+    <section class="inner search-section big">
+      <div class="inner-content text-white text-center">
+        <h1>Welcome To Foxtar Market Place!</h1>
+        <span>Premium WordPress Themes, Web Templates and Many More ...</span> 
+        <div class="wrap-form-search m-auto">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text" class="form-search" placeholder="Search Your Keywords . . .">
+        </div>
+      </div>     
+    </section>
+    <!-- / inner -->
+
+    <section class="newest-prodcuts">
+      <div class="container-fluid ">
+        <div class="small-section">
+          <div class="title">
+            <span>Let’s Check Out Our Newest Release Prodcuts</span>
+          </div>
+          <ul class="tags d-flex">
+            <li><a href="" class="active">All</a></li>
+            <li><a href="">WordPress</a></li>
+            <li><a href="">Joomla</a></li>
+            <li><a href="">Plugins</a></li>
+            <li><a href="">Component</a></li>
+            <li><a href="">PSD</a></li>
+          </ul>
+          <!-- / tags -->
+
+          
+
+        </div>
+        <!-- / small-section -->
+      </div>
+      <!-- / container-fluid -->
+    </section>
+    <!-- / newest-prodcuts -->
+
+
+  </main>
+  <!-- / main -->
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
