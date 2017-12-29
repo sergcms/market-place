@@ -135,7 +135,7 @@ textarea.form-contact {
 }
 .wrap-login .fa {
     position: absolute;
-    padding: 0 12px 0 18px;
+    left: 18px;
     color: #fff;
     font-size: 14px;
     line-height:43px;
