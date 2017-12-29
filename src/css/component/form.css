@@ -1,29 +1,32 @@
 /* ================ LABEL ================ */
-.default-label{
+.default-label {
     font-size: 15px;
     color: #444;
 }
-.default-label sup{
+.default-label sup {
     color: #8bc34a;
     font-size: 24px;
 }
 /* ================ LABEL END ============== */
 /* ========== INPUT ============= */
-.wrap-form-search{
+.wrap-form-search {
     position: relative;
+    max-width: 670px;
 }
-.wrap-form-search .fa{
+.wrap-form-search .fa {
     position: absolute;
     font-size: 18px;
     color: #90a4ae;
-    top: 20px;
-    left: 634px;
+    top: 0;
+    right: 0;
+    line-height: 56px;
+    padding: 0 20px 0 10px;
 }
-.form-search{
+.form-search {
     font-size: 14px;
     color: #90a4ae;
     font-weight: 500;
-    min-width: 670px;
+    width: 100%;
     padding: 13px 50px 13px 25px;
     border: none;
     line-height: 2.143em;
@@ -31,17 +34,18 @@
     letter-spacing: .05em;
     box-shadow: 0 1px 10px rgba(100, 100, 100, .75);
 }
-.form-search::placeholder{
+.form-search::placeholder {
     color: #90a4ae;
 }
-.form-search:focus{
+.form-search:focus {
     box-shadow: 0 1px 10px rgba(124, 178, 64, .75);
     outline: none;
 }
-.wrap-form-email{
+.wrap-form-email {
     position: relative;
+    width: 260px;
 }
-.wrap-form-email .btn-form-email{
+.wrap-form-email .btn-form-email {
     position: absolute;
     top: 0;
     right: 0;
@@ -51,28 +55,31 @@
     border: none;
     cursor: pointer;
 }
-.wrap-form-email .btn-form-email .fa{
+.wrap-form-email .btn-form-email:hover {
+    background-color: #79cd17;
+}
+.wrap-form-email .btn-form-email .fa {
     color: #fff;
     font-size: 20px;
     line-height: 40px;
 }
-.wrap-form-email .form-email{
+.wrap-form-email .form-email {
     font-size: 14px;
     color: #b7c3c8;
     line-height: 2.572em;
-    min-width: 260px;
+    width: 100%;
     padding: 2px 45px 2px 14px;
     background-color: #2f3c43;
     border: none;
 }
-.wrap-form-email .form-email::placeholder{
+.wrap-form-email .form-email::placeholder {
     color: #697378;    
 }
-.form-email:focus{
+.form-email:focus {
     color: #fff;
     outline: none;
 }
-.form-default{
+.form-default {
     border: 1px solid #dedede;
     min-width: 100%;
     color: #707070;
@@ -81,13 +88,13 @@
     font-size: 15px;
     background-color: #f9f9f9;
 }
-.form-default:focus{
+.form-default:focus {
     outline: none;
 }
-textarea.form-default{
+textarea.form-default {
     min-height: 150px;
 }
-.form-contact{
+.form-contact {
     min-width: 350px;
     font-size: 15px;
     color: #7a7a7a;
@@ -96,24 +103,24 @@ textarea.form-default{
     line-height: 1.6em;
     padding: 10px 16px;
 }
-.form-contact:focus{
+.form-contact:focus {
     outline: none;
 }
-textarea.form-contact{
+textarea.form-contact {
     min-height:196px;
     width: 100%;
 }
-.wrap-login{
+.wrap-login {
     position: relative;
 }
-.wrap-login .fa{
+.wrap-login .fa {
     position: absolute;
     left: 18px;
     color: #fff;
     font-size: 14px;
     line-height:43px;
 }
-.form-login{
+.form-login {
     min-width: 400px;
     color: #fff;
     font-size: 14px;
@@ -122,21 +129,21 @@ textarea.form-contact{
     border: none;
     line-height: 2.571em;
 }
-.form-login::placeholder{
+.form-login::placeholder {
     color: #fff;
 }
-.form-login:focus{
+.form-login:focus {
     outline: none;
 }
-.file-upload{
+.file-upload {
     background-color: #f9f9f9;
     border: 1px solid #dcdcdc;
     padding: 7px;
 }
-.file-upload input[type="file"]{
+.file-upload input[type="file"] {
     display: none;
 }
-.file-upload input[type="file"] + label{
+.file-upload input[type="file"] + label {
     font-size: 12px;
     display: inline-block;
     color: #444;
@@ -147,7 +154,7 @@ textarea.form-contact{
     text-align: center;
     cursor: pointer;
 }
-.file-upload .file-name{
+.file-upload .file-name {
     font-size: 12px;
     color: #707070;
     margin-left: 12px;

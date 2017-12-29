@@ -9,11 +9,8 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&amp;subset=cyrillic" rel="stylesheet">
-  
-  <!-- Сгенерировать -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-  <!-- Сгенерировать -->
 
   <!-- Fontawesome icons -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -30,9 +27,8 @@
   <!-- Sprite -->
   <link rel="stylesheet" href="css/sprite.css">
 
-  <!-- Component Footer -->
-  <link rel="stylesheet" href="css/default-component.css">
-  <link rel="stylesheet" href="css/component/footer.css">
+  <!-- Default components -->
+  <link rel="stylesheet" href="css/default-components.css">
   
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,22 +38,26 @@
   <![endif]-->
 </head>
 <body>
-  <footer class="footer bg-dimgray">
+  <footer class="footer bg-dark-gray">
     <div class="container">
       <div class="row d-flex flex-wrap">
         <div class="col-lg-3">
           <div class="about-company">
-            <div class="title">
+            <div class="title-md bold">
               <span>About Company</span>
             </div>
-            <p>Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+            <p class="text-default">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
             <div class="footer-info">
               <div class="footer-adress d-flex">
                 <i class="fa fa-map-marker" aria-hidden="true"></i> 
                 <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
               </div>
               <!-- / footer-adress -->
-              <i class="fa fa-phone" aria-hidden="true"></i><span>+61 3 8376 6284</span>
+              <div class="footer-phone d-flex">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>+61 3 8376 6284</span>
+              </div>
+              <!-- / footer-phone -->
             </div>
             <!-- / footer-info -->
           </div>
@@ -66,7 +66,7 @@
         <!-- / col -->
         <div class="col-lg-3">
           <div class="our-community">
-            <div class="title">
+            <div class="title-md bold">
               <span>Join Our Community</span>
             </div>
             <nav class="footer-nav">
@@ -83,7 +83,7 @@
         <!-- / col -->
         <div class="col-lg-3">
           <div class="need-help">
-              <div class="title">
+              <div class="title-md bold">
                 <span>Need Help?</span>
               </div>
               <nav class="footer-nav">
@@ -100,7 +100,7 @@
         <!-- / col -->
         <div class="col-lg-3">
           <div class="follow-ua-on">
-              <div class="title">
+              <div class="title-md bold">
                 <span>Follow Us On</span>
               </div>
               <nav class="social-nav d-flex">
@@ -111,12 +111,16 @@
                 <a href="" class="icon icon-linkedin"></a>
               </nav>
               <!-- / social-nav -->
-              <div class="title-sign-up">
+              <div class="title small text-white">
                 <span>Newsletter Sign Up!</span>
               </div>
-              <!-- заменить -->
               <form class="form-control">
-                <img src="img/footer-input-test.png" alt="">
+                <div class="wrap-form-email">
+                  <input type="email" class="form-email" placeholder="E-mail Address">
+                  <button type="submit" class="btn-form-email">
+                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                  </button>
+                </div>
               </form>
               <!-- / form-control -->
             </div>
@@ -127,8 +131,8 @@
      <!-- / row -->
     </div>
     <!-- / container -->
-    <div class="copyright d-flex">
-      <p class="m-auto">&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
+    <div class="copyright">
+      <p>&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
     </div>
     <!-- / copyright -->
   </footer>
