@@ -1,4 +1,5 @@
 /* === CUSTOM STYLE === */
+/* === inner ===  */
 .inner-content h1 {
   text-transform: capitalize;
   font-size: 48px;
@@ -15,4 +16,18 @@
 .inner-content .wrap-form-search {
   margin-top: 50px;
 }
+/* === inner end === */
+
+/* === newest-prodcuts === */
+.products .row + .row {
+  margin-top: 30px;
+}
+/* === newest-prodcuts end === */
+
+/* === week-products === */
+.week-products .card-items-slider {
+  margin-top: 60px;
+}
+/* === week-products end === */
+
 /* === CUSTOM STYLE END === */
