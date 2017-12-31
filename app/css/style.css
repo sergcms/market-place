@@ -1,0 +1,50 @@
+/* === CUSTOM STYLE === */
+/* === inner ===  */
+.inner-content h1 {
+  text-transform: capitalize;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.inner-content > span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+} 
+.inner-content .wrap-form-search {
+  margin-top: 50px;
+}
+/* === inner end === */
+
+/* === newest-prodcuts === */
+.products .row + .row {
+  margin-top: 30px;
+}
+.products .btn-product {
+  margin-top: 78px;
+}
+.btn-product .btn.btn-default {
+  color: #263238;
+  background-color: #fff;
+  padding: 18px 33px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+  box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+}
+.btn-product .btn.btn-default:hover {
+  background-color: #dedede;
+}
+.btn-product .btn + .btn {
+  margin-left: 15px;
+}
+/* === newest-prodcuts end === */
+
+/* === week-products === */
+.week-products .card-items-slider {
+  margin-top: 60px;
+}
+/* === week-products end === */
+
+/* === CUSTOM STYLE END === */
