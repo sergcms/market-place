@@ -22,6 +22,23 @@
 .products .row + .row {
   margin-top: 30px;
 }
+.products .btn-product {
+  margin-top: 78px;
+}
+.btn-product .btn.btn-default {
+  color: #263238;
+  background-color: #fff;
+  padding: 18px 33px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+  box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+}
+.btn-product .btn.btn-default:hover {
+  background-color: #dedede;
+}
+.btn-product .btn + .btn {
+  margin-left: 15px;
+}
 /* === newest-prodcuts end === */
 
 /* === week-products === */
