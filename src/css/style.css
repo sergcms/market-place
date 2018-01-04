@@ -32,7 +32,8 @@
   text-transform: capitalize;
   box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
 }
-.btn-product .btn.btn-default:hover {
+.btn-product .btn.btn-default:hover, 
+.become-author-info .btn:hover {
   background-color: #dedede;
 }
 .btn-product .btn + .btn {
@@ -44,8 +45,11 @@
 .week-products .card-items-slider {
   margin-top: 60px;
 }
+.week-products .slick-list {
+  margin: 0 -15px;
+}
 .week-products .slick-track .slick-slide {
-  margin: 0 15px;
+  padding: 0 15px;
 }
 /* === week-products end === */
 
@@ -68,17 +72,45 @@
   align-items: center; */
   text-align: center;
 }
-.quality-item .title:hover {
+.quality-item .title:hover,
+.card-tutorial-link .title.middle:hover {
   color: #8bc34a;
 }
 .quality-item .text-default {
   margin-top: 25px;
 }
-
-
 /* === why-you-choose end === */
 
+/* === become-author === */
+.become-author .become-author-img {
+  position: relative;
+}
+.become-author-img > img {
+  box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+}
+.become-author-info {
+  position: absolute;
+  padding: 70px 55px 80px;
+}
+.become-author-info > *:not(a) {
+  line-height: 1.2em;
+}
+.become-author-info .btn {
+  color: #263238;
+  margin-left: 48px;
+  font-size: 18px;
+  padding: 23px 42px;
+}
+/* === become-author end === */
 
-
+/* === free-tutorials === */
+.free-tutorials .row {
+  margin-top: 65px;
+}
+.card-tutorial .card-tutorial-link {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+/* === free-tutorials end === */
 
 /* === CUSTOM STYLE END === */

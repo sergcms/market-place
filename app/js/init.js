@@ -1,4 +1,13 @@
 $(function ()  {
+  
+  // Init grid cards
+  $('#grid-thumbs').on('click', function() {
+    $('.card.medium-card').removeClass('row-card');
+  });
+  $('#grid-list').on('click', function() {
+    $('.card.medium-card').addClass('row-card');  
+  });
+  
   // Init slick slider
   $('.multiple-items').slick({
     infinite: true,
@@ -9,6 +18,6 @@ $(function ()  {
     dots: true
   });
 
-  //init form stayler for select
+  //Init form stayler for select
   $('select').styler();
 });
