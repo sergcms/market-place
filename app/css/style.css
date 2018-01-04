@@ -35,7 +35,8 @@
 }
 .btn-product .btn.btn-default:hover, 
 .become-author-info .btn:hover {
-  background-color: #dedede;
+  background-color: #5fa70d;
+  color: #fff;
 }
 .btn-product .btn + .btn {
   margin-left: 15px;
@@ -84,15 +85,21 @@
 
 /* === become-author === */
 .become-author .become-author-img {
+  height: 440px;
+  width: 1100px;
   position: relative;
-}
-.become-author-img > img {
+  background-color: #b5b5b5;
   -webkit-box-shadow: 0 0 45px rgba(181, 181, 181, 1);
   box-shadow: 0 0 45px rgba(181, 181, 181, 1);
 }
-.become-author-info {
+.become-author-img .become-author-info {
   position: absolute;
   padding: 70px 55px 80px;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .become-author-info > *:not(a) {
   line-height: 1.2em;
@@ -114,5 +121,4 @@
   padding: 40px 0;
 }
 /* === free-tutorials end === */
-
 /* === CUSTOM STYLE END === */
