@@ -1,0 +1,66 @@
+/*===SELECT BOXES START===*/
+.select-boxes{
+    background-color:#fff;
+/*    padding:20px 34px 80px;*/
+    margin:108px 30px 150px;
+}
+/*===SIDE TABS===*/
+.side-tabs{
+    background-color:#fff;
+}
+.all-wrap .side-tabs li{
+    padding:10px 24px;
+}
+.all-wrap .side-tabs li:hover{
+    border-bottom: 2px solid #8bc34a;
+}
+.all-wrap .side-tabs li .fa{
+    color:#86bc44;
+    font-size: 14px;
+    line-height:3.571em;
+}
+.all-wrap .side-tabs li a{
+    color:#707070;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:3.571em;
+    margin-left:24px;
+    text-transform: capitalize;
+}
+.all-wrap .side-tabs li + li {
+    border-top: 2px solid #d3d3d3;
+}
+/*===SIDE TABS END===*/
+.all-wrap .select-boxes h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height:2.5em;
+    color:#263238;
+}
+.all-wrap .select-boxes .personal-info{
+    border-bottom:1px solid #d7d7d7;
+    padding:20px 34px;
+}
+.all-wrap .select-boxes .block-wrap{
+    padding:20px 34px;
+
+}
+.all-wrap .select-boxes .block-wrap span{
+    white-space: nowrap;
+}
+.all-wrap .select-boxes .button-wrap a{
+    margin:30px 236px 80px;
+}
+.target:not(:target),
+:target ~ .target.default-target {
+    display: none;
+}
+.target:target,
+.target.default-target {
+    display: block;
+}
+.jq-selectbox{
+    width:540px;
+}
+
+/*===SELECT BOXES END===*/
