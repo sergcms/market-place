@@ -39,7 +39,8 @@
 	padding: 120px 0;
 }
 .default-section {
-	padding: 45px 0 125px;
+    /* padding: 45px 0 125px; */
+	padding-bottom: 125px;
 }
 .big-section {
 	padding: 130px 0;
@@ -149,7 +150,8 @@
     white-space: nowrap;
     color: #fff;
 }
-.btn:hover {
+.btn:hover, 
+.btn-social:hover {
     color:  #fff;    
 }
 .btn.btn-default {

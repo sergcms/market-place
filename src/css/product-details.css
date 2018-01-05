@@ -1,0 +1,36 @@
+/* === PRODUCT DETAILS PAGE === */
+.product-full-img {
+  padding: 20px;
+  background-color: #fff;
+}
+.product-details-page .product-text-description {
+  margin-top: 40px;
+}
+.product-text-description > p {
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #707070;
+  margin-top: 30px;
+}
+.live-priview-and-docs {
+  margin: 45px 0 55px;
+}
+.live-priview-and-docs > .btn + .btn {
+  margin-left: 18px;
+}
+.live-priview-and-docs .social-nav > .btn-social + .btn-social {
+  margin-left: 3px;
+}
+
+
+.product-details-page aside + aside {
+  margin-top: 30px;
+}
+.aside-section .aside-product-btn {
+  
+}
+.aside-section .aside-product-btn .btn + .btn {
+  margin-top: 7px;
+}
+
+/* === PRODUCT DETAILS PAGE END === */
