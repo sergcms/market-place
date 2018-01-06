@@ -1,65 +1,44 @@
-.all-wrap .aside-section {
+/* === SETTING PERSONAL PAGE === */
+.setting-personal-info-page .aside-section {
     padding: 0;
-    border:1px solid #dcdcdc;
+    border: 1px solid #d7d7d7;
 }
-.aside-section .aside-nav li{
+.aside-section .aside-nav li {
     padding-left: 20px;
     height: 50px;
     border-bottom: 2px solid #d3d3d3;
     font-size: 14px;
+    line-height: normal;
 }
-.all-wrap .aside-nav li:last-child {
+.setting-personal-info-page .aside-nav li:last-child {
     border-bottom: 2px solid #fff;
 }
-.all-wrap .aside-nav li .fa{
-    font-size: 14px;
-    margin-right:24px;
+.setting-personal-info-page .aside-nav li .fa {
+    margin-right: 24px;
 }
 .aside-section .aside-nav li.active,
 .aside-section .aside-nav li:hover {
     border-bottom: 2px solid #8bc34a;
     color: #37474f;
 }
-.aside-section .aside-nav li:hover .fa{
+.aside-section .aside-nav li:hover .fa {
     color:#86bc44;
 }
-/*===SIDE TABS END===*/
-/*===SELECT BOXES START===*/
-.all-wrap .select-boxes{
-    background-color:#fff;
-    margin:108px 30px 150px;
-    border:1px solid #dcdcdc;
+.setting-personal-info-page .select-boxes {
+    border: 1px solid #dcdcdc;
 }
-.all-wrap .select-boxes .personal-info span{
-    font-size: 24px;
-    color:#263238;
+.setting-personal-info-page .select-boxes .title {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 25px 30px;
 }
-.all-wrap .select-boxes .personal-info{
-    border-bottom:1px solid #d7d7d7;
-    padding:20px 34px;
+.setting-personal-info-page .all-wrap {
+    padding: 35px 40px 80px;
 }
-.all-wrap .select-boxes .block-wrap{
-    padding:20px 34px;
-
+.all-wrap .row + .row {
+    margin-top: 21px;
 }
-.all-wrap .select-boxes .block-wrap span{
+.all-wrap .row label {
+    color: #444;
     white-space: nowrap;
 }
-.all-wrap .select-boxes .button-wrap a{
-    margin:30px 236px 80px;
-}
-.target:not(:target),
-:target ~ .target.default-target {
-    display: none;
-}
-.target:target,
-.target.default-target {
-    display: block;
-}
-.jq-selectbox{
-    width:540px;
-}
-.all-wrap .select-boxes input{
-    min-width:540px;
-}
-/*===SELECT BOXES END===*/
+/* === SETTING PERSONAL PAGE END === */

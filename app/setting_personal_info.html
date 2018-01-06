@@ -32,12 +32,8 @@
     <!-- Default-components -->
     <link rel="stylesheet" href="css/default-components.css">
 
-    <!-- Custom style -->
-    <link rel="stylesheet" href="css/style.css">
-
     <!--Setting personal info-->
     <link rel="stylesheet" href="css/setting_personal_info.css">
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -286,186 +282,228 @@
         </div>
     </section> <!-- / inner -->
 
-
-<div class="container">
-    <div class="row">
-        <div class="all-wrap d-flex">
-            <div class="col-lg-3">
-                <div class="container">
-                    <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li class="active">Settings</li>
-                    </ul>
-                    <!--/breadcrumbs-->
-                </div>
-                <div class="aside-section">
-                    <ul class="aside-nav">
-                        <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="#id1">Personal Information</a></li>
-                        <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="#id2">Profile</a></li>
-                        <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="#id3">Badges</a></li>
-                        <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="#id4">E-mail Settings</a></li>
-                        <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="#id5">Social Network</a></li>
-                    </ul>
-                </div>
-                <!--/aside-section-->
-            </div>
-            <!--/col-lg-3-->
-            <div class="col-lg-9">
-                <div class="target default-target active" id="id1">
-                    <div class="select-boxes">
-                        <div class="personal-info">
-                            <span class="title">Personal Information</span>
-                        </div>
-                        <!--/personal-info-->
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>First Name</span>
-                            <input type="text" class="form-default" placeholder="">
-                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Last Name</span>
-                            <input type="text" class="form-default" placeholder="">                    </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Company Name</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Country</span>
-                            <select name="select-country" id="">
-                                <option value="">Select Your Country</option>
-                                <option value="usa">USA</option>
-                                <option value="canada">Canada</option>
-                            </select>
-                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Address Line 1</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Address Line 2</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>City</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>State / Province / Region</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="block-wrap d-flex flex-row justify-content-between align-items-center">
-                            <span>Zip / Postal Code</span>
-                            <input type="text" class="form-default" placeholder="">                        </div>
-                        <div class="button-wrap">
-                            <a href="" class="btn btn-md btn-light-green medium">Update</a>
-                        </div>
-                        <!--/block-wrap-->
+    <div class="setting-personal-info-page default-section">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">Settings</li>
+            </ul>
+            <!-- / breadcrumbs -->
+            <div class="row d-flex">
+                <div class="col-md-3">
+                    <div class="aside-section">
+                        <ul class="aside-nav">
+                            <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="">Personal Information</a></li>
+                            <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="">Profile</a></li>
+                            <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="">Badges</a></li>
+                            <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="">E-mail Settings</a></li>
+                            <li class="d-flex align-items-center"><i class="fa fa-angle-right"></i><a href="">Social Network</a></li>
+                        </ul>
                     </div>
-                    <!--/select-boxes-->
+                    <!-- / aside-section -->
                 </div>
-                <!--/target-->
+                <!-- / col -->
+                <div class="col-md-9">
+                    <div class="select-boxes bg-white">
+                        <div class="title middle medium">
+                            <span>Personal Information</span>
+                        </div>
+                        <!-- / personal-info -->
+                        <div class="all-wrap">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="first_name">First Name</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="first_name" id="first_name">
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="last_name">Last Name</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="last_name" id="last_name">
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="company_name">Company Name</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="company_name" id="company_name">
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="country">Country</label></div>
+                                <div class="col-md-8">
+                                    <select name="select-country" id="country" name="country">
+                                        <option value="">Select Your Country</option>
+                                        <option value="usa">USA</option>
+                                        <option value="canada">Canada</option>
+                                    </select>
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="address_1">Address Line 1</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="address_1" id="address_1">  
+                                </div> 
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="address_2">Address Line 2</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="address_2" id="address_2"> 
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="city">City</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="city" id="city">
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="state">State / Province / Region</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="state" id="state">
+                                </div>          
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex align-items-center">
+                                <div class="col-md-4"><label for="zip">Zip / Postal Code</label></div>
+                                <div class="col-md-8">
+                                    <input type="text" class="form-default" placeholder="" name="zip" id="zip"> 
+                                </div>
+                                <!-- / col -->
+                            </div>
+                            <!-- / row -->
+                            <div class="row d-flex">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-8"><a href="" class="btn btn-md btn-light-green medium">Update</a></div>
+                            </div>
+                            <!-- / row -->
+                        </div>
+                        <!-- / block-wrap -->
+                    </div>
+                    <!-- / select-boxes -->
+                </div>
+                <!-- / col -->
             </div>
-            <!--/col-lg-9-->
+            <!-- / row -->
         </div>
-        <!--/all-wrap-->
+        <!-- / container -->
     </div>
-</div>
+    <!-- / setting-personal-info-page -->
 
-
-<footer class="footer bg-dark-gray">
-    <div class="container">
-        <div class="row d-flex flex-wrap">
-            <div class="col-lg-3">
-                <div class="about-company">
-                    <div class="title-md bold">
-                        <span>About Company</span>
-                    </div>
-                    <p class="text-default">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
-                        disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
-                    <div class="footer-info">
-                        <div class="footer-adress d-flex">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+    <footer class="footer bg-dark-gray">
+        <div class="container">
+            <div class="row d-flex flex-wrap">
+                <div class="col-lg-3">
+                    <div class="about-company">
+                        <div class="title-md bold">
+                            <span>About Company</span>
                         </div>
-                        <!-- / footer-adress -->
-                        <div class="footer-phone d-flex">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <span>+61 3 8376 6284</span>
+                        <p class="text-default">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
+                            disse.Fusce sit amet urna iat.Praesent vel rutrum purus.</p>
+                        <div class="footer-info">
+                            <div class="footer-adress d-flex">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                            </div>
+                            <!-- / footer-adress -->
+                            <div class="footer-phone d-flex">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>+61 3 8376 6284</span>
+                            </div>
+                            <!-- / footer-phone -->
                         </div>
-                        <!-- / footer-phone -->
+                        <!-- / footer-info -->
                     </div>
-                    <!-- / footer-info -->
+                    <!-- / about-company -->
                 </div>
-                <!-- / about-company -->
-            </div>
-            <!-- / col -->
-            <div class="col-lg-3">
-                <div class="our-community">
-                    <div class="title-md bold">
-                        <span>Join Our Community</span>
-                    </div>
-                    <nav class="footer-nav">
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Forums</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Become an Author</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Community Meetups</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Become an Affiliate</a>
-                    </nav>
-                    <!-- / footer-nav -->
-                </div>
-                <!-- / our-community -->
-            </div>
-            <!-- / col -->
-            <div class="col-lg-3">
-                <div class="need-help">
-                    <div class="title-md bold">
-                        <span>Need Help?</span>
-                    </div>
-                    <nav class="footer-nav">
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Help Center</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Market Terms</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Author Terms</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Licenses</a>
-                        <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>contact us</a>
-                    </nav>
-                    <!-- / footer-nav -->
-                </div>
-                <!-- / need-help -->
-            </div>
-            <!-- / col -->
-            <div class="col-lg-3">
-                <div class="follow-ua-on">
-                    <div class="title-md bold">
-                        <span>Follow Us On</span>
-                    </div>
-                    <nav class="social-nav d-flex">
-                        <a href="" class="icon icon-facebook"></a>
-                        <a href="" class="icon icon-twitter"></a>
-                        <a href="" class="icon icon-youtube"></a>
-                        <a href="" class="icon icon-pinterest"></a>
-                        <a href="" class="icon icon-linkedin"></a>
-                    </nav>
-                    <!-- / social-nav -->
-                    <div class="title small text-white">
-                        <span>Newsletter Sign Up!</span>
-                    </div>
-                    <form class="form-control">
-                        <div class="wrap-form-email">
-                            <input type="email" class="form-email" placeholder="E-mail Address">
-                            <button type="submit" class="btn-form-email">
-                                <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                            </button>
+                <!-- / col -->
+                <div class="col-lg-3">
+                    <div class="our-community">
+                        <div class="title-md bold">
+                            <span>Join Our Community</span>
                         </div>
-                    </form>
-                    <!-- / form-control -->
+                        <nav class="footer-nav">
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Forums</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Become an Author</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Community Meetups</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Become an Affiliate</a>
+                        </nav>
+                        <!-- / footer-nav -->
+                    </div>
+                    <!-- / our-community -->
                 </div>
-                <!-- / follow-ua-on -->
+                <!-- / col -->
+                <div class="col-lg-3">
+                    <div class="need-help">
+                        <div class="title-md bold">
+                            <span>Need Help?</span>
+                        </div>
+                        <nav class="footer-nav">
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Help Center</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Market Terms</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Author Terms</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>Foxtar Licenses</a>
+                            <a href=""><i class="fa fa-angle-right" aria-hidden="true"></i>contact us</a>
+                        </nav>
+                        <!-- / footer-nav -->
+                    </div>
+                    <!-- / need-help -->
+                </div>
+                <!-- / col -->
+                <div class="col-lg-3">
+                    <div class="follow-ua-on">
+                        <div class="title-md bold">
+                            <span>Follow Us On</span>
+                        </div>
+                        <nav class="social-nav d-flex">
+                            <a href="" class="icon icon-facebook"></a>
+                            <a href="" class="icon icon-twitter"></a>
+                            <a href="" class="icon icon-youtube"></a>
+                            <a href="" class="icon icon-pinterest"></a>
+                            <a href="" class="icon icon-linkedin"></a>
+                        </nav>
+                        <!-- / social-nav -->
+                        <div class="title small text-white">
+                            <span>Newsletter Sign Up!</span>
+                        </div>
+                        <form class="form-control">
+                            <div class="wrap-form-email">
+                                <input type="email" class="form-email" placeholder="E-mail Address">
+                                <button type="submit" class="btn-form-email">
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <!-- / form-control -->
+                    </div>
+                    <!-- / follow-ua-on -->
+                </div>
+                <!-- / col -->
             </div>
-            <!-- / col -->
+            <!-- / row -->
         </div>
-        <!-- / row -->
-    </div>
-    <!-- / container -->
-    <div class="copyright">
-        <p>&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
-    </div>
-    <!-- / copyright -->
-</footer>
-<!-- / footer -->
+        <!-- / container -->
+        <div class="copyright">
+            <p>&copy; 2017 Foxtar market place. Trademarks and brands are the property of their respective owners.</p>
+        </div>
+        <!-- / copyright -->
+    </footer>
+    <!-- / footer -->
 
 </main>
 <!-- / main -->
