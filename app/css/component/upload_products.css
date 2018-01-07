@@ -3,16 +3,17 @@ input, textarea, select, button{
     font-family: "Roboto";
 }
 /* ************* */
-   /* UPLOAD_PRODUCTS  START */
+/* UPLOAD_PRODUCTS  START */
 .upload-products-content{
     border: 1px solid #dedede;
-    background-color: #fff;
 }
+/* взять за дефолт */
 .upload-products-item > .title{    
     padding: 22px 32px; 
     border-bottom: 1px solid #dedede;
     text-transform: capitalize;
 }
+/* / взять за дефолт */
 .upload-products-item-content{
     padding: 46px;
 }
