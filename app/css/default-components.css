@@ -39,7 +39,7 @@
 	padding: 120px 0;
 }
 .default-section {
-	padding: 45px 0 125px;
+	padding-bottom: 125px;
 }
 .big-section {
 	padding: 130px 0;
@@ -48,9 +48,6 @@
     padding: 58px 0 68px;
     background: url('../img/bg-inner.jpg') no-repeat center/cover;
 }
-/* .default-search-section {
-	padding: 80px 0 95px;
-} */
 .search-section.big {
 	padding: 153px 0 175px;
 }
@@ -631,6 +628,9 @@
 .card.small-card .card-author-info {
     border: none;
 }
+.card.small-card .card-author-info .product-rating {
+    margin-right: 0;
+}
 /* === cards end === */
 
 /* === breadcrumb === */
@@ -1052,6 +1052,7 @@ textarea.form-contact {
     color: #263238;
     border-bottom: 1px solid #dde3e8;
     padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 /* === aside-section end === */
 
