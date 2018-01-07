@@ -12,3 +12,8 @@ $(function ()  {
   //init form stayler for select
   $('select').styler();
 });
+let openModalsBtns = $('[data-modal]');
+openModalsBtns.on('click', function(){
+    let target = $(this).attr('data-target');
+    $(target).bPopup();
+});

@@ -1,0 +1,107 @@
+/* === CUSTOM STYLE === */
+
+input,
+textarea,
+select,
+button {
+
+    font: 400 15px "Roboto", Sans-serif;
+    border: none;
+}
+
+.header .logo {
+    margin-right: 60px;
+}
+
+.header .btn-authorization {
+    margin: 0 35px 0 150px;
+}
+
+
+/* === Inner ===  */
+
+.inner-content h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.inner-content .wrap-form-search {
+    margin-top: 50px;
+    max-width: 760px;
+}
+
+
+
+/* === Inner end === */
+
+
+/*===Login start===*/
+
+
+/*modal srat*/
+
+.modal {
+    display: none;
+    width: 729px;
+    height: 484px;
+    background-color: #8bc34a;
+    padding: 100px 165px;
+    position: relative;
+}
+
+.modal .close-modal {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 28px;
+}
+
+.modal .title.big {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.modal .wrap-login {
+    margin-bottom: 20px;
+}
+
+.modal form {
+    margin-bottom: 23px;
+}
+
+.modal form .submit {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+    box-shadow: 0px 2px 2px 0px rgba(118, 174, 54, 0.75);
+    color: #000;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    height: 46px;
+    vertical-align: bottom;
+}
+
+.modal form .submit:hover {
+    background-color: #76ae36;
+}
+
+.modal form a {
+    background-color: #76ae36;
+}
+
+.modal .lost {
+    font-size: 18px;
+}
+
+
+/*modal end*/
+
+
+/*===Login end===*/
+
+
+/* === CUSTOM STYLE END === */
