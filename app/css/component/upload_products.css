@@ -17,15 +17,11 @@ input, textarea, select, button{
 .upload-products-item-content{
     padding: 46px;
 }
-.upload-products-input .jq-selectbox{
-    max-width: 900px;
-}
 .upload-products-input .default-label{
     min-width: 175px;
 }
-.upload-products-input .form-default{
-    max-width: 900px;
-}
+.upload-products-input .form-default,
+.upload-products-input .jq-selectbox,
 .upload-products-input .file-upload{
     max-width: 900px;
 }
