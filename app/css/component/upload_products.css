@@ -1,0 +1,37 @@
+ /* ********** */
+input, textarea, select, button{  
+    font-family: "Roboto";
+}
+/* ************* */
+   /* UPLOAD_PRODUCTS  START */
+.upload-products-content{
+    border: 1px solid #dedede;
+    background-color: #fff;
+}
+.upload-products-item > .title{    
+    padding: 22px 32px; 
+    border-bottom: 1px solid #dedede;
+    text-transform: capitalize;
+}
+.upload-products-item-content{
+    padding: 46px;
+}
+.upload-products-input .jq-selectbox{
+    max-width: 900px;
+}
+.upload-products-input .default-label{
+    min-width: 175px;
+}
+.upload-products-input .form-default{
+    max-width: 900px;
+}
+.upload-products-input .file-upload{
+    max-width: 900px;
+}
+.upload-products-input + .upload-products-input{
+    margin-top: 20px;
+}
+.upload-products-item-content .btn{
+    margin: 42px 0 22px 176px;
+}
+/* ===== UPLOAD_PRODUCTS  END ===== */

@@ -39,7 +39,7 @@
 	padding: 120px 0;
 }
 .default-section {
-	padding: 45px 0 125px;
+	padding-bottom: 125px;
 }
 .big-section {
 	padding: 130px 0;
@@ -768,7 +768,8 @@
 }
 .form-default {
     border: 1px solid #dedede;
-    min-width: 100%;
+    /* min-width: 100%; */
+    width: 100%;   /*  замена в связи с трудностью переопределения */
     color: #707070;
     line-height: 2em;
     padding: 4px 18px;
@@ -835,6 +836,7 @@ textarea.form-contact {
     background-color: #f9f9f9;
     border: 1px solid #dcdcdc;
     padding: 7px;
+    width: 100%;   /*  добавил для удобства переопределения ширины  */
 }
 .file-upload input[type="file"] {
     display: none;

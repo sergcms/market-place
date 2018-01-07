@@ -1,0 +1,20 @@
+ /* ========= ABOUT US START ======= */
+.about-us-content{
+    border: 1px solid #dedede;
+}
+.about-us-content > .title{    
+    padding: 22px 32px 25px; 
+    border-bottom: 1px solid #dedede;
+    text-transform: capitalize;
+}
+.about-us-content .about-us-item .title{
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+.about-us-content .about-us-item{
+    padding: 44px 64px 50px 48px;
+}
+.about-us-content .about-us-item + .about-us-item{
+    padding-top: 0;
+}
+/* =========== ABOUT US END ============= */
