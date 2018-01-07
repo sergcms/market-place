@@ -39,7 +39,6 @@
 	padding: 120px 0;
 }
 .default-section {
-    /* padding: 45px 0 125px; */
 	padding-bottom: 125px;
 }
 .big-section {
@@ -149,6 +148,7 @@
     min-width: 60px;
     white-space: nowrap;
     color: #fff;
+    text-transform: capitalize;
 }
 .btn:hover, 
 .btn-social:hover {

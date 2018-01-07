@@ -1,11 +1,21 @@
 $(function ()  {
   
-  // Init grid cards
+  // Init grid cards (all-items)
   $('#grid-thumbs').on('click', function() {
     $('.card.medium-card').removeClass('row-card');
   });
   $('#grid-list').on('click', function() {
     $('.card.medium-card').addClass('row-card');  
+  });
+
+  // Init tabs (products-details)
+  $('.tabs-controls a').on('click', function(e) {
+    e.preventDefault();
+    $('.tab-pane').removeClass('active');
+    $('.tabs-controls a').removeClass('active');
+    let tab = $(this).attr('data-tabs');
+    $(this).addClass('active');
+    $('#'+tab).addClass('active');
   });
   
   // Init slick slider
