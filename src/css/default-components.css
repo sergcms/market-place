@@ -633,6 +633,9 @@
 .card.small-card .card-author-info {
     border: none;
 }
+.card.small-card .card-author-info .product-rating {
+    margin-right: 0;
+}
 /* === cards end === */
 
 /* === breadcrumb === */
@@ -1054,6 +1057,7 @@ textarea.form-contact {
     color: #263238;
     border-bottom: 1px solid #dde3e8;
     padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 /* === aside-section end === */
 
