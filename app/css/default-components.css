@@ -787,7 +787,7 @@ textarea.form-default {
     min-height: 150px;
 }
 .form-contact {
-    min-width: 350px;
+    width: 100%;
     font-size: 15px;
     color: #7a7a7a;
     background-color: #f1f4f5;
@@ -799,7 +799,7 @@ textarea.form-default {
     outline: none;
 }
 textarea.form-contact {
-    min-height:196px;
+    min-height: 200px;
     width: 100%;
 }
 .wrap-login {
