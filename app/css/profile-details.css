@@ -25,7 +25,6 @@ margin-bottom: 26px;
   border: 1px solid #d5d5d5;
   padding: 8px 12px;
 }
-
 .preview-author .status .fa{
   color: #8bbe44;
   margin-right:6px ;
@@ -56,7 +55,6 @@ margin-bottom: 26px;
 }
 .product-full-img img{
   width: 100%;
-
 }
 .info-bar ul{
   font-size: 14px;
@@ -72,7 +70,6 @@ margin-bottom: 26px;
   text-align:center;
   vertical-align: middle;
 }
-
 .info-bar ul>li + li{
   border-left: 1px solid #d3d3d3;
 }
@@ -96,7 +93,6 @@ margin-bottom: 26px;
   font-size: 14px;
   font-family: "Myriad Pro", sans-serif;
 }
-
 .left-tabs nav >a:hover{
   color:#263238;
    border-bottom: 2px solid #8bc34a;
@@ -104,11 +100,9 @@ margin-bottom: 26px;
 .left-tabs nav >a + a{
   border-top:1px solid #d5d5d5; 
 }
-
 .left-tabs nav >a .fa{
   margin-right: 12px;
 }
-
 .left-tabs nav >a:hover .fa{
   color: #8bc34a;
 }
@@ -123,12 +117,9 @@ margin-bottom: 26px;
   padding: 45px 0 28px;
   line-height: 24px;
 }
-
-
 .progress-bar .title{
   display: block;
 }
-
 .progress-bg{
   background-color:#f4f4f4;
   border-radius: 4px;
@@ -137,11 +128,8 @@ margin-bottom: 26px;
 .progress-line{
   background-color: #b5b5b5;
   border-radius: 4px 0 0 4px;
-
 }
-
 .progress-bar label {
   padding: 25px 0 15px;
 }
-
 /* === PRODUCT DETAILS PAGE END === */
