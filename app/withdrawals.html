@@ -271,28 +271,40 @@
             </ul>
             <div class="row d-flex flex-wrap">
                 <div class="col-md-6">
-                    <div class="withdrawals-earings border-gray">
+                    <div class="withdrawals-earings border-gray bg-white">
                         <div class="div-title title middle">
                             <span>Withdrawals Earings</span>
                         </div>
                         <div class="withdrawals-content">
-                            <h3>Amount to Withdraw ($2000.00 Maximum)</h3>
+                            <div class="withdrawals-input">
+                            <label>Amount to Withdraw ($2000.00 Maximum)</label>
                             <input type="text" class="form-default" placeholder="Enter the amount you want to withdraw">
-                            <h3>Choose your Withdraw Method</h3>
+                            </div>
+                            <!-- /withdrawals-input -->
+                            <div class="withdrawals-input">
+                            <label>Choose your Withdraw Method</label>
                             <select name="select-card" id="select-card">
                                 <option value="">Select Your Card</option>
                                 <option value="usa">1234 **** **** 2125</option>
                                 <option value="canada">1234 **** **** 4555</option>
                             </select>
-                            <h3>Your Account Name</h3>
+                            </div>
+                            <!-- /withdrawals-input -->
+                            <div class="withdrawals-input">
+                            <label>Your Account Name</label>
                             <select name="select-name" id="select-name">
                                 <option value="">Select Your Name</option>
                                 <option value="usa">Boris Britva</option>
                                 <option value="canada">Ivan Ivanov</option>
                             </select>
-                            <h3>Confirm Your Password</h3>
+                            </div>
+                            <!-- /withdrawals-input -->
+                            <div class="withdrawals-input">
+                            <label>Confirm Your Password</label>
                             <input type="text" class="form-default" placeholder="Password">
                             <a href="" class="btn btn-default btn-light-green">Request Withdrawal</a>
+                            </div>
+                            <!-- /withdrawals-input -->
                         </div>
                         <!-- /Withdrawals-content -->
                     </div>
@@ -300,7 +312,7 @@
                 </div>
                 <!-- / col-md-6 -->
                 <div class="col-md-6">
-                    <div class="withdrawal-history border-gray ">
+                    <div class="withdrawal-history bg-white border-gray ">
                         <div class="div-title title middle">
                             <span>Withdrawal History</span>
                         </div>

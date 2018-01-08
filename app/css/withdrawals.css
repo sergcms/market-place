@@ -1,8 +1,8 @@
 /* === CUSTOM STYLE === */
-
-
+.table{
+    color:#333;
+}
 /* === Inner ===  */
-
 .inner-content h1 {
     text-transform: capitalize;
     font-size: 48px;
@@ -10,63 +10,49 @@
     font-weight: 700;
     margin-bottom: 30px;
 }
-
 .inner-content>span {
     display: block;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.5em;
 }
-
 .inner-content .wrap-form-search {
     margin-top: 50px;
 }
-
-
 /* === Inner end === */
-
-
 /*Withdrawals*/
-
 .form-default {
     font-family: "Roboto", sans-serif;
 }
-
-
 .withdrawals-content {
     padding: 0 40px;
 }
-
 .withdrawals .div-title {
     border-bottom: 1px solid #d3d3d3;
     padding: 20px 40px;
 }
-
-.withdrawals h3 {
+.withdrawals label {
+    display: inline-block;
     font-size: 16px;
     color: #263238;
     font-family: "Myriad Pro", sans-serif;
-    padding: 30px 0 22px;
+    padding-bottom: 22px;
 }
-
-
-
-.withdrawals h3:after {
+.withdrawals label:after {
+    font-size: 24px;
+    vertical-align: super;
     padding: 0 10px;
     color: #8bc34a;
     content: "*\00a0";
 }
-
+.withdrawals-input {
+    margin-top: 30px;
+}
 .withdrawals .btn {
     margin: 40px 0 48px;
 }
-
 .withdrawal-history table {
     margin: 40px 0;
 }
-
-
 /*Withdrawals end*/
-
-
 /* === CUSTOM STYLE END === */
