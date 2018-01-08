@@ -16,6 +16,9 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
  
+  <!-- DataPicker JQuery UI -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
   <!-- Fontawesome icons -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
 
@@ -290,24 +293,29 @@
       </ul>
       <!-- / breadcrumb -->
       <div class="sales-statement-page default-section">
-       <div class="sales-statement-header d-flex align-items-center bg-white">
+        <div class="sales-statement-header d-flex align-items-center bg-white">
           <div class="title middle">
             <span>Your Sales Statement</span>            
           </div>
           <div class="find d-flex ml-auto align-items-center">
-            <div class="date">
-                <label for="" class="fa fa-calendar"></label>
-                <input type="date" name="" id="" data-ng-pluralize="">
+            <div class="datepicker d-flex align-items-center">
+              <div class="datepicker-input">
+                <input type="text" id="from" name="from" class="date">
+                <label for="from" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
+              </div>
+              <span>To</span>
+              <div class="datepicker-input">
+                <input type="text" id="to" name="to" class="date">
+                <label for="to" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
+              </div>
             </div>
-            <span>To</span> 
-            <div class="date">
-                <label for="" class="fa fa-calendar"></label>
-                <input type="date" name="" id="" data-ng-pluralize="">
-            </div>
+            <!-- / datepicker -->
             <a href="" class="btn btn-xs btn-light-green">Find</a>          
           </div>
-       </div>
-       
+          <!-- / find -->
+        </div>
+        <!-- / sales-statement-header -->
+
         <div class="sales-statement-table bg-white border-gray">
           <table class="table table-sales">
             <thead>
@@ -502,9 +510,13 @@
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
   
+  <!-- Datapicker -->
+  <script type="text/javascript" src="js/datepicker.js"></script>
+
   <!-- Init plugins -->
   <script type="text/javascript" src="js/init.js"></script>
 </body>

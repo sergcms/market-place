@@ -12,16 +12,6 @@ $(function ()  {
     $('.card.medium-card').addClass('row-card');  
   });
 
-  // Init tabs (products-details)
-  $('.tabs-controls a').on('click', function(e) {
-    e.preventDefault();
-    $('.tab-pane').removeClass('active');
-    $('.tabs-controls a').removeClass('active');
-    let tab = $(this).attr('data-tabs');
-    $(this).addClass('active');
-    $('#'+tab).addClass('active');
-  });
-  
   // Init slick slider
   $('.multiple-items').slick({
     infinite: true,

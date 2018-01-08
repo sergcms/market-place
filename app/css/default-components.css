@@ -1366,4 +1366,21 @@ textarea.form-contact {
     opacity: 1;
 }
 /* === slick-dots end === */
+/* === slider-range === */
+#slider-range {
+    margin-bottom: 60px; 
+}
+#slider-range .min-value,
+#slider-range .max-value{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #000;
+}
+#slider-range span {
+    outline: none;
+}
+/* === slider-range end === */
 /* === DEFAULT COMPONENTS END === */

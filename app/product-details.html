@@ -325,15 +325,15 @@
             <div class="product-features">
               <div class="tabs">
                 <ul class="tabs-controls d-flex flex-wrap">
-                  <li><a href="" class="tab active" data-tabs="item-features">Item Features</a></li>
-                  <li><a href="" class="tab" data-tabs="comments">Comments</a></li>
-                  <li><a href="" class="tab" data-tabs="reviews">Reviews</a></li>
-                  <li><a href="" class="tab" data-tabs="support">Support</a></li>
+                  <li><a href="" class="tab active" data-tab-controls data-tabs="#item-features">Item Features</a></li>
+                  <li><a href="" class="tab" data-tab-controls data-tabs="#comments">Comments</a></li>
+                  <li><a href="" class="tab" data-tab-controls data-tabs="#reviews">Reviews</a></li>
+                  <li><a href="" class="tab" data-tab-controls data-tabs="#support">Support</a></li>
                 </ul>
                 <!-- / tabs-controls -->
 
                 <div class="tab-content bg-white">
-                  <div class="tab-pane active" id="item-features">
+                  <div class="tab-pane active" data-tab-pane id="item-features">
                     <ul>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Printing and typesetting industry</li>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Bhen an unknown printe</li>
@@ -348,7 +348,7 @@
                     </ul>
                   </div>
                   <!-- / tab-pane -->
-                  <div class="tab-pane" id="comments">
+                  <div class="tab-pane" data-tab-pane id="comments">
                     <ul>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Printing and typesetting industry</li>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Bhen an unknown printe</li>
@@ -370,7 +370,7 @@
                     </ul>
                   </div>
                   <!-- / tab-pane -->
-                  <div class="tab-pane" id="reviews">
+                  <div class="tab-pane" data-tab-pane id="reviews">
                     <ul>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Printing and typesetting industry</li>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Bhen an unknown printe</li>
@@ -380,7 +380,7 @@
                     </ul>
                   </div>
                   <!-- / tab-pane -->
-                  <div class="tab-pane" id="support">
+                  <div class="tab-pane" data-tab-pane id="support">
                     <ul>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Bhen an unknown printe</li>
                       <li><i class="fa fa-angle-right" aria-hidden="true"></i>Handard dummy text</li>
@@ -683,6 +683,9 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
+  
+  <!-- Tabs -->
+  <script type="text/javascript" src="js/tabs.js"></script>
   
   <!-- Init plugins -->
   <script type="text/javascript" src="js/init.js"></script>
