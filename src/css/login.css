@@ -38,18 +38,12 @@ button
 /*modal srat*/
 .modal{
     position: relative;
-
     display: none;
-
-    width: 729px;
-    height: 484px;
-    padding: 100px 165px;
-
+    padding: 95px 165px;
     background-color: #8bc34a;
 }
 .modal .close-modal{
     font-size: 18px;
-
     position: absolute;
     top: 20px;
     right: 28px;
