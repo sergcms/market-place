@@ -34,6 +34,7 @@
 }
 .tabs .tabs-controls li a {
   display: block;
+  font-weight: 500;
   font-size: 16px;
   color: #70838d;
   text-transform: capitalize;
