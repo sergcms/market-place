@@ -2,30 +2,12 @@
 .table{
     color:#333;
 }
-/* === Inner ===  */
-.inner-content h1 {
-    text-transform: capitalize;
-    font-size: 48px;
-    line-height: 1;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-.inner-content>span {
-    display: block;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5em;
-}
-.inner-content .wrap-form-search {
-    margin-top: 50px;
-}
-/* === Inner end === */
 /*Withdrawals*/
 .form-default {
     font-family: "Roboto", sans-serif;
 }
 .withdrawals-content {
-    padding: 0 40px;
+    padding: 0 40px 50px;
 }
 .withdrawals .div-title {
     border-bottom: 1px solid #d3d3d3;
@@ -49,7 +31,7 @@
     margin-top: 30px;
 }
 .withdrawals .btn {
-    margin: 40px 0 48px;
+    margin-top: 40px;
 }
 .withdrawal-history table {
     margin: 40px 0;
