@@ -1,45 +1,67 @@
-/* === LOGIN === */
-input, textarea, select, button {
+/* === CUSTOM STYLE === */
+input,
+textarea,
+select,
+button
+{
     font: 400 15px 'Roboto', Sans-serif;
+
     border: none;
 }
-.header .logo {
+.header .logo
+{
     margin-right: 60px;
 }
-.header .btn-authorization {
+.header .btn-authorization
+{
     margin: 0 35px 0 150px;
 }
 /* === Inner ===  */
-.inner-content h1 {
-    color: #fff;
+.inner-content h1
+{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+
+    margin-bottom: 30px;
+
     text-transform: uppercase;
 }
-.inner-content .wrap-form-search {
+.inner-content .wrap-form-search
+{
     max-width: 760px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
+
 /* === Inner end === */
+/*===Login start===*/
+/*modal srat*/
 .modal{
     position: relative;
+
     display: none;
+
     width: 729px;
     height: 484px;
     padding: 100px 165px;
+
     background-color: #8bc34a;
 }
 .modal .close-modal{
     font-size: 18px;
+
     position: absolute;
     top: 20px;
     right: 28px;
+
     color: #fff;
 }
 .modal .title.big{
     margin-bottom: 30px;
+
     text-transform: uppercase;
 }
-.modal .wrap-login + .wrap-login {
-    margin-top: 8px;
+.modal .wrap-login{
     margin-bottom: 20px;
 }
 .modal form{
@@ -47,21 +69,24 @@ input, textarea, select, button {
 }
 .modal form .submit{
     font-size: 14px;
+    margin-right: 10px;
+    vertical-align: bottom;
     text-transform: uppercase;
     color: #000;
     background-color: #fff;
-    -webkit-box-shadow: 0 2px 2px rgba(118, 174, 54, .75);
-    box-shadow: 0 2px 2px rgba(118, 174, 54, .75);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(118, 174, 54, .75);
+    box-shadow: 0 2px 2px 0 rgba(118, 174, 54, .75);
     padding: 17px 38px;
 }
-.modal form .submit:hover,
-.modal form a:hover{
-    background-color: #598229;
-    color: #fff;
+.modal form .submit:hover{
+    background-color: #b5b5b5;
 }
 .modal form a{
     background-color: #76ae36;
     font-size: 18px;
+}
+.modal form a:hover{
+    background-color: #b5b5b5;
 }
 .modal .lost{
     font-size: 18px;
@@ -69,4 +94,6 @@ input, textarea, select, button {
 .modal .lost:hover{
     color: #263238;
 }
-/* === LOGIN END === */
+/*modal end*/
+/*===Login end===*/
+/* === CUSTOM STYLE END === */

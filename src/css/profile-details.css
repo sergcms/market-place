@@ -1,0 +1,145 @@
+/* === PROFILE DETAILS PAGE === */
+/* === aside-block === */
+.aside-section .aside-title{
+  margin-bottom: 25px;
+}
+.aside-section {
+  margin-bottom: 28px;
+}
+.aside-section{
+padding-bottom: 38px;
+}
+.aside-section .aside-product-btn .btn + .btn {
+  margin-top: 7px;
+}
+.aside-product-author .preview-author {
+  margin-bottom: 45px;
+}
+.preview-author .preview-author-img {
+  margin-right: 15px;
+}
+.preview-author div > span {
+  font-size: 18px;
+}
+.preview-author .status {
+  font-size: 13px;
+  color: #707070;
+  border: 1px solid #d5d5d5;
+  padding: 8px 12px;
+}
+
+.preview-author .status .fa{
+  color: #8bbe44;
+  margin-right:6px ;
+  font-size: 11px;
+}
+.author-rewards li > span {
+  display: inline-block;
+}
+/* === aside-block end === */
+
+.profile-details nav {
+  margin-bottom: 28px;
+}
+.profile-details .social-nav > a + a {
+    margin-left: 7px;
+}
+.profile-details .buttons a{
+
+  box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+}
+.profile-details .buttons a+ a{
+  margin-top: 16px;
+}
+.product-full-img {
+  padding: 16px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.product-full-img img{
+  width: 100%;
+
+}
+.info-bar ul{
+  font-size: 14px;
+  height: 78px;
+}
+.info-bar ul>li{
+  padding: 20px;
+  flex-grow: 1;
+  color:#263238;
+  font-weight: 500;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.info-bar ul>li + li{
+  border-left: 1px solid #d3d3d3;
+}
+.info-bar ul>li>span{
+  display: block;
+  margin-top: 8px;
+  font-weight:300;
+}
+.info-bar ul>li .grafit-gray{
+  color:#707070;
+}
+.info-bar ul>li .gold{
+  color: #ffa726;
+}
+.left-tabs nav >a{
+  flex-grow: 1;
+  padding:20px;
+  color:#707070;
+  font-size: 14px;
+  font-family: "Myriad Pro", sans-serif;
+}
+
+.left-tabs nav >a:hover{
+  color:#263238;
+   border-bottom: 2px solid #8bc34a;
+}
+.left-tabs nav >a + a{
+  border-top:1px solid #d5d5d5; 
+}
+
+.left-tabs nav >a .fa{
+  margin-right: 12px;
+}
+
+.left-tabs nav >a:hover .fa{
+  color: #8bc34a;
+}
+.row + .row{
+  margin-top: 30px;
+}
+
+.about-me{
+  padding: 40px;
+}
+.about-me p{
+  padding: 45px 0 28px;
+  line-height: 24px;
+}
+
+
+.progress-bar .title{
+  display: block;
+}
+
+.progress-bg{
+  background-color:#f4f4f4;
+  border-radius: 4px;
+  
+}
+.progress-line{
+  background-color: #b5b5b5;
+  border-radius: 4px 0 0 4px;
+
+}
+
+.progress-bar label {
+  padding: 25px 0 15px;
+}
+
+/* === PRODUCT DETAILS PAGE END === */
