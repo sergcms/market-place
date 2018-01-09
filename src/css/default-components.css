@@ -148,6 +148,7 @@
     min-width: 60px;
     white-space: nowrap;
     color: #fff;
+    border: none;
 }
 .btn:hover {
     color:  #fff;    

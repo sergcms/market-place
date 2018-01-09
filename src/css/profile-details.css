@@ -34,6 +34,7 @@ margin-bottom: 26px;
   display: inline-block;
 }
 /* === aside-block end === */
+/* / delete */
 .profile-details nav {
   margin-bottom: 26px;
 }
@@ -42,7 +43,7 @@ margin-bottom: 26px;
 }
 .profile-details .buttons a{
   padding: 20px 25px;
-  box-shadow: 0 1px 2px 0 rgba(69, 90, 100, 0.75);
+  box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
 }
 .profile-details .buttons a+ a{
   margin-top: 17px;
@@ -78,39 +79,55 @@ margin-bottom: 26px;
 .info-bar ul>li .grafit-gray{
   color:#707070;
 }
+.info-bar .product-rating {
+  font-size: 12px;
+}
 .info-bar ul>li .gold{
   color: #ffa726;
+}
+.info-bar ul>li .product-download {
+  font-size: 12px;
+}
+.info-bar ul>li .product-download::before,
+.info-bar ul>li .product-download::after {
+  color: #b0bec5;
+  content: '(';
+}
+.info-bar ul>li .product-download::after {
+  content: ')';
 }
 .left-tabs nav >a{
   flex-grow: 1;
   padding:20px;
   color:#707070;
+  height: 56px;
   font-size: 14px;
   font-family: "Myriad Pro", sans-serif;
 }
-.left-tabs nav >a:hover{
+.left-tabs nav >a:hover, 
+.left-tabs nav > a.active{
   color:#263238;
-   border-bottom: 2px solid #8bc34a;
+  border-bottom: 2px solid #8bc34a;
 }
 .left-tabs nav >a + a{
   border-top:1px solid #d5d5d5; 
 }
 .left-tabs nav >a .fa{
   margin-right: 12px;
+  color: #d0d0d0;
 }
-.left-tabs nav >a:hover .fa{
+.left-tabs nav >a:hover .fa,
+.left-tabs nav >a.active .fa{
   color: #8bc34a;
 }
-.row + .row{
+.profile-details .row + .row{
   margin-top: 30px;
 }
-
-.about-me{
+.profile-details .about-me{
   padding: 40px;
 }
-.about-me p{
+.profile-details .about-me p{
   padding: 45px 0 28px;
-  line-height: 24px;
 }
 .progress-bar .title{
   display: block;
@@ -118,7 +135,6 @@ margin-bottom: 26px;
 .progress-bg{
   background-color:#f4f4f4;
   border-radius: 4px;
-  
 }
 .progress-line{
   background-color: #b5b5b5;
@@ -126,5 +142,16 @@ margin-bottom: 26px;
 }
 .progress-bar label {
   padding: 25px 0 15px;
+}
+.progress-bar label span {
+  font-size: 16px;
+  color: #263238;
+}
+.progress-bar label span:first-child {
+  font-style: italic;
+  font-weight: 500;
+}
+.progress-bar label span:last-child {
+  font-weight: 700;
 }
 /* === PRODUCT DETAILS PAGE END === */
