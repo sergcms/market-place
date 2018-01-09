@@ -33,8 +33,10 @@
   -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
   box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
 }
-.btn-product .btn.btn-default:hover {
-  background-color: #dedede;
+.btn-product .btn.btn-default:hover, 
+.become-author-info .btn:hover {
+  background-color: #5fa70d;
+  color: #fff;
 }
 .btn-product .btn + .btn {
   margin-left: 15px;
@@ -45,6 +47,78 @@
 .week-products .card-items-slider {
   margin-top: 60px;
 }
+.week-products .slick-list {
+  margin: 0 -15px;
+}
+.week-products .slick-track .slick-slide {
+  padding: 0 15px;
+}
 /* === week-products end === */
 
+/* === why-you-choose === */
+.why-you-choose .row {
+  margin-top: 85px;
+}
+.why-you-choose .why-you-choose-img {
+  margin-bottom: 30px;
+}
+.why-you-choose-img > img {
+  height: 113px;
+  width: 113px;
+  border-radius: 50%;
+}
+.why-you-choose .quality-item {
+  padding: 0 25px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align: center;
+}
+.quality-item .title:hover,
+.card-tutorial-link .title.middle:hover {
+  color: #8bc34a;
+}
+.quality-item .text-default {
+  margin-top: 25px;
+}
+/* === why-you-choose end === */
+
+/* === become-author === */
+.become-author .become-author-img {
+  height: 440px;
+  width: 1100px;
+  position: relative;
+  background-color: #b5b5b5;
+  -webkit-box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+  box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+}
+.become-author-img .become-author-info {
+  position: absolute;
+  padding: 70px 55px 80px;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.become-author-info > *:not(a) {
+  line-height: 1.2em;
+}
+.become-author-info .btn {
+  color: #263238;
+  margin-left: 48px;
+  font-size: 18px;
+  padding: 23px 42px;
+}
+/* === become-author end === */
+
+/* === free-tutorials === */
+.free-tutorials .row {
+  margin-top: 65px;
+}
+.card-tutorial .card-tutorial-link {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+/* === free-tutorials end === */
 /* === CUSTOM STYLE END === */
