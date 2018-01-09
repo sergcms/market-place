@@ -781,7 +781,7 @@
     background-color: #f9f9f9;
 }
 .form-default:focus {
-    outline: none;
+    outline: 1px solid #a1a1a1;
 }
 textarea.form-default {
     min-height: 150px;
@@ -796,7 +796,7 @@ textarea.form-default {
     padding: 10px 16px;
 }
 .form-contact:focus {
-    outline: none;
+    outline: 1px solid #a1a1a1;
 }
 textarea.form-contact {
     min-height: 200px;
@@ -932,7 +932,7 @@ textarea.form-contact {
 	color: #707070;
 }
 .jq-selectbox.focused .jq-selectbox__select {
-	border: 1px solid #212121;
+	border: 1px solid #a1a1a1;
 }
 .jq-selectbox.disabled .jq-selectbox__select {
 	border-color: #CCC;
