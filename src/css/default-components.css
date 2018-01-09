@@ -420,10 +420,12 @@
     margin-bottom: 40px;
     font-size: 0;
 }
-.follow-ua-on .social-nav > a {
+.follow-ua-on .social-nav > a,
+.profile-details .social-nav > a {
     opacity: .85;
 }
-.follow-ua-on .social-nav > a:hover {
+.follow-ua-on .social-nav > a:hover,
+.profile-details .social-nav > a:hover{
     opacity: 1;
 }
 .follow-ua-on .social-nav > a + a {
@@ -1296,6 +1298,7 @@ textarea.form-contact {
     width: 100%;
     border-collapse: collapse;
     font-size: 14px;
+    color: #444;
 }
 .table th {
     text-align: left;
@@ -1331,6 +1334,9 @@ textarea.form-contact {
 /* === table-withdrawal === */
 .table-withdrawal tbody tr:nth-child(odd) {
     background-color: #fbfbfb;
+}
+.table-withdrawal tr > td:first-child {
+    padding-left: 20px;
 }
 .table-withdrawal tbody tr + tr td:last-child {
     color: #8bc34a

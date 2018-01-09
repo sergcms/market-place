@@ -8,17 +8,22 @@
 
 ### Используемые плагины
 
-1. slick-slider для стилизации карусели
-2. formstayler для стилизации элементов форм
+1. slick-slider - для стилизации карусели
+2. form-stayler - для стилизации элементов форм
+3. range-slider - для стилизации фильтра цены
+4. datepicker - для стилизации календаря
+5. bpopup - для модального окна
+
 
 ### Используемые шрифты и иконки
 
 1. Font-Awesome - иконочный шрифт 
 2. Сконвертированные шрифты: 
 - Roboto: 400,500,700
-- Open Sans: 600
+- Open Sans: 600,800
 - Raleway: 700
 - Lato: 700
+- Myriad Pro
 
 ### Стандартные компоненты и классы
 
@@ -30,6 +35,7 @@
     .title.middle
     .title.singular
     .title.big
+    .title-block
     .regular
     .medium
     .bold
@@ -50,9 +56,9 @@
     .default-section
     .small-section
     .big-section
-    .default-search-section
-    .search-section-small
-    .search-section-big
+    .inner-section
+    .search-section
+    .search-section.big
 ```
 4. Стилизируем стандартную текстовую информацию:
 ```
@@ -89,19 +95,29 @@
     .text-search-box
     .bg-dark-gray
     .bg-gray
+    .bg-light-gray
+    .bg-dirty-white
+    .bg-yellow
+    .bg-orange
+    .bg-red
     .bg-green
     .bg-white
-    .bg-dirty-white
+    .bg-light-green
+    .bg-light-red
 ```
 4. Стилизируем боковую панель
 ```
     .aside-section
+    .aside-title
 ```
 5. Стилизируем дефолтные формы и элементы форм:
 ```
     .form-default
+    .default-label
     .form-email
+    .wrap-form-email
     .form-search
+    .wrap-form-search
     .file-upload
     .form-contact
     .form-login
