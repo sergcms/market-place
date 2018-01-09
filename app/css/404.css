@@ -1,4 +1,4 @@
-/* === ERROR === */
+/* === ERROR PAGE === */
 .page-404 .title {
     padding: 25px 30px;
     color:#444;
@@ -12,7 +12,7 @@
     font-size: 300px;
     text-transform: uppercase;
 }
-.content-404 .wrap-404 error{
+.content-404 .wrap-404 error {
     margin-right: 15px;
 }
 .content-404 > .title {
@@ -41,4 +41,4 @@
     color: #8bc34a;
     background-color: #fff;
 }
-/* === ERROR END === */
+/* === ERROR PAGE END === */

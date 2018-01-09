@@ -1,45 +1,44 @@
-/*===HEAD ERROR===*/
-.page-404 .head-error{
-    padding:25px 30px;
+/* === ERROR PAGE === */
+.page-404 .title {
+    padding: 25px 30px;
+    color:#444;
 }
-.page-404 .head-error span{
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color:#444444;
+.page-404 .content-404 {
+    padding: 65px 0 100px;
 }
-/*===HEAD ERROR END===*/
-/*===Main Content Start===*/
-.page-404 .main-content span.error{
-    display: inline-block;
+.content-404 .wrap-404 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 300px;
+    text-transform: uppercase;
 }
-.page-404 .main-content h2{
+.content-404 .wrap-404 error {
+    margin-right: 15px;
+}
+.content-404 > .title {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    margin-top:56px;
+    letter-spacing: 0.2em;
+    margin-top: 56px;
+    color: #fff;
+    padding: 0;
 }
-.page-404 .main-content p{
+.content-404 p {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    margin-top:30px;
-    line-height:1.33333;
-    max-width:542px;
+    margin-top: 30px;
+    line-height: 1.333em;
+    max-width: 550px;
 }
-.page-404 .main-content .wrap-404{
-    margin-top:114px;
-
+.content-404 .btn {
+    font-family: 'Raleway', sans-serif;
+    padding: 18px 20px;
+    margin-top: 55px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
-.page-404 .main-content .wrap-404 span.error{
-    margin-right:24px;
+.content-404 .btn:hover {
+    color: #8bc34a;
+    background-color: #fff;
 }
-.page-404 .main-content  a{
-    padding:20px 30px;
-    margin-top:55px;
-    margin-bottom:100px;
-    border:2px solid #fff;
-    border-radius: 3px;
-}
-/*===Main Content End===*/
+/* === ERROR PAGE END === */
