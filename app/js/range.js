@@ -1,4 +1,4 @@
-let range = $( "#slider-range" );
+let range = $("#slider-range");
 
 function changeMinMaxVal(event, ui) { 
   let firsthandle = range.slider( "option" ,"firsthandle").find('.min-value'),
@@ -17,7 +17,8 @@ function onCreateRange(event, ui) {
   range.slider( "option" ,"secondhandle", secondhandle ); 
 
   firsthandle.append('<span class="min-value">'+ state.values[0] +'$</span>');    
-  secondhandle.append('<span class="max-value">'+ state.values[1] +'$</span>');}
+  secondhandle.append('<span class="max-value">'+ state.values[1] +'$</span>');
+}
   
   range.slider({
     range: true,    
