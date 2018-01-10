@@ -1,0 +1,33 @@
+/* === SALES STATEMENT PAGE === */
+.datepicker-input {
+  position: relative;
+  font-size: 12px;
+}
+.datepicker-input .date {
+  width: 135px;
+  color: #444;
+  padding: 5px 0 5px 15px;
+  border: 1px solid #dedede;
+}
+.datepicker-input .date:focus {
+  outline: none;
+}
+.datepicker-input label {
+  position: absolute;
+  line-height: 27px;
+  color: #8cc148!important;
+  top: 0;
+  right: 11px;
+}
+.sales-statement-header .find span {
+  font-size: 12px;
+  color: #444;
+  margin: 0 10px;
+}
+.sales-statement-header .btn {
+  margin-left: 13px;
+}
+.sales-statement-table .total-sales {
+  margin-top: 80px;
+}
+/* === SALES STATEMENT PAGE END === */

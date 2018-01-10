@@ -1,0 +1,56 @@
+/* === ALL NEW ITEMS PAGE === */
+.sort-control-container {
+    padding: 20px;
+}
+.card.small-card + .card.small-card,
+.aside-section .aside-categories-nav a + a {
+    margin-top: 27px;
+}
+.aside-section .aside-categories-nav > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight:  500;
+    color: #263238;
+}
+.aside-section .aside-categories-nav .fa {
+    color: #8bc34a;
+    font-size: 18px;
+    margin-right: 15px; 
+}
+.aside-section .aside-categories-nav span {
+    color: #90a4ae;
+    margin-left: auto;
+}
+.aside-top-sellers .card.small-card:last-of-type .card-description-wrapper {
+    border-bottom: none;
+}
+.aside-top-sellers .btn.btn-default {
+    margin-top: 15px;
+}
+.all-items-container .medium-card, 
+.sort-control-container {
+    margin-bottom: 30px;
+}
+.sort-control-container .sort-by > * {
+    margin-right: 12px;
+    font-size: 14px;
+}
+.sort-control-container .sort-by .active{
+    color: #455a64 ;
+}
+.sort-control-container .change-view > * {
+    margin-left: 8px;
+    font-size: 16px;
+}
+.sort-control-container .change-view .fa:hover, 
+.sort-control-container .change-view .fa.active,
+.aside-section .aside-categories-nav a:hover,
+.aside-section .aside-categories-nav a:hover span {
+    color: #8bc34a ;
+}
+/* === ALL NEW ITEMS PAGE END === */

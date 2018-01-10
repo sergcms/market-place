@@ -1,0 +1,34 @@
+/* === SETTING PERSONAL PAGE === */
+.setting-personal-info-page .aside-section {
+    padding: 0;
+}
+.setting-personal-info-page .aside-section .aside-nav a {
+    height: 50px;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 14px;
+    line-height: normal;
+    padding: 17px 20px;
+}
+.setting-personal-info-page .aside-nav a:last-child {
+    border-bottom: none;
+}
+.setting-personal-info-page .aside-nav a .fa {
+    margin-right: 24px;
+}
+.aside-section .aside-nav a.active,
+.aside-section .aside-nav a:hover {
+    border-bottom: 2px solid #8bc34a;
+    color: #37474f;
+}
+.aside-section .aside-nav a:hover .fa,
+.aside-section .aside-nav a.active .fa {
+    color:#86bc44;
+}
+.all-wrap .row + .row {
+    margin-top: 21px;
+}
+.all-wrap .row label {
+    color: #444;
+    white-space: nowrap;
+}
+/* === SETTING PERSONAL PAGE END === */
