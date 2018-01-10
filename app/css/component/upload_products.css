@@ -3,29 +3,26 @@ input, textarea, select, button{
     font-family: "Roboto";
 }
 /* ************* */
-   /* UPLOAD_PRODUCTS  START */
+/* UPLOAD_PRODUCTS  START */
 .upload-products-content{
     border: 1px solid #dedede;
-    background-color: #fff;
 }
+/* взять за дефолт */
 .upload-products-item > .title{    
     padding: 22px 32px; 
     border-bottom: 1px solid #dedede;
     text-transform: capitalize;
 }
+/* / взять за дефолт */
 .upload-products-item-content{
     padding: 46px;
-}
-.upload-products-input .jq-selectbox{
-    max-width: 900px;
 }
 .upload-products-input .default-label{
     min-width: 175px;
     padding-right: 10px;   
 }
-.upload-products-input .form-default{
-    max-width: 900px;
-}
+.upload-products-input .form-default,
+.upload-products-input .jq-selectbox,
 .upload-products-input .file-upload{
     max-width: 900px;
 }
