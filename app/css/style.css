@@ -13,7 +13,8 @@
   font-weight: 500;
   line-height: 1.5em;
 } 
-.inner-content .wrap-form-search {
+.inner-content .wrap-form-search,
+.about-us-content .about-us-item + .about-us-item {
   margin-top: 50px;
 }
 /* === inner end === */
@@ -258,7 +259,8 @@
 .tab-pane ul + ul {
   margin-left: 35px;
 }
-.tab-pane ul > li + li {
+.tab-pane ul > li + li,
+.upload-products-input + .upload-products-input {
   margin-top: 20px;
 }
 .tab-pane ul > li > .fa {
@@ -404,13 +406,6 @@
 .profile-details nav {
   margin-bottom: 26px;
 }
-
-/* / move default */
-.profile-details .social-nav > a + a {
-    margin-left: 7px;
-}
-/* / move default */
-
 .profile-details .buttons a {
   padding: 20px 25px;
 }
@@ -455,17 +450,6 @@
 .info-bar ul>li .product-download {
   font-size: 12px;
 }
-
-/* move default */
-.info-bar ul>li .product-download::before,
-.info-bar ul>li .product-download::after {
-  color: #b0bec5;
-  content: '(';
-}
-.info-bar ul>li .product-download::after {
-  content: ')';
-}
-/* / move default */
 
 .left-tabs nav >a{
   -webkit-box-flex: 1;
@@ -537,9 +521,29 @@
 }
 /* === SETTING PERSONAL PAGE END === */
 
-
-/* ********************************** */
-
+/* === UPLOAD PRODUCTS PAGE === */
+.upload-products-input .default-label,
+.upload-products-input .empty-label {
+  min-width: 190px;
+  padding-right: 10px;   
+}
+.upload-products-input label.default-label::after,
+.withdrawals label::after {
+  font-size: 24px;
+  vertical-align: super;
+  padding: 0 5px;
+  color: #8bc34a;
+  content: "*\00a0";
+}
+.upload-products-input .jq-selectbox,
+.upload-products-input .form-default,
+.upload-products-input .file-upload {
+  max-width: 900px;
+}
+.upload-products-item-content button.btn {
+  margin: 40px 0 0 190px;
+}
+/* === UPLOAD PRODUCTS PAGE END === */
 
 /* === SALES STATEMENT PAGE === */
 .datepicker-input {
@@ -583,14 +587,14 @@
   font-family: "Myriad Pro", sans-serif;
   padding-bottom: 22px;
 }
-.withdrawals label:after {
-  font-size: 24px;
-  vertical-align: super;
-  padding: 0 10px;
-  color: #8bc34a;
-  content: "*\00a0";
-}
 /* === WITHDRAWALS PAGE END === */
+
+ /* === ABOUT US PAGE === */
+.about-us-content .about-us-item .title {
+  margin-bottom: 22px;
+  text-transform: capitalize;
+}
+/* === ABOUT US PAGE END === */
 
 /* === CONTACT PAGE === */
 .contact-us-content .map {

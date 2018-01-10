@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>FOXTAR Market Place</title>
+  <title>Upload Product</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800&amp;subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
 
@@ -32,8 +32,7 @@
   <link rel="stylesheet" href="css/default-components.css">
 
   <!-- Custom style -->
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
-  <link rel="stylesheet" href="css/component/upload_products.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -284,116 +283,119 @@
     	<div class="container">
 				<ul class="breadcrumb">
 						<li><a href="#">Home</a></li>
-						<li class="active">Product Page</li>
+						<li class="active">Upload Product</li>
 				</ul>
         <!-- / breadcrumb -->
-        <div class="upload-products-content bg-white">
-          <div class="upload-products-item">
-            <div class="title middle medium">
-              <span>Upload Your item</span>
-            </div>
-            <!-- /title -->
-            <div class="upload-products-item-content">
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Select Categories <sup>*</sup>
-                </label>
-                <select name="select-country" id="">
-                  <option value="">Select Your Country</option>
-                  <option value="usa">USA</option>
-                  <option value="canada">Canada</option>
-                </select>
+        <div class="upload-products-content bg-white border-gray">
+          <form action>
+            <div class="upload-products-item">
+              <div class="title-block title middle medium">
+                <span>Upload Your item</span>
               </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Product Name<sup>*</sup>
-                </label>
-                  <input type="text" class="form-default" placeholder="Enter your product name here ...">
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Product Description<sup>*</sup>
-                </label>
-                <textarea name="" class="form-default" placeholder="<h1> Type your text  here <h1>"></textarea>
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Upload Main File<sup>*</sup>
-                </label>
-                <div class="file-upload">
-                  <input type="file" name="uploadUserPhoto" id="uploadUserPhoto">
-                  <label for="uploadUserPhoto">Upload image</label>
-                  <span class="file-name">No File Choosen</span>
+              <!-- /title -->
+              <div class="upload-products-item-content inner-section">
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Select Categories
+                  </label>
+                  <select name="select-country" id="">
+                    <option value="">Select Your Country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                  </select>
                 </div>
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Upload Screenshots<sup>*</sup>
-                </label>
-                <div class="file-upload">
-                  <input type="file" name="uploadUserPhoto" id="uploadUserPhoto">
-                  <label for="uploadUserPhoto">Upload image</label>
-                  <span class="file-name">No File Choosen</span>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Product Name
+                  </label>
+                    <input type="text" class="form-default" placeholder="Enter your product name here ...">
                 </div>
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  File Included<sup>*</sup>
-                </label>
-                <select name="select-country" id="">
-                  <option value="">Select File Type</option>
-                  <option value="usa">USA</option>
-                  <option value="canada">Canada</option>
-                </select>
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  File Dimensions<sup>*</sup>
-                </label>
-                  <input type="text" class="form-default" placeholder="Enter the item  dimentionss here ...">
-              </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Item Tags<sup>*</sup>
-                </label>
-                  <input type="text" class="form-default" placeholder="Enter tag here">
-              </div>
-              <!-- /upload-products-input -->
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Product Description
+                  </label>
+                  <textarea name="" class="form-default" placeholder="<h1> Type your text  here <h1>"></textarea>
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Upload Main File
+                  </label>
+                  <div class="file-upload">
+                    <input type="file" name="uploadUserPhoto" id="uploadUserPhoto">
+                    <label for="uploadUserPhoto">Upload image</label>
+                    <span class="file-name">No File Choosen</span>
+                  </div>
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Upload Screenshots
+                  </label>
+                  <div class="file-upload">
+                    <input type="file" name="uploadUserPhoto" id="uploadUserPhoto">
+                    <label for="uploadUserPhoto">Upload image</label>
+                    <span class="file-name">No File Choosen</span>
+                  </div>
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    File Included
+                  </label>
+                  <select name="select-country" id="">
+                    <option value="">Select File Type</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                  </select>
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    File Dimensions
+                  </label>
+                    <input type="text" class="form-default" placeholder="Enter the item  dimentionss here ...">
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Item Tags
+                  </label>
+                    <input type="text" class="form-default" placeholder="Enter tag here">
+                </div>
+                <!-- /upload-products-input -->
+              </div>   
+              <!-- /upload-products-item-content -->
             </div>   
-            <!-- /upload-products-item-content -->
-          </div>   
-          <!-- /upload-products-item  -->
-          <div class="upload-products-item">
-            <div class="title middle medium">
-              <span>Set Your Price (US$)</span>
-            </div>
-            <!-- /title -->
-            <div class="upload-products-item-content">
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Regular License<sup>*</sup>
-                </label>
-                  <input type="text" class="form-default" placeholder="$00.00">
+            <!-- /upload-products-item  -->
+            <div class="upload-products-item">
+              <div class="title-block title middle medium">
+                <span>Set Your Price (US$)</span>
               </div>
-              <!-- /upload-products-input -->
-              <div class="upload-products-input d-flex justify-content-between">
-                <label for="" class="default-label">
-                  Extended License<sup>*</sup>
-                </label>
-                  <input type="text" class="form-default" placeholder="$00.00">
+              <!-- /title -->
+              <div class="upload-products-item-content inner-section">
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Regular License
+                  </label>
+                    <input type="text" class="form-default" placeholder="$00.00">
+                </div>
+                <!-- /upload-products-input -->
+                <div class="upload-products-input d-flex justify-content-between">
+                  <label for="" class="default-label">
+                    Extended License
+                  </label>
+                    <input type="text" class="form-default" placeholder="$00.00">
+                </div>
+                <!-- /upload-products-input -->
+                <button class="btn btn-md btn-light-green medium">Submit</button>
               </div>
-              <!-- /upload-products-input -->
-              <a href="" class="btn btn-md btn-light-green medium">Submit</a>              
+              <!-- /upload-products-item-content -->
             </div>
-          </div>
-          <!-- /upload-products-item -->
+            <!-- /upload-products-item -->            
+          </form>
         </div>
         <!-- /upload-products-content -->
 			</div>

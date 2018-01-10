@@ -428,7 +428,8 @@
 .profile-details .social-nav > a:hover{
     opacity: 1;
 }
-.follow-ua-on .social-nav > a + a {
+.follow-ua-on .social-nav > a + a,
+.profile-details .social-nav > a + a {
     margin-left: 7px;
 }
 .follow-ua-on .form-control {
@@ -522,11 +523,14 @@
     font-size: 12px;
 }
 .card .card-author-info .product-download::before,
-.card .card-author-info .product-download::after {
+.card .card-author-info .product-download::after,
+.info-bar ul>li .product-download::before,
+.info-bar ul>li .product-download::after {
     color: #b0bec5;
     content: '(';
 }
-.card .card-author-info .product-download::after {
+.card .card-author-info .product-download::after,
+.info-bar ul>li .product-download::after {
     content: ')';
 }
 .card.large-card .card-description {
@@ -680,10 +684,6 @@
 .default-label {
     font-size: 15px;
     color: #444;
-}
-.default-label sup {
-    color: #8bc34a;
-    font-size: 24px;
 }
 /* === label end === */
 .wrap-form-search {
@@ -1401,8 +1401,8 @@ textarea.form-contact {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
-.ui-state-default, 
-.ui-widget-content .ui-corner-all.ui-state-default {
+.ui-slider .ui-state-default, 
+.ui-slider .ui-widget-content .ui-corner-all.ui-state-default {
     border: 3px solid #8bc34a;
     border-radius: 50%;
     background-color: #fff;
