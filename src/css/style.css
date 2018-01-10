@@ -63,7 +63,9 @@
 .why-you-choose .row {
   margin-top: 85px;
 }
-.why-you-choose .why-you-choose-img {
+.why-you-choose .why-you-choose-img,
+.all-items-container .medium-card, 
+.sort-control-container {
   margin-bottom: 30px;
 }
 .why-you-choose-img > img {
@@ -80,7 +82,11 @@
 .left-tabs nav >a:hover .fa,
 .left-tabs nav >a.active .fa,
 .setting-personal-info-page .aside-section .aside-nav a:hover .fa,
-.setting-personal-info-page .aside-section .aside-nav a.active .fa {
+.setting-personal-info-page .aside-section .aside-nav a.active .fa,
+.sort-control-container .change-view .fa:hover, 
+.sort-control-container .change-view .fa.active,
+.aside-section .aside-categories-nav a:hover,
+.aside-section .aside-categories-nav a:hover span {
   color: #8bc34a;
 }
 .quality-item .text-default,
@@ -133,7 +139,51 @@
 /* === HOME PAGE END === */
 
 /* === ALL NEW ITEMS PAGE === */
-
+.sort-control-container {
+  padding: 20px;
+}
+.card.small-card + .card.small-card,
+.aside-section .aside-categories-nav a + a {
+  margin-top: 27px;
+}
+.aside-section .aside-categories-nav > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight:  500;
+  color: #263238;
+}
+.aside-section .aside-categories-nav .fa {
+  color: #8bc34a;
+  font-size: 18px;
+  margin-right: 15px; 
+}
+.aside-section .aside-categories-nav span {
+  color: #90a4ae;
+  margin-left: auto;
+}
+.aside-top-sellers .card.small-card:last-of-type .card-description-wrapper,
+.setting-personal-info-page .aside-nav a:last-child {
+  border-bottom: none;
+}
+.aside-top-sellers .btn.btn-default {
+  margin-top: 15px;
+}
+.sort-control-container .sort-by > * {
+  margin-right: 12px;
+  font-size: 14px;
+}
+.sort-control-container .sort-by .active{
+  color: #455a64;
+}
+.sort-control-container .change-view > * {
+  margin-left: 8px;
+  font-size: 16px;
+}
 /* === ALL NEW ITEMS PAGE END === */
 
 /* === PRODUCT DETAILS PAGE === */
@@ -474,9 +524,6 @@
   font-size: 14px;
   line-height: normal;
   padding: 17px 20px;
-}
-.setting-personal-info-page .aside-nav a:last-child {
-  border-bottom: none;
 }
 .setting-personal-info-page .aside-nav a .fa {
   margin-right: 24px;

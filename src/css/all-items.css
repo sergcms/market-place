@@ -7,7 +7,11 @@
     margin-top: 27px;
 }
 .aside-section .aside-categories-nav > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 15px;
     font-weight:  500;
@@ -16,17 +20,15 @@
 .aside-section .aside-categories-nav .fa {
     color: #8bc34a;
     font-size: 18px;
-    margin-right:15px; 
+    margin-right: 15px; 
 }
 .aside-section .aside-categories-nav span {
     color: #90a4ae;
     margin-left: auto;
 }
-/* переделать */
-.aside-top-sellers .card.small-card:nth-child(4) .card-description-wrapper {
+.aside-top-sellers .card.small-card:last-of-type .card-description-wrapper {
     border-bottom: none;
 }
-/* / переделать */
 .aside-top-sellers .btn.btn-default {
     margin-top: 15px;
 }
