@@ -1158,7 +1158,8 @@ textarea.form-contact {
     box-shadow: 0 16px 20px rgba(216, 216, 216, .75);
     min-width: 150px;
 }
-.dropdown-container:hover .dropdown-menu {
+/* .dropdown-container:hover .dropdown-menu, */
+.dropdown-container.active .dropdown-menu {
     display: block;
 }
   .dropdown-menu .cart-dropdown-nav, 

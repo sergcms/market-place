@@ -1,4 +1,12 @@
-// Init grid cards (all-items)
+// Open dropdown nav 
+// let nav = $('[data-open-dropdown]');
+let nav = $('.dropdown-container');
+nav.on('click', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('active');
+});
+
+// Switch grid cards (all-items)
 $('#grid-thumbs').on('click', function() {
   $('.change-icon').removeClass('active');
   $('#grid-thumbs').addClass('active');
