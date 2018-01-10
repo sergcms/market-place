@@ -1,11 +1,10 @@
 /* === SETTING PERSONAL PAGE === */
 .setting-personal-info-page .aside-section {
     padding: 0;
-    border: 1px solid #d7d7d7;
 }
 .setting-personal-info-page .aside-section .aside-nav a {
     height: 50px;
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d7d7d7;
     font-size: 14px;
     line-height: normal;
     padding: 17px 20px;
@@ -21,18 +20,9 @@
     border-bottom: 2px solid #8bc34a;
     color: #37474f;
 }
-.aside-section .aside-nav a:hover .fa {
+.aside-section .aside-nav a:hover .fa,
+.aside-section .aside-nav a.active .fa {
     color:#86bc44;
-}
-.setting-personal-info-page .select-boxes {
-    border: 1px solid #dcdcdc;
-}
-.setting-personal-info-page .select-boxes .title {
-    border-bottom: 1px solid #d7d7d7;
-    padding: 25px 30px;
-}
-.setting-personal-info-page .all-wrap {
-    padding: 35px 40px 80px;
 }
 .all-wrap .row + .row {
     margin-top: 21px;

@@ -16,7 +16,7 @@
     font-weight: 700!important;
 }
 .border-gray {
-    border: 1px solid #d3d3d3;
+    border: 1px solid #d7d7d7;
 }
 .icon {
     /* display: inline-block; */
@@ -74,7 +74,7 @@
 	font-size: 48px;
 	font-weight: 700;
 }
-.block-title {
+.title-block {
     padding: 23px 20px 23px 35px;
     border-bottom: 1px solid #d7d7d7;
     text-transform: capitalize;
@@ -420,10 +420,12 @@
     margin-bottom: 40px;
     font-size: 0;
 }
-.follow-ua-on .social-nav > a {
+.follow-ua-on .social-nav > a,
+.profile-details .social-nav > a {
     opacity: .85;
 }
-.follow-ua-on .social-nav > a:hover {
+.follow-ua-on .social-nav > a:hover,
+.profile-details .social-nav > a:hover{
     opacity: 1;
 }
 .follow-ua-on .social-nav > a + a {
@@ -1050,7 +1052,7 @@ textarea.form-contact {
 
 /* === aside-section === */
 .aside-section {
-    border: 1px solid #dedede;
+    border: 1px solid #d7d7d7;
     padding: 23px 27px 30px;
     background-color: #fff;
 }
@@ -1298,6 +1300,7 @@ textarea.form-contact {
     width: 100%;
     border-collapse: collapse;
     font-size: 14px;
+    color: #444;
 }
 .table th {
     text-align: left;
@@ -1333,6 +1336,9 @@ textarea.form-contact {
 /* === table-withdrawal === */
 .table-withdrawal tbody tr:nth-child(odd) {
     background-color: #fbfbfb;
+}
+.table-withdrawal tr > td:first-child {
+    padding-left: 20px;
 }
 .table-withdrawal tbody tr + tr td:last-child {
     color: #8bc34a

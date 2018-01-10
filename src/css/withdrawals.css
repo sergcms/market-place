@@ -1,17 +1,4 @@
 /* === WITHDRAWALS PAGE === */
-.table{
-    color:#333;
-}
-.form-default {
-    font-family: "Roboto", sans-serif;
-}
-.withdrawals-content {
-    padding: 40px;
-}
-.withdrawals .div-title {
-    border-bottom: 1px solid #d3d3d3;
-    padding: 20px 40px;
-}
 .withdrawals label {
     display: inline-block;
     font-size: 16px;

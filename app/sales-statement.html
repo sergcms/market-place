@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="css/sprite.css">
 
   <!-- Custom style -->
-  <link rel="stylesheet" href="css/sales-statement.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -270,7 +270,6 @@
       <!-- / container -->
     </div>
     <!-- / menu -->
-
   </header>
   <!-- / header -->
 
@@ -286,124 +285,127 @@
     </section>
     <!-- / inner -->
 
-    <div class="container">
-      <ul class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li class="active">Sales Statement</li>
-      </ul>
-      <!-- / breadcrumb -->
-      <div class="sales-statement-page default-section">
-        <div class="sales-statement-header d-flex align-items-center bg-white">
-          <div class="title middle">
-            <span>Your Sales Statement</span>            
-          </div>
-          <div class="find d-flex ml-auto align-items-center">
-            <div class="datepicker d-flex align-items-center">
-              <div class="datepicker-input">
-                <input type="text" id="from" name="from" class="date">
-                <label for="from" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
-              </div>
-              <span>To</span>
-              <div class="datepicker-input">
-                <input type="text" id="to" name="to" class="date">
-                <label for="to" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
-              </div>
+    <div class="sales-statement-page default-section">
+      <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Sales Statement</li>
+        </ul>
+        <!-- / breadcrumb -->
+        <div class="sales-statement-content border-gray">
+          <div class="sales-statement-header title-block d-flex align-items-center bg-white">
+            <div class="title middle">
+              <span>Your Sales Statement</span>            
             </div>
-            <!-- / datepicker -->
-            <a href="" class="btn btn-xs btn-light-green">Find</a>          
+            <div class="find d-flex ml-auto align-items-center">
+              <div class="datepicker d-flex align-items-center">
+                <div class="datepicker-input">
+                  <input type="text" id="from" name="from" class="date">
+                  <label for="from" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                </div>
+                <span>To</span>
+                <div class="datepicker-input">
+                  <input type="text" id="to" name="to" class="date">
+                  <label for="to" ><i class="fa fa-calendar" aria-hidden="true"></i></label>
+                </div>
+              </div>
+              <!-- / datepicker -->
+              <a href="" class="btn btn-xs btn-light-green">Find</a>          
+            </div>
+            <!-- / find -->
           </div>
-          <!-- / find -->
-        </div>
-        <!-- / sales-statement-header -->
-
-        <div class="sales-statement-table bg-white border-gray">
-          <table class="table table-sales">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Avatar</th>
-                <th>ID</th>
-                <th>Full Name</th>
-                <th>Purchase</th>
-                <th>Price</th>
-                <th>Downloads</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-              <td>1.</td>
-              <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-              <td>#2050</td>
-              <td>Jessy Sket</td>
-              <td>15</td>
-              <td>$200</td>
-              <td>15</td>
-              </tr>
-              <tr>
-                <td>2.</td>
+          <!-- / sales-statement-header -->
+  
+          <div class="sales-statement-table inner-section bg-white">
+            <table class="table table-sales">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Avatar</th>
+                  <th>ID</th>
+                  <th>Full Name</th>
+                  <th>Purchase</th>
+                  <th>Price</th>
+                  <th>Downloads</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                <td>1.</td>
                 <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2051</td>
-                <td>Robert Smith</td>
-                <td>10</td>
-                <td>$180</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>3.</td>
-                <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2052</td>
-                <td>JZiniza</td>
-                <td>20</td>
-                <td>$1,200</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>4.</td>
-                <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2053</td>
-                <td>David Rock</td>
-                <td>10</td>
-                <td>$300</td>
-                <td>10</td>
-              </tr>
-              <tr>
-                <td>5.</td>
-                <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2054</td>
+                <td>#2050</td>
                 <td>Jessy Sket</td>
                 <td>15</td>
-                <td>$800</td>
-                <td>20</td>
-              </tr>
-              <tr>
-                <td>6.</td>
-                <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2055</td>
-                <td>Neo Buler</td>
-                <td>12</td>
-                <td>$600</td>
-                <td>05</td>
-              </tr>
-              <tr>
-                <td>7.</td>
-                <td><img src="img/table-sales-img-1.jpg" alt=""></td>
-                <td>#2053</td>
-                <td>Jessy Sket</td>
-                <td>02</td>
                 <td>$200</td>
-                <td>01</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="total-sales title singular">
-            Total Sales: <span class="bold text-green">$ 5,030</span>
+                <td>15</td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2051</td>
+                  <td>Robert Smith</td>
+                  <td>10</td>
+                  <td>$180</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2052</td>
+                  <td>JZiniza</td>
+                  <td>20</td>
+                  <td>$1,200</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2053</td>
+                  <td>David Rock</td>
+                  <td>10</td>
+                  <td>$300</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>5.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2054</td>
+                  <td>Jessy Sket</td>
+                  <td>15</td>
+                  <td>$800</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>6.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2055</td>
+                  <td>Neo Buler</td>
+                  <td>12</td>
+                  <td>$600</td>
+                  <td>05</td>
+                </tr>
+                <tr>
+                  <td>7.</td>
+                  <td><img src="img/table-sales-img-1.jpg" alt=""></td>
+                  <td>#2053</td>
+                  <td>Jessy Sket</td>
+                  <td>02</td>
+                  <td>$200</td>
+                  <td>01</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="total-sales title singular">
+              Total Sales: <span class="bold text-green">$ 5,030</span>
+            </div>
           </div>
+          <!-- / sales-statement-table -->
         </div>
-        <!-- / sales-statement-table -->
+        <!-- / sales-statement-content -->
       </div>
-      <!-- / sales-statement-page -->
+      <!-- / container -->
     </div>
-    <!-- / container -->
+    <!-- / sales-statement-page -->
 
     <footer class="footer bg-dark-gray">
       <div class="container">
