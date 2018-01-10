@@ -7,11 +7,7 @@
     margin-top: 27px;
 }
 .aside-section .aside-categories-nav > a {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     font-size: 15px;
     font-weight:  500;
@@ -55,55 +51,4 @@
 .aside-section .aside-categories-nav a:hover span {
     color: #8bc34a ;
 }
-aside .card.small-card:hover .card-description-wrapper {
-    box-shadow: none;
-}
 /* === ALL NEW ITEMS PAGE END === */
-#slider-range .min-value, #slider-range .max-value{
-    color: #78909c;
-}
-
-    /* === slider range === */
-#slider-range{
-    margin-bottom: 50px;
-}
-#slider-range span{
-    outline: none;
-}
-#slider-range .min-value,
-#slider-range .max-value{
-    position: absolute;
-    bottom: -30px;
-    color: #000;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
-#slider-range .min-value, #slider-range .max-value{
-    color: #78909c;
-    font-size: 15px;
-}
-.ui-state-default, .ui-widget-content .ui-state-default{
-    border: 3px solid #8bc34a;
-    border-radius: 10px;
-    background: #fff;
-    font-weight: normal;
-    height: 16px;
-    width: 16px;
-}
-.ui-slider-range.ui-corner-all.ui-widget-header{
-    background: #37474f;
-    
-}
-.ui-widget-content {
-    height: 5px;
-    background: #f2f5f8;
-    color: #333333;
-}
-.ui-widget.ui-widget-content{
-    border: none;
-}
-.ui-slider-horizontal .ui-slider-handle {
-    top: -0.35em;
-    margin-left: -0.2em;
-}

@@ -39,18 +39,18 @@
 	padding: 120px 0;
 }
 .default-section {
-	padding: 45px 0 125px;
+	padding-bottom: 125px;
 }
 .big-section {
 	padding: 130px 0;
+}
+.inner-section {
+    padding: 40px;
 }
 .search-section {
     padding: 58px 0 68px;
     background: url('../img/bg-inner.jpg') no-repeat center/cover;
 }
-/* .default-search-section {
-	padding: 80px 0 95px;
-} */
 .search-section.big {
 	padding: 153px 0 175px;
 }
@@ -73,6 +73,11 @@
 .title.big {
 	font-size: 48px;
 	font-weight: 700;
+}
+.block-title {
+    padding: 23px 20px 23px 35px;
+    border-bottom: 1px solid #d7d7d7;
+    text-transform: capitalize;
 }
 /* === title end === */
 
@@ -148,8 +153,11 @@
     min-width: 60px;
     white-space: nowrap;
     color: #fff;
+    border: none;
+    text-transform: capitalize;
 }
-.btn:hover {
+.btn:hover, 
+.btn-social:hover {
     color:  #fff;    
 }
 .btn.btn-default {
@@ -631,6 +639,9 @@
 .card.small-card .card-author-info {
     border: none;
 }
+.card.small-card .card-author-info .product-rating {
+    margin-right: 0;
+}
 /* === cards end === */
 
 /* === breadcrumb === */
@@ -776,13 +787,13 @@
     background-color: #f9f9f9;
 }
 .form-default:focus {
-    outline: none;
+    outline: 1px solid #a1a1a1;
 }
 textarea.form-default {
     min-height: 150px;
 }
 .form-contact {
-    min-width: 350px;
+    width: 100%;
     font-size: 15px;
     color: #7a7a7a;
     background-color: #f1f4f5;
@@ -791,10 +802,10 @@ textarea.form-default {
     padding: 10px 16px;
 }
 .form-contact:focus {
-    outline: none;
+    outline: 1px solid #a1a1a1;
 }
 textarea.form-contact {
-    min-height:196px;
+    min-height: 200px;
     width: 100%;
 }
 .wrap-login {
@@ -927,7 +938,7 @@ textarea.form-contact {
 	color: #707070;
 }
 .jq-selectbox.focused .jq-selectbox__select {
-	border: 1px solid #212121;
+	border: 1px solid #a1a1a1;
 }
 .jq-selectbox.disabled .jq-selectbox__select {
 	border-color: #CCC;
@@ -1052,6 +1063,7 @@ textarea.form-contact {
     color: #263238;
     border-bottom: 1px solid #dde3e8;
     padding-bottom: 15px;
+    margin-bottom: 30px;
 }
 /* === aside-section end === */
 
@@ -1360,4 +1372,21 @@ textarea.form-contact {
     opacity: 1;
 }
 /* === slick-dots end === */
+/* === slider-range === */
+#slider-range {
+    margin-bottom: 60px; 
+}
+#slider-range .min-value,
+#slider-range .max-value{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #000;
+}
+#slider-range span {
+    outline: none;
+}
+/* === slider-range end === */
 /* === DEFAULT COMPONENTS END === */

@@ -11,7 +11,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
-	font-weight: normal;
+	font-weight: inherit;
+	font-size: inherit;
 }
 a {
 	color: inherit;
@@ -28,6 +29,9 @@ ul, ol {
 }
 img {
 	max-width: 100%;
+}
+input, textarea, select, button {  
+	font-family: "Roboto";
 }
 textarea {
 	resize: vertical;
