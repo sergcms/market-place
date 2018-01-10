@@ -21,6 +21,7 @@ input, textarea, select, button{
 }
 .upload-products-input .default-label{
     min-width: 175px;
+    padding-right: 10px;   
 }
 .upload-products-input .form-default{
     max-width: 900px;
