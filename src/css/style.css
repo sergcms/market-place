@@ -679,9 +679,6 @@
 .login-header.header .btn-authorization {
   margin: 0 35px 0 150px;
 }
-.login-header .dropdown-container .dropdown-menu {
-  right: 0;
-}
 .login .inner-content h1 {
   text-transform: uppercase;
 }

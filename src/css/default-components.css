@@ -1154,6 +1154,8 @@ textarea.form-contact {
 .dropdown-container .dropdown-menu {
     position: absolute;
     display: none;
+    top: 68px;
+    right: 0;
     z-index: 99;
     background-color: #fff;
     border: 1px solid #d3d3d3;
