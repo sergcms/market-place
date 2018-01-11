@@ -79,6 +79,28 @@
     border-bottom: 1px solid #d7d7d7;
     text-transform: capitalize;
 }
+@media (max-width: 767px) {
+    .title {
+        font-size: 25px;
+        line-height: 1.6em;
+    }
+    .title.middle {
+        font-size: 20px;
+    }
+}
+@media (max-width: 599px) {
+    .title {
+        font-size: 20px;
+    }
+    .title.middle {
+        font-size: 16px;
+    }
+}
+@media (max-width: 479px) {
+    .title {
+        font-size: 18px;
+    }
+}
 /* === title end === */
 
 /* === text-color === */
@@ -303,10 +325,11 @@
 /* === header-nav === */
 .menu {
     width: 100%;
-}
-.header-nav {
     padding: 23px 0;
 }
+/* .header-nav {
+    padding: 23px 0;
+} */
 .header-nav .container {
     height: 100%;
 }
