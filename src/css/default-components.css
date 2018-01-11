@@ -1331,6 +1331,9 @@ textarea.form-contact {
 .table-sales tbody tr td:first-child {
     text-align: center;
 }
+.table-sales tbody tr td > img {
+    border-radius: 50%;
+}
 .table-sales tbody tr td:nth-child(3) {
     font-weight:700;
 }
