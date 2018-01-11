@@ -1150,6 +1150,7 @@ textarea.form-contact {
 /* === dropdown  === */
 .dropdown-container {
     position: relative;
+    cursor: pointer;
 }
 .dropdown-container .dropdown-menu {
     position: absolute;
