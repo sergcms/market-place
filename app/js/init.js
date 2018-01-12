@@ -40,6 +40,6 @@ openModalsBtns.on('click', function(){
 
 // Init mobile slicknav
 $('.header-nav').slicknav({
-  appendTo: '.header .menu .container',
+  appendTo: '.header .header-top .container',
   label: ''
 });
