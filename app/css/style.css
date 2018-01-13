@@ -1,4 +1,4 @@
-/* === HOME PAGE === */
+ === HOME PAGE === */
 /* === inner ===  */
 .inner-content h1 {
   text-transform: capitalize;
@@ -80,10 +80,8 @@
 }
 .quality-item .title:hover,
 .card-tutorial-link .title.middle:hover,
-.left-tabs nav >a:hover .fa,
-.left-tabs nav >a.active .fa,
-.setting-personal-info-page .aside-section .aside-nav a:hover .fa,
-.setting-personal-info-page .aside-section .aside-nav a.active .fa,
+.aside-navigation >a:hover .fa,
+.aside-navigation >a.active .fa,
 .sort-control-container .change-view .fa:hover, 
 .sort-control-container .change-view .fa.active,
 .aside-section .aside-categories-nav a:hover,
@@ -237,10 +235,8 @@
 }
 .tabs .tabs-controls li a.active,
 .tabs .tabs-controls li a:hover,
-.left-tabs nav >a:hover, 
-.left-tabs nav > a.active,
-.setting-personal-info-page .aside-section .aside-nav a.active,
-.setting-personal-info-page .aside-section .aside-nav a:hover {
+.aside-navigation >a:hover, 
+.aside-navigation > a.active{
   color: #263238;
   border-bottom: 2px solid #8bc34a;
 }
@@ -454,8 +450,8 @@
 .info-bar ul>li .product-download {
   font-size: 12px;
 }
-
-.left-tabs nav >a{
+/*============стандартные стили для .aside-navigation===========( hoverное состояние стр 83,84* и 238,239*/
+.aside-navigation >a{
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -465,13 +461,14 @@
   font-size: 14px;
   font-family: "Myriad Pro", sans-serif;
 }
-.left-tabs nav >a + a{
+.aside-navigation >a + a{
   border-top:1px solid #d5d5d5; 
 }
-.left-tabs nav >a .fa{
+.aside-navigation >a .fa{
   margin-right: 12px;
   color: #d0d0d0;
 }
+/*============стандартные стили для .aside-navigation end===========*/
 .profile-details .about-me p{
   padding: 45px 0 28px;
 }
@@ -739,4 +736,4 @@
 .login-modal .lost:hover {
   color: #263238;
 }
-/* === LOGIN PAGE END === */
+/* === LOGIN PAGE END === 
