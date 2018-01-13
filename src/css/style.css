@@ -606,6 +606,9 @@
   height: 415px;
   margin-bottom: 60px;
 }
+.contact-us-content .contact-info {
+  flex-direction: column;
+}
 .contact-block > .fa {
   font-size: 24px;
   color: #8bc34a;
@@ -636,13 +639,13 @@
   padding: 19px 31px;
   text-transform: uppercase;
 }
-
-@media(max-width:991px){
-  .contact-us .contact-us-content .contact-info{
+@media(max-width: 991px){
+  .contact-us-content .contact-info {
+    flex-direction: row;
     margin-bottom: 50px;
   }
 }
-@media(max-width:767px){
+@media(max-width: 767px){
   .send-massage .row > div[class^="col-"] + div[class^="col-"] {
     margin-top: 20px;
   }
@@ -653,10 +656,8 @@
     width: 100%;
   }
 }
-@media(max-width:479px){
-  .contact-block .text-default{
-    margin-top: 10px;
-  }
+@media(max-width: 479px){
+  .contact-block .text-default,
   .contact-block .title::after{
     margin-top: 10px;
   }
@@ -665,7 +666,7 @@
 
 /* === ERROR PAGE === */
 .page-404 .content-404 {
-  padding: 65px 0 100px;
+  padding: 65px 15px 100px;
 }
 .content-404 .wrap-404 {
   font-family: 'Open Sans', sans-serif;
@@ -699,40 +700,41 @@
   color: #8bc34a;
   background-color: #fff;
 }
-
-@media(max-width:991px){
+@media(max-width: 991px){
   .content-404 .wrap-404{
     font-size: 250px;
   }
 }
-@media(max-width:767px){
+@media(max-width: 767px){
   .content-404 .wrap-404{
     font-size: 200px;
   }
   .page-404 .content-404{
-    padding: 40px 0 60px;
+    padding: 40px 15px 60px;
   }
 }
-@media(max-width:599px){
+@media(max-width: 599px){
   .content-404 .wrap-404 > img{
     display: none;
+  }
+  .content-404 > .title {
+    letter-spacing: 0;
   }
   .content-404 p{
     font-size: 15px;
   }
 }
-@media(max-width:479px){
+@media(max-width: 479px){
   .content-404 .wrap-404{
     font-size: 150px;
   }
   .page-404 .content-404{
-    padding: 30px 0 40px;
+    padding: 30px 15px 40px;
   }
   .content-404 .btn{
-    width: 95%;
+    width: 100%;
   }
 }
-
 /* === ERROR PAGE END === */
 
 /* === LOGIN PAGE === */
