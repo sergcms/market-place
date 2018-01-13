@@ -54,6 +54,12 @@
 .search-section.big {
 	padding: 153px 0 175px;
 }
+
+@media(max-width:767px){
+    .inner-section {
+        padding: 15px;
+    }
+}
 /* === default-section end === */
 
 /* === title === */
@@ -360,7 +366,7 @@
 
 /* === FOOTER === */
 .footer .container {
-    padding: 115px 0 95px 0;
+    padding: 115px 15px 95px;
 }
 .footer .title-md {
     color: #fff;
@@ -439,6 +445,31 @@
     padding: 27px 0 35px 0;
     border-top: 1px solid #424d53;
     text-align: center;
+}
+
+@media(max-width:1199px){
+    .footer .row > div[class^="col-"]:last-child{
+        margin-top: 50px;
+    }
+}
+@media(max-width:767px){
+    .footer .container{
+        padding: 60px 15px 40px;
+    }
+    .footer .row > div[class^="col-"] + div[class^="col-"]{
+        margin-top: 50px;
+    }
+}
+@media(max-width:479px){
+    .footer .title-md{
+        margin-bottom: 15px;
+    }
+    .footer .title-md:after{
+        margin-top: 15px;
+    }
+    .about-company .footer-info {
+        margin-top: 20px;
+    }
 }
 /* === FOOTER END === */
 
@@ -1049,6 +1080,12 @@ textarea.form-contact {
 }
 .jq-selectbox li.option {
 	padding-left: 25px;
+}
+
+@media(max-width:599px){
+    .wrap-form-email{
+        width: 100%;
+    }
 }
 /* === form elements end === */
 

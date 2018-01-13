@@ -636,6 +636,31 @@
   padding: 19px 31px;
   text-transform: uppercase;
 }
+
+@media(max-width:991px){
+  .contact-us .contact-us-content .contact-info{
+    margin-bottom: 50px;
+  }
+}
+@media(max-width:767px){
+  .send-massage .row > div[class^="col-"] + div[class^="col-"] {
+    margin-top: 20px;
+  }
+  .send-massage form textarea{
+    margin-top: 0;
+  }
+  .send-massage form .btn{
+    width: 100%;
+  }
+}
+@media(max-width:479px){
+  .contact-block .text-default{
+    margin-top: 10px;
+  }
+  .contact-block .title::after{
+    margin-top: 10px;
+  }
+}
 /* === CONTACT PAGE END === */
 
 /* === ERROR PAGE === */
@@ -674,6 +699,40 @@
   color: #8bc34a;
   background-color: #fff;
 }
+
+@media(max-width:991px){
+  .content-404 .wrap-404{
+    font-size: 250px;
+  }
+}
+@media(max-width:767px){
+  .content-404 .wrap-404{
+    font-size: 200px;
+  }
+  .page-404 .content-404{
+    padding: 40px 0 60px;
+  }
+}
+@media(max-width:599px){
+  .content-404 .wrap-404 > img{
+    display: none;
+  }
+  .content-404 p{
+    font-size: 15px;
+  }
+}
+@media(max-width:479px){
+  .content-404 .wrap-404{
+    font-size: 150px;
+  }
+  .page-404 .content-404{
+    padding: 30px 0 40px;
+  }
+  .content-404 .btn{
+    width: 95%;
+  }
+}
+
 /* === ERROR PAGE END === */
 
 /* === LOGIN PAGE === */
