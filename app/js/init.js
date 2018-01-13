@@ -50,9 +50,6 @@ $('.multiple-items').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
 
@@ -69,6 +66,13 @@ openModalsBtns.on('click', function(){
     transitionClose: 'slideIn',
     closeClass:'close-modal'
   });
+});
+
+$('.header-nav').slicknav({
+  label: '',
+  duration: 1000,
+  // // easingOpen: "easeOutBounce", //available with jQuery UI
+  // prependTo:'#demo2'
 });
 
 

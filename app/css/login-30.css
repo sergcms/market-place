@@ -1,0 +1,47 @@
+@media(max-width: 1192px){
+.header-nav a + a {
+    margin-left: 15px;
+}
+@media(max-width: 991px){
+	.login-header.header .logo {
+		margin-right: 15px;
+	}
+	.login-header.header .btn-authorization{
+		margin:0 15px;
+	}
+
+}
+@media(max-width: 767px){
+.modal.login-modal{
+	padding: 15px;
+	}
+}
+@media(max-width: 479px){
+	.form-login {
+    min-width:100%;
+	}
+	.btn-wrap {
+	flex-direction: column;
+	}
+	.btn-wrap .btn {
+	width: 100%;
+	}
+	.btn-wrap .btn + .btn{
+	margin-top: 10px;
+	}
+}
+
+slicknav_menu {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+	/* #menu is the original menu */
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
