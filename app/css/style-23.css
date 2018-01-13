@@ -1,0 +1,16 @@
+@media (max-width:992px) {
+    .withdrawal-history{
+        margin-top:30px;
+    }
+    .withdrawals-input + .withdrawals-input {
+        margin-top:50px;
+    }
+}
+@media (max-width:600px) {
+    .withdrawals-content{
+        overflow-x:auto;
+    }
+    .table-withdrawal{
+        min-width:600px;
+    }
+}
