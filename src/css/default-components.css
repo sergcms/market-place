@@ -254,6 +254,11 @@
     background-color:#c00606;
 }
 /* === buttons social end === */
+@media (max-width: 479px) {
+    .btn {
+        width: 100%;
+    }
+}
 /* === buttons end=== */
 
 /* === HEADER === */
