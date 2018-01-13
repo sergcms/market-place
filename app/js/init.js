@@ -37,3 +37,9 @@ openModalsBtns.on('click', function(){
   let target = $(this).attr('data-target');
   $(target).bPopup({ });
 });
+
+// Init mobile slicknav
+$('.header-nav').slicknav({
+  appendTo: '.header .header-top .container',
+  label: ''
+});
