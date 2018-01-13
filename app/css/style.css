@@ -733,7 +733,8 @@
 .login-modal .lost {
   font-size: 18px;
 }
-.login-modal .lost:hover {
+.login-modal .lost:hover ,
+.close-modal:hover {
   color: #263238;
 }
 /* === LOGIN PAGE END === 
