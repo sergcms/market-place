@@ -1,0 +1,16 @@
+@media (max-width: 767px){
+	.upload-products-input{
+        flex-direction:column;
+    }
+    label{
+        margin-bottom: 15px;
+    }
+    .upload-products-item-content button.btn{
+       width: 100%;
+       margin: 40px 0 0 0 ;
+    }
+    .inner-section {
+        padding: 20px;
+    }
+
+}

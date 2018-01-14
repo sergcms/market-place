@@ -34,6 +34,9 @@
 
     <!-- Setting personal info -->
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Setting personal info -->
+    <link rel="stylesheet" href="css/setting-personal-info.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -284,13 +287,20 @@
 
     <div class="setting-personal-info-page default-section">
         <div class="container">
+            <div class="d-flex justify-content-between">
             <ul class="breadcrumb">
                 <li><a href="#">Home</a></li>
                 <li class="active">Settings</li>
             </ul>
+            <button class="mobile-aside-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
+            </div>
             <!-- / breadcrumbs -->
+            <div class="overlay"></div>
+            <!-- / overlay -->
             <div class="row d-flex">
-                <div class="col-md-3">
+                <div class="col-md-3 mobile-aside left">
                     <div class="aside-section">
                         <nav class="aside-nav d-flex flex-column">
                             <a href="" class="active"><i class="fa fa-angle-right"></i>Personal Information</a>
@@ -303,40 +313,40 @@
                     <!-- / aside-section -->
                 </div>
                 <!-- / col -->
-                <div class="col-md-9">
+                <div class="col-md-9 col-sm-12 col-xs-12">
                     <div class="select-boxes bg-white border-gray">
                         <div class="title-block title middle medium">
                             <span>Personal Information</span>
                         </div>
                         <!-- / personal-info -->
                         <div class="all-wrap inner-section">
-                            <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="first_name">First Name</label></div>
-                                <div class="col-md-8">
+                            <div class="row d-flex flex-wrap align-items-center ">
+                                <div class="col-md-4 col-sm-4 col-xs-12 "><label for="first_name">First Name</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12 ">
                                     <input type="text" class="form-default" placeholder="" name="first_name" id="first_name">
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="last_name">Last Name</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="last_name">Last Name</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="last_name" id="last_name">
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="company_name">Company Name</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="company_name">Company Name</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="company_name" id="company_name">
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="country">Country</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="country">Country</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <select name="select-country" id="country" name="country">
                                         <option value="">Select Your Country</option>
                                         <option value="usa">USA</option>
@@ -347,48 +357,48 @@
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="address_1">Address Line 1</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="address_1">Address Line 1</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="address_1" id="address_1">  
                                 </div> 
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="address_2">Address Line 2</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="address_2">Address Line 2</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="address_2" id="address_2"> 
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="city">City</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="city">City</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="city" id="city">
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="state">State / Province / Region</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="state">State / Province / Region</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="state" id="state">
                                 </div>          
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex flex-wrap align-items-center">
-                                <div class="col-md-4"><label for="zip">Zip / Postal Code</label></div>
-                                <div class="col-md-8">
+                                <div class="col-md-4 col-sm-4 col-xs-12"><label for="zip">Zip / Postal Code</label></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12">
                                     <input type="text" class="form-default" placeholder="" name="zip" id="zip"> 
                                 </div>
                                 <!-- / col -->
                             </div>
                             <!-- / row -->
                             <div class="row d-flex">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-8"><a href="" class="btn btn-md btn-light-green medium">Update</a></div>
+                                <div class="col-md-4 col-sm-4 col-xs-12"></div>
+                                <div class="col-md-8 col-sm-8 col-xs-12"><a href="" class="btn btn-md btn-light-green medium">Update</a></div>
                             </div>
                             <!-- / row -->
                         </div>
@@ -516,5 +526,7 @@
 
 <!-- Init plugins -->
 <script type="text/javascript" src="js/init.js"></script>
+<!-- Aside -->
+<script type="text/javascript" src="js/aside.js"></script>
 </body>
 </html>
