@@ -67,12 +67,3 @@ openModalsBtns.on('click', function(){
     closeClass:'close-modal'
   });
 });
-
-$('.header-nav').slicknav({
-  label: '',
-  duration: 1000,
-  // // easingOpen: "easeOutBounce", //available with jQuery UI
-  // prependTo:'#demo2'
-});
-
-
