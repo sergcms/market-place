@@ -17,6 +17,24 @@
 .about-us-content .about-us-item + .about-us-item {
   margin-top: 50px;
 }
+
+@media (max-width: 767px) {
+  .inner-content h1 {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .inner-content > span {
+    font-size: 18px;
+  }
+}
+@media (max-width: 599px) {
+  .inner-content h1 {
+    font-size: 30px;
+  }
+  .inner-content .wrap-form-search {
+    margin-top: 30px;
+  }
+}
 /* === inner end === */
 
 /* === newest-prodcuts === */
@@ -49,6 +67,7 @@
 .btn-product .btn + .btn {
   margin-left: 15px;
 }
+
 @media (min-width: 1920px) {
   .newest-prodcuts {
     display: -webkit-box;
@@ -61,6 +80,16 @@
   .newest-prodcuts > .container-fluid {
     max-width: 1920px;
   }
+}
+@media (max-width: 767px) {
+  .products .btn-product {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 599px) {
+  .products .row > div[class^="col-"] {
+    width: 100%;
+  } 
 }
 @media (max-width: 479px) {
   .btn-product .btn.btn-default {
@@ -122,6 +151,7 @@
 .send-massage form textarea {
   margin-top: 25px;
 }
+
 @media (max-width: 991px) {
   .why-you-choose .row > div[class^="col-"] {
 		margin-bottom: 45px;
@@ -146,7 +176,8 @@
   padding: 70px 55px 80px;
   top: 50%;
   left: 50%;
-  width: 650px;
+  max-width: 650px;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -159,6 +190,32 @@
   font-size: 18px;
   padding: 23px 42px;
 }
+
+@media (max-width: 767px) {
+  .become-author-img .become-author-info {
+    padding: 50px 15px 60px;
+  }
+  .become-author-info .title.singular {
+    font-size: 23px;
+  }
+}
+@media (max-width: 599px) {
+  .become-author-info .btn {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .become-author-img .become-author-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .become-author-info .btn {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
 /* === become-author end === */
 
 /* === free-tutorials === */
@@ -169,6 +226,7 @@
   background-color: #f8f8f8;
   padding: 40px 0;
 }
+
 @media (max-width: 991px) {
   .card-tutorial .card-tutorial-img > a > img {
     width: 100%;
@@ -635,17 +693,18 @@
   font-family: "Myriad Pro", sans-serif;
   padding-bottom: 22px;
 }
+
 @media (max-width: 991px) {
   .withdrawal-history{
     margin-top: 30px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   .withdrawals-content{
     overflow-x: auto;
   }
   .table-withdrawal{
-    min-width: 600px;
+    min-width: 599px;
   }
 }
 @media (max-width: 479px) {
@@ -705,6 +764,7 @@
   padding: 19px 31px;
   text-transform: uppercase;
 }
+
 @media(max-width: 991px){
   .contact-us-content .contact-info {
     -webkit-box-orient: horizontal;
@@ -720,9 +780,6 @@
   }
   .send-massage form textarea{
     margin-top: 0;
-  }
-  .send-massage form .btn{
-    width: 100%;
   }
 }
 @media(max-width: 479px){
@@ -769,6 +826,7 @@
   color: #8bc34a;
   background-color: #fff;
 }
+
 @media(max-width: 991px){
   .content-404 .wrap-404{
     font-size: 250px;
