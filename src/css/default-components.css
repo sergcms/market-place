@@ -525,6 +525,11 @@
         margin-top: 50px;
     }
 }
+@media(max-width: 991px){
+    .footer .row > div[class^="col-"]:nth-child(3){
+        margin-top: 50px;
+    }
+}
 @media(max-width: 767px){
     .footer .container{
         padding: 60px 15px 40px;
@@ -576,9 +581,6 @@
 .card .card-img img {
     width: 100%;
 }
-/* .card .card-img {
-    position: relative;
-} */
 .card .card-img .card-label {
     position: absolute;
     border: 32px solid #8bc34a;
