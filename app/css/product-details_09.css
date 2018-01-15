@@ -3,30 +3,25 @@
 		display: none;
 	}
 }
-
 @media(max-width: 767px){
 	.live-priview-and-docs {
 		justify-content: center;
 	}
 	nav.social-nav{
-		margin:20px;
+		margin: 20px;
 		
 	}
-	.more-products-item-wrap {
-		/*margin:auto;*/
-	}
 }
-
 @media(max-width: 599px){
 	.live-priview-and-docs{
 		flex-direction: column;
 	}
 	.live-priview-and-docs > .btn + .btn {
-    margin-left: 0px;
-	margin-top: 20px;
+    margin-left: 0;
+		margin-top: 20px;
 	}
 	nav.social-nav {
-		justify-content:center;
+		justify-content: center;
 	}
 	.tabs-controls{
 		flex-direction: column;

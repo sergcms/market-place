@@ -61,9 +61,15 @@ let openModalsBtns = $('[data-modal]');
 openModalsBtns.on('click', function(){
   let target = $(this).attr('data-target');
   $(target).bPopup({ 
-    speed: 1000,
+    speed: 700,
     transition: 'slideDown',
-    transitionClose: 'slideIn',
+    transitionClose: 'slideDown',
     closeClass:'close-modal'
   });
+});
+
+// Init mobile slicknav
+$('.header-nav').slicknav({
+  appendTo: '.header .header-top .container',
+  label: ''
 });

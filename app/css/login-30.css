@@ -1,32 +1,43 @@
-@media(max-width: 1192px){
-.header-nav a + a {
-    margin-left: 15px;
-}
 @media(max-width: 991px){
+	.login-header .top-bar .header-nav {
+		display: none;
+	}
 	.login-header.header .logo {
-		margin-right: 15px;
+		margin-right: 0;
+	}
+	.login-header .top-bar {
+		margin-top: 0;
+		order: 0;
 	}
 	.login-header.header .btn-authorization{
-		margin:0 15px;
+		margin: 0 30px;
 	}
-
+	.login-header .top-bar .dropdown-container {
+		margin: 0 60px 0 30px;
+	}
 }
 @media(max-width: 767px){
-.modal.login-modal{
-	padding: 15px;
+	.modal.login-modal{
+		padding: 15px;
+	}
+	.login .inner-content .wrap-form-search {
+		margin-top: 50px;
 	}
 }
 @media(max-width: 479px){
+	.login-header.header .btn-authorization {
+		margin: 0 10px;
+	}
+	.login-header .top-bar .dropdown-container {
+		margin: 0 20px 0 10px;
+	}
 	.form-login {
-    min-width:100%;
+    	min-width: 100%;
 	}
 	.btn-wrap {
-	flex-direction: column;
-	}
-	.btn-wrap .btn {
-	width: 100%;
+		flex-direction: column;
 	}
 	.btn-wrap .btn + .btn{
-	margin-top: 10px;
+		margin-top: 10px;
 	}
 }
