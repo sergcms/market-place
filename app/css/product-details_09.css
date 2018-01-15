@@ -9,8 +9,10 @@
 	}
 	nav.social-nav{
 		margin: 20px;
-		
 	}
+	.live-priview-and-docs .social-nav > .btn-social + .btn-social {
+    margin-left: 30px;
+}
 }
 @media(max-width: 599px){
 	.live-priview-and-docs{
@@ -25,6 +27,9 @@
 	}
 	.tabs-controls{
 		flex-direction: column;
+	}
+	.tab-content .tab-pane.active ul>li {
+		font-size: 14px;
 	}
 }
 
