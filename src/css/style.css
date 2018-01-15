@@ -284,6 +284,90 @@
 .sort-control-container .change-view > *.active {
   cursor: default;
 }
+.mobile-aside-toggle {
+  display: none;
+}
+@media(max-width: 1199px) {
+  .all-item-page-container .aside-section {
+    padding: 23px 15px 30px;
+  } 
+  .ui-slider .ui-corner-all.ui-state-default .min-value, 
+  .ui-slider .ui-corner-all.ui-state-default .max-value {
+    bottom: -25px;
+    font-size: 13px;
+    left: 0%;
+  }
+  .all-item-page-container .card.medium-card .card-description {
+    padding: 20px 10px;
+  }
+  .all-item-page-container .card.medium-card .card-author-info {
+    padding: 15px 10px;
+  }
+  .all-item-page-container .card .card-author-info .product-rating {
+    font-size: 10px;
+  }
+  .card.row-card .card-description-wrapper .card-text-info {
+    font-size: 14px;
+  }
+}
+@media(max-width: 991px) {
+  .mobile-aside-toggle {
+    display: block;
+  }
+  .all-item-page-container .card-text-info .sales-count {
+    display: none;
+  }
+  .card.row-card .card-author-info .card-comment-heart .fa
+  {
+    margin-right: 10px;
+  }
+  .card.row-card .card-author-info .card-comment-heart::before {
+    padding-right: 15px;
+    margin-left: 10px;
+  } 
+}
+@media(max-width: 767px) {
+  .all-item-page-container .card.row-card .card-description .price {
+    font-size: 24px;
+  }
+  .all-item-page-container .card.row-card .card-description-wrapper .card-text-info,
+  .all-item-page-container .card.row-card .card-author-info .card-comment-heart {
+    display: none;
+  }
+}
+@media(max-width: 599px) {
+  .all-item-page-container .mobile-aside {
+    width: 68%;
+  }
+}
+@media(max-width: 500px) {
+  .sort-control-container {
+    padding: 20px 10px;
+  }
+  .all-item-page-container .card.medium-card {
+    width: 100%;  
+  }
+  .card.medium-card.row-card {
+    flex-direction: column;
+  }
+  .card.medium-card.row-card .card-img img {
+    width: 100%;
+  }
+  .all-item-page-container .card.row-card .card-description-wrapper .card-text-info {
+    display: block;
+    line-height: normal;
+  }
+}
+@media(max-width: 459px) {
+  .all-item-page-container .mobile-aside {
+    width: 90%;
+  }
+}
+@media(max-width: 399px) {
+  .all-item-page-container .mobile-aside {
+    width: 100%;
+  }
+}
 /* === ALL NEW ITEMS PAGE END === */
 
 /* === PRODUCT DETAILS PAGE === */
