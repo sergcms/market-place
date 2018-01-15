@@ -642,6 +642,18 @@
 .upload-products-item-content button.btn {
   margin: 40px 0 0 190px;
 }
+
+@media (max-width: 767px){
+	.upload-products-input{
+        flex-direction: column;
+    }
+    .upload-products-item .default-label{
+        margin-bottom: 15px;
+    }
+    .upload-products-item-content button.btn{
+        margin: 40px 0 0 0 ;
+    }
+}
 /* === UPLOAD PRODUCTS PAGE END === */
 
 /* === SALES STATEMENT PAGE === */
