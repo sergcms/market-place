@@ -36,6 +36,12 @@ input, textarea, select, button {
 textarea {
 	resize: vertical;
 }
+button {
+	outline: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
 button:hover, button:active, button:focus  {
 	outline: none!important;
 }
