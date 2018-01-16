@@ -237,7 +237,7 @@
                             <ul class="user-dropdown-nav">
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Profile Page</a>
+                                    <a href="profile-details.html" class="active">Profile Page</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -245,7 +245,7 @@
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Account Setting</a>
+                                    <a href="setting-personal-info.html">Account Setting</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -257,15 +257,15 @@
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Upload Item</a>
+                                    <a href="upload_products.html">Upload Item</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Statement</a>
+                                    <a href="sales-statement.html">Statement</a>
                                 </li>
                                 <li>
                                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                    <a href="#">Withdraws</a>
+                                    <a href="withdrawals.html">Withdraws</a>
                                 </li>
                             </ul>
                         </div>
@@ -288,15 +288,15 @@
         <div class="menu bg-dark-gray text-white">
             <div class="container d-flex align-content-center justify-content-between">
                 <nav class="header-nav d-flex flex-wrap">
-                    <a href="" class="active">Home</a>
-                    <a href="">About</a>
+                    <a href="home.html">Home</a>
+                    <a href="about_us.html">About</a>
                     <a href="">WordPress</a>
                     <a href="">Joomla</a>
                     <a href="">PSD</a>
                     <a href="">Plugins</a>
                     <a href="">Components</a>
-                    <a href="">Pages</a>
-                    <a href="">Contact</a>
+                    <a href="all-items.html">Pages</a>
+                    <a href="contact.html">Contact</a>
                     <a href="">Help</a>
                 </nav>
                 <!-- / header-nav -->
@@ -319,19 +319,24 @@
             </div>
         </section>
         <!-- / inner -->
-        <div class="container">
+        <div class="container d-flex justify-content-between align-items-center">
             <ul class="breadcrumb">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="home.html">Home</a>
                 </li>
                 <li class="active">Product Page</li>
             </ul>
             <!-- / breadcrumb -->
+            <button class="mobile-aside-toggle">
+                <i class="fa fa-bars"></i>
+            </button>
         </div>
         <div class="profile-details default-section">
             <div class="container">
+                <div class="overlay"></div>
+                <!-- / overlay -->
                 <div class="row d-flex flex-wrap">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-6 mobile-aside left">
                         <aside class="aside-product-author">
                             <div class="aside-section">
                                 <div class="aside-title">
@@ -369,21 +374,39 @@
                             </div>
                             <!-- / aside-section -->
                         </aside>
-                        <nav class="social-nav d-flex">
-                            <a href="" class="icon icon-facebook"></a>
-                            <a href="" class="icon icon-twitter"></a>
-                            <a href="" class="icon icon-youtube"></a>
-                            <a href="" class="icon icon-linkedin"></a>
-                        </nav>
-                        <div class="buttons d-flex flex-column">
-                            <a href="" class="btn btn-default btn-dark-blue full-width btn-shadow">
-                                <i class="fa fa-envelope-o"></i>Send Message</a>
-                            <a href="" class="btn btn-default btn-light-green full-width bold btn-shadow">Following</a>
+                        <div class="aside-profile-btn">
+                            <nav class="social-nav d-flex">
+                                <a href="" class="icon icon-facebook"></a>
+                                <a href="" class="icon icon-twitter"></a>
+                                <a href="" class="icon icon-youtube"></a>
+                                <a href="" class="icon icon-linkedin"></a>
+                            </nav>
+                            <div class="buttons d-flex flex-column">
+                                <a href="" class="btn btn-default btn-dark-blue full-width btn-shadow">
+                                    <i class="fa fa-envelope-o"></i>Send Message</a>
+                                <a href="" class="btn btn-default btn-light-green full-width bold btn-shadow">Following</a>
+                            </div>
+                            <!-- / buttons -->
                         </div>
-                        <!-- / buttons -->
+
+                        <!-- <aside> -->
+                        <nav class="aside-navigation d-flex flex-wrap flex-column border-gray bg-white">
+                            <a href="" class="active">
+                                <i class="fa fa-user" aria-hidden="true"></i>About Me</a>
+                            <a href="">
+                                <i class="fa fa-suitcase" aria-hidden="true"></i>Products ( 10 ) </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>Message Box</a>
+                            <a href="">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i>Customer Rewiews ( 20 )</a>
+                            <a href="">
+                                <i class="fa fa-users" aria-hidden="true"></i>Followers ( 100 )</a>
+                        </nav>
+                        <!-- </aside> -->
                     </div>
                     <!-- / col -->
-                    <div class="col-md-9">
+
+                    <div class="col-md-9 col-sm-12 col-xs-12">
                         <div class="product-full-img border-gray">
                             <img src="img/product-details-banner.jpg" alt="">
                         </div>
@@ -413,29 +436,7 @@
                             </ul>
                         </div>
                         <!-- /info-bar -->
-                    </div>
-                    <!-- / col -->
-                </div>
-                <!-- / row -->
-                <div class="row d-flex flex-wrap">
-                    <div class="col-md-3">
-                        <!-- <aside> -->
-                        <nav class="aside-navigation d-flex flex-wrap flex-column border-gray bg-white">
-                            <a href="" class="active">
-                                <i class="fa fa-user" aria-hidden="true"></i>About Me</a>
-                            <a href="">
-                                <i class="fa fa-suitcase" aria-hidden="true"></i>Products (10) </a>
-                            <a href="">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>Message Box</a>
-                            <a href="">
-                                <i class="fa fa-comments-o" aria-hidden="true"></i>Customer Rewiews (20)</a>
-                            <a href="">
-                                <i class="fa fa-users" aria-hidden="true"></i>Followers (100)</a>
-                        </nav>
-                        <!-- </aside> -->
-                    </div>
-                    <!-- /col -->
-                    <div class="col-md-9">
+
                         <div class="about-me inner-section border-gray bg-white">
                             <span class="title small text-dark-gray medium">About Me:</span>
                             <p class="text-default">Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -468,8 +469,9 @@
                             </div>
                             <!-- /progress-bar -->
                         </div>
+                        <!-- / about-me -->
                     </div>
-                    <!-- /col   -->
+                    <!-- / col -->
                 </div>
                 <!-- / row -->
             </div>
@@ -594,6 +596,15 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
         <script src="js/jquery.slicknav.min.js"></script>
+
+        <!-- Tabs -->
+        <script type="text/javascript" src="js/tabs.js"></script>
+
+        <!-- Aside responsive -->
+        <script type="text/javascript" src="js/aside.js"></script>
+
+        <!-- Init plugins -->
+        <script type="text/javascript" src="js/init.js"></script>
 
 </body>
 

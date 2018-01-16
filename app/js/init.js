@@ -2,7 +2,6 @@
 // let nav = $('[data-open-dropdown]');
 let nav = $('.dropdown-container');
 nav.on('click', function(e) {
-  e.preventDefault();
   $(this).toggleClass('active');
 });
 

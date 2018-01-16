@@ -1,8 +1,10 @@
 const gulp = require('gulp');  // подключение gulp
-const autoprefixer = require('gulp-autoprefixer'); // подключение autoprefixer
-const spritesmith = require('gulp.spritesmith');
-const merge = require('merge-stream');
-const tinypng = require('gulp-tinypng');
+const autoprefixer = require('gulp-autoprefixer'); // подключение autoprefixer (добавление префиксов)
+const spritesmith = require('gulp.spritesmith'); // подключение sprite (создание спрайтов)
+const merge = require('merge-stream'); // подключение merge-stream 
+const tinypng = require('gulp-tinypng');  // подключение tinypng (оптимизация картинок)
+const cssnano = require('gulp-cssnano'); // подключение cssnano (минификация стилей)
+const concat = require('gulp-concat'); // подключение concat (конкатинация файлов)
 
 gulp.task('autoprefixer', function() { // создаем таск autoprefixer 
     gulp.src('src/css/**/*.css')       // файлы которые будем обрабатывать
@@ -40,6 +42,22 @@ gulp.task('tinypng', function () {
   ])
     .pipe(tinypng('V6mnBhM_EnAKN2-1deY1hm75t1wIhFzS'))
     .pipe(gulp.dest('app/img/'));
+});
+
+gulp.task('css-libs', function() {
+    return gulp.src([
+        'app/css/reset.css',
+        'app/css/font-awesome.min.css',
+        'app/css/flex.css',
+        'app/css/grid.css',
+        'app/css/sprite.css',
+        'app/css/slicknav.css',
+        'app/css/default-components.css',
+        'app/css/style.css'      
+    ]) // файлы для минификации
+    .pipe(concat('all.min.css')) // сжимаем
+    .pipe(cssnano()) // сжимаем
+    .pipe(gulp.dest('app/css')) // вЫгружаем   
 });
 
 // gulp.task('watch', ['autoprefixer', 'sprite', 'tinypng'], function() {   // создаем таск watch
