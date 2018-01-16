@@ -1,5 +1,5 @@
 let asideBtn =$('.mobile-aside-toggle');
-let main = $('main');
+let main = $('#main');
 let overlay =$('.overlay');
 
 asideBtn.on('click', function(e) {

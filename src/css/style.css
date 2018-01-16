@@ -37,6 +37,52 @@
 }
 /* === inner end === */
 
+/* === tags === */
+.mobile-list-wrap {
+  display: none;
+}
+.mobile-list{
+  width: 100%;
+  color: #263238;
+  font-weight: 500;
+  font-size: 14px;
+}
+.mobile-list .current{
+  padding: 15px 30px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-list .current .fa-close{
+  display: none;
+}
+.mobile-list .current.selected .fa-close{
+  display: block;
+}
+.mobile-list .current.selected .fa-chevron-down{
+  display: none;
+}
+.mobile-list .dropdown-list{
+  background-color: #fff;
+  padding: 15px 30px;
+  display: none;
+}
+.mobile-list .dropdown-list ul li a{
+  padding: 10px 0;
+  display: block;
+}
+@media(max-width: 991px) {
+  .newest-prodcuts .tags {
+    display: none;
+  }
+  .mobile-list-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+}
+/* === tegs end === */
+
 /* === newest-prodcuts === */
 .products .row + .row,
 .profile-details .row + .row,

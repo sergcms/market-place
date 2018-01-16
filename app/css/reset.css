@@ -39,7 +39,7 @@ textarea {
 button {
 	outline: none;
 	border: none;
-	background-color: transparent;
+	/* background-color: transparent; */
 	cursor: pointer;
 }
 button:hover, button:active, button:focus  {

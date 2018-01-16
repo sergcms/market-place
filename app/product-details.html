@@ -326,7 +326,7 @@
     </section>
     <!-- / inner -->
 
-    <div class="container">
+    <div class="container d-flex justify-content-between align-items-center">
       <ul class="breadcrumb">
         <li>
           <a href="#">Home</a>
@@ -336,11 +336,16 @@
         </li>
         <li class="active">GT Builder Construction</li>
       </ul>
+      <button class="mobile-aside-toggle">
+        <i class="fa fa-bars"></i>
+      </button>
       <!-- / breadcrumb -->
     </div>
 
     <div class="product-details-page default-section">
       <div class="container">
+        <div class="overlay"></div>
+        <!-- / overlay -->
         <div class="row d-flex flex-wrap">
           <div class="col-md-9">
             <div class="product-full-img">
@@ -606,7 +611,7 @@
           </div>
           <!-- / col -->
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 col-xs-6 mobile-aside right">
             <aside class="aside-product-price-and-btn">
               <div class="aside-section">
                 <div class="aside-title">
@@ -836,6 +841,9 @@
 
   <!-- Tabs -->
   <script type="text/javascript" src="js/tabs.js"></script>
+   
+  <!-- Aside responsive -->
+  <script type="text/javascript" src="js/aside.js"></script>
 
   <!-- Init plugins -->
   <script type="text/javascript" src="js/init.js"></script>
