@@ -1,51 +1,5 @@
-.mobile-aside-toggle{
-    display: none;
-}
-@media (max-width: 991px){
+/* @media (max-width: 991px){
     .mobile-aside-toggle{
         display: block;
     }
-    .mobile-aside{
-        position: absolute;
-        z-index: 99;
-        transition: all .3s ease-out;
-        width: 100%; 
-        display: block;
-    }
-    .mobile-aside.left{
-        transform: translate(-110%);
-    }
-    .mobile-aside.right{
-        transform: translate(110%);
-    }
-    .overlay{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        opacity: 0;
-        transition: all .3s ease-out;
-        background-color: rgba(0, 0, 0, .4);
-    }
-    .show-aside .mobile-aside.left,
-    .show-aside .mobile-aside.right{
-        transform: translateX(0);
-    }
-    #main.show-aside .overlay{
-        z-index: 98;
-        opacity: 1;
-    }
-}
-@media (max-width: 767px){
-	.row{
-        flex-direction:column;
-    }
-    .row >*{
-        margin-bottom: 10px;
-    }
-    .all-wrap .row + .row {
-        margin-top: 11px;
-    }
-}
+} */
