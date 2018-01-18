@@ -942,6 +942,7 @@
 .upload-products-input .form-default,
 .upload-products-input .file-upload {
   max-width: 900px;
+  min-height: 40px;
 }
 .upload-products-item-content button.btn {
   margin: 40px 0 0 190px;
