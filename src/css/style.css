@@ -1094,6 +1094,9 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.contact-block {
+  width: 100%;
+}
 .contact-block > .fa {
   font-size: 24px;
   color: #8bc34a;
