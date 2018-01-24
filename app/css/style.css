@@ -432,6 +432,10 @@
 /* === ALL NEW ITEMS PAGE END === */
 
 /* === PRODUCT DETAILS PAGE === */
+.product-details-page {
+  position: relative;
+  overflow-x: hidden;
+}
 .product-full-img {
   padding: 20px;
   background-color: #fff;
